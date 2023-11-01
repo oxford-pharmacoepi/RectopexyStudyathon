@@ -35,6 +35,8 @@ cdm <-  generateConceptCohortSet(cdm,
                                  end = 1,
                                  name = "rectal_prolapse",
                                  overwrite = TRUE)
+cohort_set(cdm$rectal_prolapse)
+cohort_count(cdm$rectal_prolapse)
 
 # keep first ever
 cdm$rectal_prolapse <- cdm$rectal_prolapse %>%
