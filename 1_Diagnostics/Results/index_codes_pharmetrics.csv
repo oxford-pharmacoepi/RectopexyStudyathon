@@ -1,0 +1,1277 @@
+cohort_name,group_name,group_level,strata_name,strata_level,variable_name,variable_level,variable_type,estimate_type,estimate,estimate_suppressed
+rectal_prolapse_broad_cs,Codelist,Overall,Overall,Overall,Record count,Overall,Numeric,Count,49506,FALSE
+rectal_prolapse_broad_cs,By concept,Proctoptosis (4006305),Overall,Overall,Record count,Overall,Numeric,Count,3728,FALSE
+rectal_prolapse_broad_cs,By concept,Rectal prolapse (81336),Overall,Overall,Record count,Overall,Numeric,Count,45778,FALSE
+rectal_prolapse_broad_cs,Codelist,Overall,Year,2021,Record count,Overall,Numeric,Count,9193,FALSE
+rectal_prolapse_broad_cs,Codelist,Overall,Year,2017,Record count,Overall,Numeric,Count,10657,FALSE
+rectal_prolapse_broad_cs,Codelist,Overall,Year,2022,Record count,Overall,Numeric,Count,2474,FALSE
+rectal_prolapse_broad_cs,Codelist,Overall,Year,2019,Record count,Overall,Numeric,Count,9852,FALSE
+rectal_prolapse_broad_cs,Codelist,Overall,Year,2020,Record count,Overall,Numeric,Count,8149,FALSE
+rectal_prolapse_broad_cs,Codelist,Overall,Year,2018,Record count,Overall,Numeric,Count,9181,FALSE
+rectal_prolapse_broad_cs,By concept,Proctoptosis (4006305),Year,2022,Record count,Overall,Numeric,Count,132,FALSE
+rectal_prolapse_broad_cs,By concept,Proctoptosis (4006305),Year,2020,Record count,Overall,Numeric,Count,573,FALSE
+rectal_prolapse_broad_cs,By concept,Proctoptosis (4006305),Year,2021,Record count,Overall,Numeric,Count,671,FALSE
+rectal_prolapse_broad_cs,By concept,Proctoptosis (4006305),Year,2019,Record count,Overall,Numeric,Count,754,FALSE
+rectal_prolapse_broad_cs,By concept,Rectal prolapse (81336),Year,2018,Record count,Overall,Numeric,Count,8393,FALSE
+rectal_prolapse_broad_cs,By concept,Rectal prolapse (81336),Year,2017,Record count,Overall,Numeric,Count,9847,FALSE
+rectal_prolapse_broad_cs,By concept,Proctoptosis (4006305),Year,2017,Record count,Overall,Numeric,Count,810,FALSE
+rectal_prolapse_broad_cs,By concept,Rectal prolapse (81336),Year,2021,Record count,Overall,Numeric,Count,8522,FALSE
+rectal_prolapse_broad_cs,By concept,Rectal prolapse (81336),Year,2022,Record count,Overall,Numeric,Count,2342,FALSE
+rectal_prolapse_broad_cs,By concept,Rectal prolapse (81336),Year,2019,Record count,Overall,Numeric,Count,9098,FALSE
+rectal_prolapse_broad_cs,By concept,Rectal prolapse (81336),Year,2020,Record count,Overall,Numeric,Count,7576,FALSE
+rectal_prolapse_broad_cs,By concept,Proctoptosis (4006305),Year,2018,Record count,Overall,Numeric,Count,788,FALSE
+rectal_prolapse_broad_cs,Codelist,Overall,Sex,Female,Record count,Overall,Numeric,Count,38348,FALSE
+rectal_prolapse_broad_cs,Codelist,Overall,Sex,Male,Record count,Overall,Numeric,Count,11158,FALSE
+rectal_prolapse_broad_cs,By concept,Rectal prolapse (81336),Sex,Male,Record count,Overall,Numeric,Count,9318,FALSE
+rectal_prolapse_broad_cs,By concept,Rectal prolapse (81336),Sex,Female,Record count,Overall,Numeric,Count,36460,FALSE
+rectal_prolapse_broad_cs,By concept,Proctoptosis (4006305),Sex,Male,Record count,Overall,Numeric,Count,1840,FALSE
+rectal_prolapse_broad_cs,By concept,Proctoptosis (4006305),Sex,Female,Record count,Overall,Numeric,Count,1888,FALSE
+rectal_prolapse_broad_cs,Codelist,Overall,Age group,18 to 24,Record count,Overall,Numeric,Count,852,FALSE
+rectal_prolapse_broad_cs,Codelist,Overall,Age group,None,Record count,Overall,Numeric,Count,7540,FALSE
+rectal_prolapse_broad_cs,Codelist,Overall,Age group,75 to 150,Record count,Overall,Numeric,Count,18690,FALSE
+rectal_prolapse_broad_cs,Codelist,Overall,Age group,45 to 54,Record count,Overall,Numeric,Count,4950,FALSE
+rectal_prolapse_broad_cs,Codelist,Overall,Age group,25 to 34,Record count,Overall,Numeric,Count,2035,FALSE
+rectal_prolapse_broad_cs,Codelist,Overall,Age group,35 to 44,Record count,Overall,Numeric,Count,3856,FALSE
+rectal_prolapse_broad_cs,Codelist,Overall,Age group,0 to 17,Record count,Overall,Numeric,Count,2501,FALSE
+rectal_prolapse_broad_cs,Codelist,Overall,Age group,65 to 74,Record count,Overall,Numeric,Count,9082,FALSE
+rectal_prolapse_broad_cs,By concept,Rectal prolapse (81336),Age group,18 to 24,Record count,Overall,Numeric,Count,780,FALSE
+rectal_prolapse_broad_cs,By concept,Rectal prolapse (81336),Age group,45 to 54,Record count,Overall,Numeric,Count,4231,FALSE
+rectal_prolapse_broad_cs,By concept,Proctoptosis (4006305),Age group,None,Record count,Overall,Numeric,Count,666,FALSE
+rectal_prolapse_broad_cs,By concept,Rectal prolapse (81336),Age group,65 to 74,Record count,Overall,Numeric,Count,8488,FALSE
+rectal_prolapse_broad_cs,By concept,Proctoptosis (4006305),Age group,65 to 74,Record count,Overall,Numeric,Count,594,FALSE
+rectal_prolapse_broad_cs,By concept,Proctoptosis (4006305),Age group,45 to 54,Record count,Overall,Numeric,Count,719,FALSE
+rectal_prolapse_broad_cs,By concept,Rectal prolapse (81336),Age group,35 to 44,Record count,Overall,Numeric,Count,3340,FALSE
+rectal_prolapse_broad_cs,By concept,Rectal prolapse (81336),Age group,None,Record count,Overall,Numeric,Count,6874,FALSE
+rectal_prolapse_broad_cs,By concept,Rectal prolapse (81336),Age group,25 to 34,Record count,Overall,Numeric,Count,1742,FALSE
+rectal_prolapse_broad_cs,By concept,Rectal prolapse (81336),Age group,75 to 150,Record count,Overall,Numeric,Count,17903,FALSE
+rectal_prolapse_broad_cs,By concept,Proctoptosis (4006305),Age group,18 to 24,Record count,Overall,Numeric,Count,72,FALSE
+rectal_prolapse_broad_cs,By concept,Proctoptosis (4006305),Age group,75 to 150,Record count,Overall,Numeric,Count,787,FALSE
+rectal_prolapse_broad_cs,By concept,Proctoptosis (4006305),Age group,0 to 17,Record count,Overall,Numeric,Count,81,FALSE
+rectal_prolapse_broad_cs,By concept,Rectal prolapse (81336),Age group,0 to 17,Record count,Overall,Numeric,Count,2420,FALSE
+rectal_prolapse_broad_cs,By concept,Proctoptosis (4006305),Age group,25 to 34,Record count,Overall,Numeric,Count,293,FALSE
+rectal_prolapse_broad_cs,By concept,Proctoptosis (4006305),Age group,35 to 44,Record count,Overall,Numeric,Count,516,FALSE
+rectal_prolapse_broad_cs,Codelist,Overall,Age group and sex,0 to 17 and Male,Record count,Overall,Numeric,Count,1497,FALSE
+rectal_prolapse_broad_cs,Codelist,Overall,Age group and sex,45 to 54 and Male,Record count,Overall,Numeric,Count,1790,FALSE
+rectal_prolapse_broad_cs,Codelist,Overall,Age group and sex,65 to 74 and Female,Record count,Overall,Numeric,Count,7449,FALSE
+rectal_prolapse_broad_cs,Codelist,Overall,Age group and sex,25 to 34 and Female,Record count,Overall,Numeric,Count,1257,FALSE
+rectal_prolapse_broad_cs,Codelist,Overall,Age group and sex,35 to 44 and Male,Record count,Overall,Numeric,Count,1554,FALSE
+rectal_prolapse_broad_cs,Codelist,Overall,Age group and sex,25 to 34 and Male,Record count,Overall,Numeric,Count,778,FALSE
+rectal_prolapse_broad_cs,Codelist,Overall,Age group and sex,18 to 24 and Male,Record count,Overall,Numeric,Count,373,FALSE
+rectal_prolapse_broad_cs,Codelist,Overall,Age group and sex,45 to 54 and Female,Record count,Overall,Numeric,Count,3160,FALSE
+rectal_prolapse_broad_cs,Codelist,Overall,Age group and sex,18 to 24 and Female,Record count,Overall,Numeric,Count,479,FALSE
+rectal_prolapse_broad_cs,Codelist,Overall,Age group and sex,75 to 150 and Female,Record count,Overall,Numeric,Count,16983,FALSE
+rectal_prolapse_broad_cs,Codelist,Overall,Age group and sex,35 to 44 and Female,Record count,Overall,Numeric,Count,2302,FALSE
+rectal_prolapse_broad_cs,Codelist,Overall,Age group and sex,65 to 74 and Male,Record count,Overall,Numeric,Count,1633,FALSE
+rectal_prolapse_broad_cs,Codelist,Overall,Age group and sex,None and Female,Record count,Overall,Numeric,Count,5714,FALSE
+rectal_prolapse_broad_cs,Codelist,Overall,Age group and sex,None and Male,Record count,Overall,Numeric,Count,1826,FALSE
+rectal_prolapse_broad_cs,Codelist,Overall,Age group and sex,75 to 150 and Male,Record count,Overall,Numeric,Count,1707,FALSE
+rectal_prolapse_broad_cs,Codelist,Overall,Age group and sex,0 to 17 and Female,Record count,Overall,Numeric,Count,1004,FALSE
+rectal_prolapse_broad_cs,By concept,Rectal prolapse (81336),Age group and sex,35 to 44 and Male,Record count,Overall,Numeric,Count,1247,FALSE
+rectal_prolapse_broad_cs,By concept,Proctoptosis (4006305),Age group and sex,75 to 150 and Male,Record count,Overall,Numeric,Count,202,FALSE
+rectal_prolapse_broad_cs,By concept,Rectal prolapse (81336),Age group and sex,0 to 17 and Male,Record count,Overall,Numeric,Count,1439,FALSE
+rectal_prolapse_broad_cs,By concept,Proctoptosis (4006305),Age group and sex,35 to 44 and Male,Record count,Overall,Numeric,Count,307,FALSE
+rectal_prolapse_broad_cs,By concept,Rectal prolapse (81336),Age group and sex,65 to 74 and Male,Record count,Overall,Numeric,Count,1323,FALSE
+rectal_prolapse_broad_cs,By concept,Rectal prolapse (81336),Age group and sex,45 to 54 and Female,Record count,Overall,Numeric,Count,2852,FALSE
+rectal_prolapse_broad_cs,By concept,Rectal prolapse (81336),Age group and sex,75 to 150 and Female,Record count,Overall,Numeric,Count,16398,FALSE
+rectal_prolapse_broad_cs,By concept,Proctoptosis (4006305),Age group and sex,65 to 74 and Female,Record count,Overall,Numeric,Count,284,FALSE
+rectal_prolapse_broad_cs,By concept,Rectal prolapse (81336),Age group and sex,None and Male,Record count,Overall,Numeric,Count,1487,FALSE
+rectal_prolapse_broad_cs,By concept,Proctoptosis (4006305),Age group and sex,65 to 74 and Male,Record count,Overall,Numeric,Count,310,FALSE
+rectal_prolapse_broad_cs,By concept,Proctoptosis (4006305),Age group and sex,75 to 150 and Female,Record count,Overall,Numeric,Count,585,FALSE
+rectal_prolapse_broad_cs,By concept,Rectal prolapse (81336),Age group and sex,None and Female,Record count,Overall,Numeric,Count,5387,FALSE
+rectal_prolapse_broad_cs,By concept,Rectal prolapse (81336),Age group and sex,18 to 24 and Female,Record count,Overall,Numeric,Count,456,FALSE
+rectal_prolapse_broad_cs,By concept,Rectal prolapse (81336),Age group and sex,65 to 74 and Female,Record count,Overall,Numeric,Count,7165,FALSE
+rectal_prolapse_broad_cs,By concept,Rectal prolapse (81336),Age group and sex,0 to 17 and Female,Record count,Overall,Numeric,Count,981,FALSE
+rectal_prolapse_broad_cs,By concept,Proctoptosis (4006305),Age group and sex,18 to 24 and Male,Record count,Overall,Numeric,Count,49,FALSE
+rectal_prolapse_broad_cs,By concept,Rectal prolapse (81336),Age group and sex,35 to 44 and Female,Record count,Overall,Numeric,Count,2093,FALSE
+rectal_prolapse_broad_cs,By concept,Proctoptosis (4006305),Age group and sex,18 to 24 and Female,Record count,Overall,Numeric,Count,23,FALSE
+rectal_prolapse_broad_cs,By concept,Proctoptosis (4006305),Age group and sex,0 to 17 and Male,Record count,Overall,Numeric,Count,58,FALSE
+rectal_prolapse_broad_cs,By concept,Proctoptosis (4006305),Age group and sex,0 to 17 and Female,Record count,Overall,Numeric,Count,23,FALSE
+rectal_prolapse_broad_cs,By concept,Proctoptosis (4006305),Age group and sex,25 to 34 and Male,Record count,Overall,Numeric,Count,164,FALSE
+rectal_prolapse_broad_cs,By concept,Rectal prolapse (81336),Age group and sex,18 to 24 and Male,Record count,Overall,Numeric,Count,324,FALSE
+rectal_prolapse_broad_cs,By concept,Proctoptosis (4006305),Age group and sex,None and Male,Record count,Overall,Numeric,Count,339,FALSE
+rectal_prolapse_broad_cs,By concept,Proctoptosis (4006305),Age group and sex,35 to 44 and Female,Record count,Overall,Numeric,Count,209,FALSE
+rectal_prolapse_broad_cs,By concept,Proctoptosis (4006305),Age group and sex,None and Female,Record count,Overall,Numeric,Count,327,FALSE
+rectal_prolapse_broad_cs,By concept,Rectal prolapse (81336),Age group and sex,25 to 34 and Male,Record count,Overall,Numeric,Count,614,FALSE
+rectal_prolapse_broad_cs,By concept,Rectal prolapse (81336),Age group and sex,45 to 54 and Male,Record count,Overall,Numeric,Count,1379,FALSE
+rectal_prolapse_broad_cs,By concept,Proctoptosis (4006305),Age group and sex,45 to 54 and Male,Record count,Overall,Numeric,Count,411,FALSE
+rectal_prolapse_broad_cs,By concept,Proctoptosis (4006305),Age group and sex,25 to 34 and Female,Record count,Overall,Numeric,Count,129,FALSE
+rectal_prolapse_broad_cs,By concept,Proctoptosis (4006305),Age group and sex,45 to 54 and Female,Record count,Overall,Numeric,Count,308,FALSE
+rectal_prolapse_broad_cs,By concept,Rectal prolapse (81336),Age group and sex,25 to 34 and Female,Record count,Overall,Numeric,Count,1128,FALSE
+rectal_prolapse_broad_cs,By concept,Rectal prolapse (81336),Age group and sex,75 to 150 and Male,Record count,Overall,Numeric,Count,1505,FALSE
+rectal_prolapse_broad_cs,Codelist,Overall,Overall,Overall,Person count,Overall,Numeric,Count,15020,FALSE
+rectal_prolapse_broad_cs,By concept,Proctoptosis (4006305),Overall,Overall,Person count,Overall,Numeric,Count,1637,FALSE
+rectal_prolapse_broad_cs,By concept,Rectal prolapse (81336),Overall,Overall,Person count,Overall,Numeric,Count,13870,FALSE
+rectal_prolapse_broad_cs,Codelist,Overall,Year,2017,Person count,Overall,Numeric,Count,4202,FALSE
+rectal_prolapse_broad_cs,Codelist,Overall,Year,2018,Person count,Overall,Numeric,Count,3407,FALSE
+rectal_prolapse_broad_cs,Codelist,Overall,Year,2022,Person count,Overall,Numeric,Count,1141,FALSE
+rectal_prolapse_broad_cs,Codelist,Overall,Year,2019,Person count,Overall,Numeric,Count,3528,FALSE
+rectal_prolapse_broad_cs,Codelist,Overall,Year,2021,Person count,Overall,Numeric,Count,3180,FALSE
+rectal_prolapse_broad_cs,Codelist,Overall,Year,2020,Person count,Overall,Numeric,Count,2896,FALSE
+rectal_prolapse_broad_cs,By concept,Rectal prolapse (81336),Year,2019,Person count,Overall,Numeric,Count,3273,FALSE
+rectal_prolapse_broad_cs,By concept,Proctoptosis (4006305),Year,2019,Person count,Overall,Numeric,Count,350,FALSE
+rectal_prolapse_broad_cs,By concept,Proctoptosis (4006305),Year,2017,Person count,Overall,Numeric,Count,438,FALSE
+rectal_prolapse_broad_cs,By concept,Rectal prolapse (81336),Year,2020,Person count,Overall,Numeric,Count,2707,FALSE
+rectal_prolapse_broad_cs,By concept,Proctoptosis (4006305),Year,2022,Person count,Overall,Numeric,Count,77,FALSE
+rectal_prolapse_broad_cs,By concept,Rectal prolapse (81336),Year,2017,Person count,Overall,Numeric,Count,3884,FALSE
+rectal_prolapse_broad_cs,By concept,Rectal prolapse (81336),Year,2018,Person count,Overall,Numeric,Count,3116,FALSE
+rectal_prolapse_broad_cs,By concept,Proctoptosis (4006305),Year,2018,Person count,Overall,Numeric,Count,387,FALSE
+rectal_prolapse_broad_cs,By concept,Rectal prolapse (81336),Year,2021,Person count,Overall,Numeric,Count,2958,FALSE
+rectal_prolapse_broad_cs,By concept,Proctoptosis (4006305),Year,2021,Person count,Overall,Numeric,Count,286,FALSE
+rectal_prolapse_broad_cs,By concept,Proctoptosis (4006305),Year,2020,Person count,Overall,Numeric,Count,259,FALSE
+rectal_prolapse_broad_cs,By concept,Rectal prolapse (81336),Year,2022,Person count,Overall,Numeric,Count,1077,FALSE
+rectal_prolapse_broad_cs,Codelist,Overall,Sex,Female,Person count,Overall,Numeric,Count,10850,FALSE
+rectal_prolapse_broad_cs,Codelist,Overall,Sex,Male,Person count,Overall,Numeric,Count,4170,FALSE
+rectal_prolapse_broad_cs,By concept,Proctoptosis (4006305),Sex,Male,Person count,Overall,Numeric,Count,712,FALSE
+rectal_prolapse_broad_cs,By concept,Proctoptosis (4006305),Sex,Female,Person count,Overall,Numeric,Count,925,FALSE
+rectal_prolapse_broad_cs,By concept,Rectal prolapse (81336),Sex,Male,Person count,Overall,Numeric,Count,3653,FALSE
+rectal_prolapse_broad_cs,By concept,Rectal prolapse (81336),Sex,Female,Person count,Overall,Numeric,Count,10217,FALSE
+rectal_prolapse_broad_cs,Codelist,Overall,Age group,75 to 150,Person count,Overall,Numeric,Count,4586,FALSE
+rectal_prolapse_broad_cs,Codelist,Overall,Age group,25 to 34,Person count,Overall,Numeric,Count,739,FALSE
+rectal_prolapse_broad_cs,Codelist,Overall,Age group,None,Person count,Overall,Numeric,Count,2550,FALSE
+rectal_prolapse_broad_cs,Codelist,Overall,Age group,0 to 17,Person count,Overall,Numeric,Count,1068,FALSE
+rectal_prolapse_broad_cs,Codelist,Overall,Age group,45 to 54,Person count,Overall,Numeric,Count,1816,FALSE
+rectal_prolapse_broad_cs,Codelist,Overall,Age group,65 to 74,Person count,Overall,Numeric,Count,2908,FALSE
+rectal_prolapse_broad_cs,Codelist,Overall,Age group,35 to 44,Person count,Overall,Numeric,Count,1325,FALSE
+rectal_prolapse_broad_cs,Codelist,Overall,Age group,18 to 24,Person count,Overall,Numeric,Count,272,FALSE
+rectal_prolapse_broad_cs,By concept,Proctoptosis (4006305),Age group,None,Person count,Overall,Numeric,Count,293,FALSE
+rectal_prolapse_broad_cs,By concept,Rectal prolapse (81336),Age group,65 to 74,Person count,Overall,Numeric,Count,2707,FALSE
+rectal_prolapse_broad_cs,By concept,Rectal prolapse (81336),Age group,25 to 34,Person count,Overall,Numeric,Count,657,FALSE
+rectal_prolapse_broad_cs,By concept,Proctoptosis (4006305),Age group,65 to 74,Person count,Overall,Numeric,Count,280,FALSE
+rectal_prolapse_broad_cs,By concept,Rectal prolapse (81336),Age group,0 to 17,Person count,Overall,Numeric,Count,1048,FALSE
+rectal_prolapse_broad_cs,By concept,Proctoptosis (4006305),Age group,25 to 34,Person count,Overall,Numeric,Count,117,FALSE
+rectal_prolapse_broad_cs,By concept,Proctoptosis (4006305),Age group,18 to 24,Person count,Overall,Numeric,Count,38,FALSE
+rectal_prolapse_broad_cs,By concept,Proctoptosis (4006305),Age group,45 to 54,Person count,Overall,Numeric,Count,289,FALSE
+rectal_prolapse_broad_cs,By concept,Rectal prolapse (81336),Age group,18 to 24,Person count,Overall,Numeric,Count,240,FALSE
+rectal_prolapse_broad_cs,By concept,Rectal prolapse (81336),Age group,None,Person count,Overall,Numeric,Count,2334,FALSE
+rectal_prolapse_broad_cs,By concept,Rectal prolapse (81336),Age group,75 to 150,Person count,Overall,Numeric,Count,4326,FALSE
+rectal_prolapse_broad_cs,By concept,Proctoptosis (4006305),Age group,35 to 44,Person count,Overall,Numeric,Count,190,FALSE
+rectal_prolapse_broad_cs,By concept,Rectal prolapse (81336),Age group,35 to 44,Person count,Overall,Numeric,Count,1184,FALSE
+rectal_prolapse_broad_cs,By concept,Proctoptosis (4006305),Age group,0 to 17,Person count,Overall,Numeric,Count,47,FALSE
+rectal_prolapse_broad_cs,By concept,Rectal prolapse (81336),Age group,45 to 54,Person count,Overall,Numeric,Count,1599,FALSE
+rectal_prolapse_broad_cs,By concept,Proctoptosis (4006305),Age group,75 to 150,Person count,Overall,Numeric,Count,399,FALSE
+rectal_prolapse_broad_cs,Codelist,Overall,Age group and sex,25 to 34 and Female,Person count,Overall,Numeric,Count,464,FALSE
+rectal_prolapse_broad_cs,Codelist,Overall,Age group and sex,None and Male,Person count,Overall,Numeric,Count,700,FALSE
+rectal_prolapse_broad_cs,Codelist,Overall,Age group and sex,35 to 44 and Male,Person count,Overall,Numeric,Count,544,FALSE
+rectal_prolapse_broad_cs,Codelist,Overall,Age group and sex,0 to 17 and Female,Person count,Overall,Numeric,Count,433,FALSE
+rectal_prolapse_broad_cs,Codelist,Overall,Age group and sex,65 to 74 and Male,Person count,Overall,Numeric,Count,659,FALSE
+rectal_prolapse_broad_cs,Codelist,Overall,Age group and sex,25 to 34 and Male,Person count,Overall,Numeric,Count,275,FALSE
+rectal_prolapse_broad_cs,Codelist,Overall,Age group and sex,35 to 44 and Female,Person count,Overall,Numeric,Count,781,FALSE
+rectal_prolapse_broad_cs,Codelist,Overall,Age group and sex,45 to 54 and Male,Person count,Overall,Numeric,Count,663,FALSE
+rectal_prolapse_broad_cs,Codelist,Overall,Age group and sex,65 to 74 and Female,Person count,Overall,Numeric,Count,2249,FALSE
+rectal_prolapse_broad_cs,Codelist,Overall,Age group and sex,75 to 150 and Female,Person count,Overall,Numeric,Count,3962,FALSE
+rectal_prolapse_broad_cs,Codelist,Overall,Age group and sex,45 to 54 and Female,Person count,Overall,Numeric,Count,1153,FALSE
+rectal_prolapse_broad_cs,Codelist,Overall,Age group and sex,None and Female,Person count,Overall,Numeric,Count,1850,FALSE
+rectal_prolapse_broad_cs,Codelist,Overall,Age group and sex,18 to 24 and Male,Person count,Overall,Numeric,Count,125,FALSE
+rectal_prolapse_broad_cs,Codelist,Overall,Age group and sex,18 to 24 and Female,Person count,Overall,Numeric,Count,147,FALSE
+rectal_prolapse_broad_cs,Codelist,Overall,Age group and sex,75 to 150 and Male,Person count,Overall,Numeric,Count,624,FALSE
+rectal_prolapse_broad_cs,Codelist,Overall,Age group and sex,0 to 17 and Male,Person count,Overall,Numeric,Count,635,FALSE
+rectal_prolapse_broad_cs,By concept,Proctoptosis (4006305),Age group and sex,65 to 74 and Female,Person count,Overall,Numeric,Count,150,FALSE
+rectal_prolapse_broad_cs,By concept,Proctoptosis (4006305),Age group and sex,18 to 24 and Male,Person count,Overall,Numeric,Count,21,FALSE
+rectal_prolapse_broad_cs,By concept,Proctoptosis (4006305),Age group and sex,None and Female,Person count,Overall,Numeric,Count,165,FALSE
+rectal_prolapse_broad_cs,By concept,Rectal prolapse (81336),Age group and sex,75 to 150 and Female,Person count,Overall,Numeric,Count,3781,FALSE
+rectal_prolapse_broad_cs,By concept,Proctoptosis (4006305),Age group and sex,45 to 54 and Male,Person count,Overall,Numeric,Count,141,FALSE
+rectal_prolapse_broad_cs,By concept,Rectal prolapse (81336),Age group and sex,25 to 34 and Female,Person count,Overall,Numeric,Count,421,FALSE
+rectal_prolapse_broad_cs,By concept,Rectal prolapse (81336),Age group and sex,None and Male,Person count,Overall,Numeric,Count,605,FALSE
+rectal_prolapse_broad_cs,By concept,Proctoptosis (4006305),Age group and sex,75 to 150 and Female,Person count,Overall,Numeric,Count,295,FALSE
+rectal_prolapse_broad_cs,By concept,Proctoptosis (4006305),Age group and sex,0 to 17 and Male,Person count,Overall,Numeric,Count,32,FALSE
+rectal_prolapse_broad_cs,By concept,Rectal prolapse (81336),Age group and sex,25 to 34 and Male,Person count,Overall,Numeric,Count,236,FALSE
+rectal_prolapse_broad_cs,By concept,Rectal prolapse (81336),Age group and sex,75 to 150 and Male,Person count,Overall,Numeric,Count,545,FALSE
+rectal_prolapse_broad_cs,By concept,Rectal prolapse (81336),Age group and sex,35 to 44 and Female,Person count,Overall,Numeric,Count,715,FALSE
+rectal_prolapse_broad_cs,By concept,Proctoptosis (4006305),Age group and sex,18 to 24 and Female,Person count,Overall,Numeric,Count,17,FALSE
+rectal_prolapse_broad_cs,By concept,Proctoptosis (4006305),Age group and sex,35 to 44 and Female,Person count,Overall,Numeric,Count,83,FALSE
+rectal_prolapse_broad_cs,By concept,Rectal prolapse (81336),Age group and sex,35 to 44 and Male,Person count,Overall,Numeric,Count,469,FALSE
+rectal_prolapse_broad_cs,By concept,Proctoptosis (4006305),Age group and sex,75 to 150 and Male,Person count,Overall,Numeric,Count,104,FALSE
+rectal_prolapse_broad_cs,By concept,Proctoptosis (4006305),Age group and sex,0 to 17 and Female,Person count,Overall,Numeric,Count,15,FALSE
+rectal_prolapse_broad_cs,By concept,Proctoptosis (4006305),Age group and sex,25 to 34 and Male,Person count,Overall,Numeric,Count,58,FALSE
+rectal_prolapse_broad_cs,By concept,Proctoptosis (4006305),Age group and sex,65 to 74 and Male,Person count,Overall,Numeric,Count,130,FALSE
+rectal_prolapse_broad_cs,By concept,Rectal prolapse (81336),Age group and sex,18 to 24 and Female,Person count,Overall,Numeric,Count,132,FALSE
+rectal_prolapse_broad_cs,By concept,Rectal prolapse (81336),Age group and sex,65 to 74 and Female,Person count,Overall,Numeric,Count,2154,FALSE
+rectal_prolapse_broad_cs,By concept,Rectal prolapse (81336),Age group and sex,0 to 17 and Female,Person count,Overall,Numeric,Count,424,FALSE
+rectal_prolapse_broad_cs,By concept,Rectal prolapse (81336),Age group and sex,18 to 24 and Male,Person count,Overall,Numeric,Count,108,FALSE
+rectal_prolapse_broad_cs,By concept,Proctoptosis (4006305),Age group and sex,None and Male,Person count,Overall,Numeric,Count,128,FALSE
+rectal_prolapse_broad_cs,By concept,Proctoptosis (4006305),Age group and sex,35 to 44 and Male,Person count,Overall,Numeric,Count,107,FALSE
+rectal_prolapse_broad_cs,By concept,Rectal prolapse (81336),Age group and sex,None and Female,Person count,Overall,Numeric,Count,1729,FALSE
+rectal_prolapse_broad_cs,By concept,Proctoptosis (4006305),Age group and sex,25 to 34 and Female,Person count,Overall,Numeric,Count,59,FALSE
+rectal_prolapse_broad_cs,By concept,Rectal prolapse (81336),Age group and sex,45 to 54 and Female,Person count,Overall,Numeric,Count,1039,FALSE
+rectal_prolapse_broad_cs,By concept,Rectal prolapse (81336),Age group and sex,45 to 54 and Male,Person count,Overall,Numeric,Count,560,FALSE
+rectal_prolapse_broad_cs,By concept,Proctoptosis (4006305),Age group and sex,45 to 54 and Female,Person count,Overall,Numeric,Count,148,FALSE
+rectal_prolapse_broad_cs,By concept,Rectal prolapse (81336),Age group and sex,0 to 17 and Male,Person count,Overall,Numeric,Count,624,FALSE
+rectal_prolapse_broad_cs,By concept,Rectal prolapse (81336),Age group and sex,65 to 74 and Male,Person count,Overall,Numeric,Count,553,FALSE
+rectal_prolapse_narrow_cs,Codelist,Overall,Overall,Overall,Record count,Overall,Numeric,Count,49506,FALSE
+rectal_prolapse_narrow_cs,By concept,Proctoptosis (4006305),Overall,Overall,Record count,Overall,Numeric,Count,3728,FALSE
+rectal_prolapse_narrow_cs,By concept,Rectal prolapse (81336),Overall,Overall,Record count,Overall,Numeric,Count,45778,FALSE
+rectal_prolapse_narrow_cs,Codelist,Overall,Year,2021,Record count,Overall,Numeric,Count,9193,FALSE
+rectal_prolapse_narrow_cs,Codelist,Overall,Year,2017,Record count,Overall,Numeric,Count,10657,FALSE
+rectal_prolapse_narrow_cs,Codelist,Overall,Year,2022,Record count,Overall,Numeric,Count,2474,FALSE
+rectal_prolapse_narrow_cs,Codelist,Overall,Year,2019,Record count,Overall,Numeric,Count,9852,FALSE
+rectal_prolapse_narrow_cs,Codelist,Overall,Year,2020,Record count,Overall,Numeric,Count,8149,FALSE
+rectal_prolapse_narrow_cs,Codelist,Overall,Year,2018,Record count,Overall,Numeric,Count,9181,FALSE
+rectal_prolapse_narrow_cs,By concept,Proctoptosis (4006305),Year,2022,Record count,Overall,Numeric,Count,132,FALSE
+rectal_prolapse_narrow_cs,By concept,Proctoptosis (4006305),Year,2020,Record count,Overall,Numeric,Count,573,FALSE
+rectal_prolapse_narrow_cs,By concept,Proctoptosis (4006305),Year,2021,Record count,Overall,Numeric,Count,671,FALSE
+rectal_prolapse_narrow_cs,By concept,Proctoptosis (4006305),Year,2019,Record count,Overall,Numeric,Count,754,FALSE
+rectal_prolapse_narrow_cs,By concept,Rectal prolapse (81336),Year,2018,Record count,Overall,Numeric,Count,8393,FALSE
+rectal_prolapse_narrow_cs,By concept,Rectal prolapse (81336),Year,2017,Record count,Overall,Numeric,Count,9847,FALSE
+rectal_prolapse_narrow_cs,By concept,Proctoptosis (4006305),Year,2017,Record count,Overall,Numeric,Count,810,FALSE
+rectal_prolapse_narrow_cs,By concept,Rectal prolapse (81336),Year,2021,Record count,Overall,Numeric,Count,8522,FALSE
+rectal_prolapse_narrow_cs,By concept,Rectal prolapse (81336),Year,2022,Record count,Overall,Numeric,Count,2342,FALSE
+rectal_prolapse_narrow_cs,By concept,Rectal prolapse (81336),Year,2019,Record count,Overall,Numeric,Count,9098,FALSE
+rectal_prolapse_narrow_cs,By concept,Rectal prolapse (81336),Year,2020,Record count,Overall,Numeric,Count,7576,FALSE
+rectal_prolapse_narrow_cs,By concept,Proctoptosis (4006305),Year,2018,Record count,Overall,Numeric,Count,788,FALSE
+rectal_prolapse_narrow_cs,Codelist,Overall,Sex,Female,Record count,Overall,Numeric,Count,38348,FALSE
+rectal_prolapse_narrow_cs,Codelist,Overall,Sex,Male,Record count,Overall,Numeric,Count,11158,FALSE
+rectal_prolapse_narrow_cs,By concept,Rectal prolapse (81336),Sex,Male,Record count,Overall,Numeric,Count,9318,FALSE
+rectal_prolapse_narrow_cs,By concept,Rectal prolapse (81336),Sex,Female,Record count,Overall,Numeric,Count,36460,FALSE
+rectal_prolapse_narrow_cs,By concept,Proctoptosis (4006305),Sex,Male,Record count,Overall,Numeric,Count,1840,FALSE
+rectal_prolapse_narrow_cs,By concept,Proctoptosis (4006305),Sex,Female,Record count,Overall,Numeric,Count,1888,FALSE
+rectal_prolapse_narrow_cs,Codelist,Overall,Age group,18 to 24,Record count,Overall,Numeric,Count,852,FALSE
+rectal_prolapse_narrow_cs,Codelist,Overall,Age group,None,Record count,Overall,Numeric,Count,7540,FALSE
+rectal_prolapse_narrow_cs,Codelist,Overall,Age group,75 to 150,Record count,Overall,Numeric,Count,18690,FALSE
+rectal_prolapse_narrow_cs,Codelist,Overall,Age group,45 to 54,Record count,Overall,Numeric,Count,4950,FALSE
+rectal_prolapse_narrow_cs,Codelist,Overall,Age group,25 to 34,Record count,Overall,Numeric,Count,2035,FALSE
+rectal_prolapse_narrow_cs,Codelist,Overall,Age group,35 to 44,Record count,Overall,Numeric,Count,3856,FALSE
+rectal_prolapse_narrow_cs,Codelist,Overall,Age group,0 to 17,Record count,Overall,Numeric,Count,2501,FALSE
+rectal_prolapse_narrow_cs,Codelist,Overall,Age group,65 to 74,Record count,Overall,Numeric,Count,9082,FALSE
+rectal_prolapse_narrow_cs,By concept,Rectal prolapse (81336),Age group,18 to 24,Record count,Overall,Numeric,Count,780,FALSE
+rectal_prolapse_narrow_cs,By concept,Rectal prolapse (81336),Age group,45 to 54,Record count,Overall,Numeric,Count,4231,FALSE
+rectal_prolapse_narrow_cs,By concept,Proctoptosis (4006305),Age group,None,Record count,Overall,Numeric,Count,666,FALSE
+rectal_prolapse_narrow_cs,By concept,Rectal prolapse (81336),Age group,65 to 74,Record count,Overall,Numeric,Count,8488,FALSE
+rectal_prolapse_narrow_cs,By concept,Proctoptosis (4006305),Age group,65 to 74,Record count,Overall,Numeric,Count,594,FALSE
+rectal_prolapse_narrow_cs,By concept,Proctoptosis (4006305),Age group,45 to 54,Record count,Overall,Numeric,Count,719,FALSE
+rectal_prolapse_narrow_cs,By concept,Rectal prolapse (81336),Age group,35 to 44,Record count,Overall,Numeric,Count,3340,FALSE
+rectal_prolapse_narrow_cs,By concept,Rectal prolapse (81336),Age group,None,Record count,Overall,Numeric,Count,6874,FALSE
+rectal_prolapse_narrow_cs,By concept,Rectal prolapse (81336),Age group,25 to 34,Record count,Overall,Numeric,Count,1742,FALSE
+rectal_prolapse_narrow_cs,By concept,Rectal prolapse (81336),Age group,75 to 150,Record count,Overall,Numeric,Count,17903,FALSE
+rectal_prolapse_narrow_cs,By concept,Proctoptosis (4006305),Age group,18 to 24,Record count,Overall,Numeric,Count,72,FALSE
+rectal_prolapse_narrow_cs,By concept,Proctoptosis (4006305),Age group,75 to 150,Record count,Overall,Numeric,Count,787,FALSE
+rectal_prolapse_narrow_cs,By concept,Proctoptosis (4006305),Age group,0 to 17,Record count,Overall,Numeric,Count,81,FALSE
+rectal_prolapse_narrow_cs,By concept,Rectal prolapse (81336),Age group,0 to 17,Record count,Overall,Numeric,Count,2420,FALSE
+rectal_prolapse_narrow_cs,By concept,Proctoptosis (4006305),Age group,25 to 34,Record count,Overall,Numeric,Count,293,FALSE
+rectal_prolapse_narrow_cs,By concept,Proctoptosis (4006305),Age group,35 to 44,Record count,Overall,Numeric,Count,516,FALSE
+rectal_prolapse_narrow_cs,Codelist,Overall,Age group and sex,0 to 17 and Male,Record count,Overall,Numeric,Count,1497,FALSE
+rectal_prolapse_narrow_cs,Codelist,Overall,Age group and sex,45 to 54 and Male,Record count,Overall,Numeric,Count,1790,FALSE
+rectal_prolapse_narrow_cs,Codelist,Overall,Age group and sex,65 to 74 and Female,Record count,Overall,Numeric,Count,7449,FALSE
+rectal_prolapse_narrow_cs,Codelist,Overall,Age group and sex,25 to 34 and Female,Record count,Overall,Numeric,Count,1257,FALSE
+rectal_prolapse_narrow_cs,Codelist,Overall,Age group and sex,35 to 44 and Male,Record count,Overall,Numeric,Count,1554,FALSE
+rectal_prolapse_narrow_cs,Codelist,Overall,Age group and sex,25 to 34 and Male,Record count,Overall,Numeric,Count,778,FALSE
+rectal_prolapse_narrow_cs,Codelist,Overall,Age group and sex,18 to 24 and Male,Record count,Overall,Numeric,Count,373,FALSE
+rectal_prolapse_narrow_cs,Codelist,Overall,Age group and sex,45 to 54 and Female,Record count,Overall,Numeric,Count,3160,FALSE
+rectal_prolapse_narrow_cs,Codelist,Overall,Age group and sex,18 to 24 and Female,Record count,Overall,Numeric,Count,479,FALSE
+rectal_prolapse_narrow_cs,Codelist,Overall,Age group and sex,75 to 150 and Female,Record count,Overall,Numeric,Count,16983,FALSE
+rectal_prolapse_narrow_cs,Codelist,Overall,Age group and sex,35 to 44 and Female,Record count,Overall,Numeric,Count,2302,FALSE
+rectal_prolapse_narrow_cs,Codelist,Overall,Age group and sex,65 to 74 and Male,Record count,Overall,Numeric,Count,1633,FALSE
+rectal_prolapse_narrow_cs,Codelist,Overall,Age group and sex,None and Female,Record count,Overall,Numeric,Count,5714,FALSE
+rectal_prolapse_narrow_cs,Codelist,Overall,Age group and sex,None and Male,Record count,Overall,Numeric,Count,1826,FALSE
+rectal_prolapse_narrow_cs,Codelist,Overall,Age group and sex,75 to 150 and Male,Record count,Overall,Numeric,Count,1707,FALSE
+rectal_prolapse_narrow_cs,Codelist,Overall,Age group and sex,0 to 17 and Female,Record count,Overall,Numeric,Count,1004,FALSE
+rectal_prolapse_narrow_cs,By concept,Rectal prolapse (81336),Age group and sex,35 to 44 and Male,Record count,Overall,Numeric,Count,1247,FALSE
+rectal_prolapse_narrow_cs,By concept,Proctoptosis (4006305),Age group and sex,75 to 150 and Male,Record count,Overall,Numeric,Count,202,FALSE
+rectal_prolapse_narrow_cs,By concept,Rectal prolapse (81336),Age group and sex,0 to 17 and Male,Record count,Overall,Numeric,Count,1439,FALSE
+rectal_prolapse_narrow_cs,By concept,Proctoptosis (4006305),Age group and sex,35 to 44 and Male,Record count,Overall,Numeric,Count,307,FALSE
+rectal_prolapse_narrow_cs,By concept,Rectal prolapse (81336),Age group and sex,65 to 74 and Male,Record count,Overall,Numeric,Count,1323,FALSE
+rectal_prolapse_narrow_cs,By concept,Rectal prolapse (81336),Age group and sex,45 to 54 and Female,Record count,Overall,Numeric,Count,2852,FALSE
+rectal_prolapse_narrow_cs,By concept,Rectal prolapse (81336),Age group and sex,75 to 150 and Female,Record count,Overall,Numeric,Count,16398,FALSE
+rectal_prolapse_narrow_cs,By concept,Proctoptosis (4006305),Age group and sex,65 to 74 and Female,Record count,Overall,Numeric,Count,284,FALSE
+rectal_prolapse_narrow_cs,By concept,Rectal prolapse (81336),Age group and sex,None and Male,Record count,Overall,Numeric,Count,1487,FALSE
+rectal_prolapse_narrow_cs,By concept,Proctoptosis (4006305),Age group and sex,65 to 74 and Male,Record count,Overall,Numeric,Count,310,FALSE
+rectal_prolapse_narrow_cs,By concept,Proctoptosis (4006305),Age group and sex,75 to 150 and Female,Record count,Overall,Numeric,Count,585,FALSE
+rectal_prolapse_narrow_cs,By concept,Rectal prolapse (81336),Age group and sex,None and Female,Record count,Overall,Numeric,Count,5387,FALSE
+rectal_prolapse_narrow_cs,By concept,Rectal prolapse (81336),Age group and sex,18 to 24 and Female,Record count,Overall,Numeric,Count,456,FALSE
+rectal_prolapse_narrow_cs,By concept,Rectal prolapse (81336),Age group and sex,65 to 74 and Female,Record count,Overall,Numeric,Count,7165,FALSE
+rectal_prolapse_narrow_cs,By concept,Rectal prolapse (81336),Age group and sex,0 to 17 and Female,Record count,Overall,Numeric,Count,981,FALSE
+rectal_prolapse_narrow_cs,By concept,Proctoptosis (4006305),Age group and sex,18 to 24 and Male,Record count,Overall,Numeric,Count,49,FALSE
+rectal_prolapse_narrow_cs,By concept,Rectal prolapse (81336),Age group and sex,35 to 44 and Female,Record count,Overall,Numeric,Count,2093,FALSE
+rectal_prolapse_narrow_cs,By concept,Proctoptosis (4006305),Age group and sex,18 to 24 and Female,Record count,Overall,Numeric,Count,23,FALSE
+rectal_prolapse_narrow_cs,By concept,Proctoptosis (4006305),Age group and sex,0 to 17 and Male,Record count,Overall,Numeric,Count,58,FALSE
+rectal_prolapse_narrow_cs,By concept,Proctoptosis (4006305),Age group and sex,0 to 17 and Female,Record count,Overall,Numeric,Count,23,FALSE
+rectal_prolapse_narrow_cs,By concept,Proctoptosis (4006305),Age group and sex,25 to 34 and Male,Record count,Overall,Numeric,Count,164,FALSE
+rectal_prolapse_narrow_cs,By concept,Rectal prolapse (81336),Age group and sex,18 to 24 and Male,Record count,Overall,Numeric,Count,324,FALSE
+rectal_prolapse_narrow_cs,By concept,Proctoptosis (4006305),Age group and sex,None and Male,Record count,Overall,Numeric,Count,339,FALSE
+rectal_prolapse_narrow_cs,By concept,Proctoptosis (4006305),Age group and sex,35 to 44 and Female,Record count,Overall,Numeric,Count,209,FALSE
+rectal_prolapse_narrow_cs,By concept,Proctoptosis (4006305),Age group and sex,None and Female,Record count,Overall,Numeric,Count,327,FALSE
+rectal_prolapse_narrow_cs,By concept,Rectal prolapse (81336),Age group and sex,25 to 34 and Male,Record count,Overall,Numeric,Count,614,FALSE
+rectal_prolapse_narrow_cs,By concept,Rectal prolapse (81336),Age group and sex,45 to 54 and Male,Record count,Overall,Numeric,Count,1379,FALSE
+rectal_prolapse_narrow_cs,By concept,Proctoptosis (4006305),Age group and sex,45 to 54 and Male,Record count,Overall,Numeric,Count,411,FALSE
+rectal_prolapse_narrow_cs,By concept,Proctoptosis (4006305),Age group and sex,25 to 34 and Female,Record count,Overall,Numeric,Count,129,FALSE
+rectal_prolapse_narrow_cs,By concept,Proctoptosis (4006305),Age group and sex,45 to 54 and Female,Record count,Overall,Numeric,Count,308,FALSE
+rectal_prolapse_narrow_cs,By concept,Rectal prolapse (81336),Age group and sex,25 to 34 and Female,Record count,Overall,Numeric,Count,1128,FALSE
+rectal_prolapse_narrow_cs,By concept,Rectal prolapse (81336),Age group and sex,75 to 150 and Male,Record count,Overall,Numeric,Count,1505,FALSE
+rectal_prolapse_narrow_cs,Codelist,Overall,Overall,Overall,Person count,Overall,Numeric,Count,15020,FALSE
+rectal_prolapse_narrow_cs,By concept,Proctoptosis (4006305),Overall,Overall,Person count,Overall,Numeric,Count,1637,FALSE
+rectal_prolapse_narrow_cs,By concept,Rectal prolapse (81336),Overall,Overall,Person count,Overall,Numeric,Count,13870,FALSE
+rectal_prolapse_narrow_cs,Codelist,Overall,Year,2017,Person count,Overall,Numeric,Count,4202,FALSE
+rectal_prolapse_narrow_cs,Codelist,Overall,Year,2018,Person count,Overall,Numeric,Count,3407,FALSE
+rectal_prolapse_narrow_cs,Codelist,Overall,Year,2022,Person count,Overall,Numeric,Count,1141,FALSE
+rectal_prolapse_narrow_cs,Codelist,Overall,Year,2019,Person count,Overall,Numeric,Count,3528,FALSE
+rectal_prolapse_narrow_cs,Codelist,Overall,Year,2021,Person count,Overall,Numeric,Count,3180,FALSE
+rectal_prolapse_narrow_cs,Codelist,Overall,Year,2020,Person count,Overall,Numeric,Count,2896,FALSE
+rectal_prolapse_narrow_cs,By concept,Rectal prolapse (81336),Year,2019,Person count,Overall,Numeric,Count,3273,FALSE
+rectal_prolapse_narrow_cs,By concept,Proctoptosis (4006305),Year,2019,Person count,Overall,Numeric,Count,350,FALSE
+rectal_prolapse_narrow_cs,By concept,Proctoptosis (4006305),Year,2017,Person count,Overall,Numeric,Count,438,FALSE
+rectal_prolapse_narrow_cs,By concept,Rectal prolapse (81336),Year,2020,Person count,Overall,Numeric,Count,2707,FALSE
+rectal_prolapse_narrow_cs,By concept,Proctoptosis (4006305),Year,2022,Person count,Overall,Numeric,Count,77,FALSE
+rectal_prolapse_narrow_cs,By concept,Rectal prolapse (81336),Year,2017,Person count,Overall,Numeric,Count,3884,FALSE
+rectal_prolapse_narrow_cs,By concept,Rectal prolapse (81336),Year,2018,Person count,Overall,Numeric,Count,3116,FALSE
+rectal_prolapse_narrow_cs,By concept,Proctoptosis (4006305),Year,2018,Person count,Overall,Numeric,Count,387,FALSE
+rectal_prolapse_narrow_cs,By concept,Rectal prolapse (81336),Year,2021,Person count,Overall,Numeric,Count,2958,FALSE
+rectal_prolapse_narrow_cs,By concept,Proctoptosis (4006305),Year,2021,Person count,Overall,Numeric,Count,286,FALSE
+rectal_prolapse_narrow_cs,By concept,Proctoptosis (4006305),Year,2020,Person count,Overall,Numeric,Count,259,FALSE
+rectal_prolapse_narrow_cs,By concept,Rectal prolapse (81336),Year,2022,Person count,Overall,Numeric,Count,1077,FALSE
+rectal_prolapse_narrow_cs,Codelist,Overall,Sex,Female,Person count,Overall,Numeric,Count,10850,FALSE
+rectal_prolapse_narrow_cs,Codelist,Overall,Sex,Male,Person count,Overall,Numeric,Count,4170,FALSE
+rectal_prolapse_narrow_cs,By concept,Proctoptosis (4006305),Sex,Male,Person count,Overall,Numeric,Count,712,FALSE
+rectal_prolapse_narrow_cs,By concept,Proctoptosis (4006305),Sex,Female,Person count,Overall,Numeric,Count,925,FALSE
+rectal_prolapse_narrow_cs,By concept,Rectal prolapse (81336),Sex,Male,Person count,Overall,Numeric,Count,3653,FALSE
+rectal_prolapse_narrow_cs,By concept,Rectal prolapse (81336),Sex,Female,Person count,Overall,Numeric,Count,10217,FALSE
+rectal_prolapse_narrow_cs,Codelist,Overall,Age group,75 to 150,Person count,Overall,Numeric,Count,4586,FALSE
+rectal_prolapse_narrow_cs,Codelist,Overall,Age group,25 to 34,Person count,Overall,Numeric,Count,739,FALSE
+rectal_prolapse_narrow_cs,Codelist,Overall,Age group,None,Person count,Overall,Numeric,Count,2550,FALSE
+rectal_prolapse_narrow_cs,Codelist,Overall,Age group,0 to 17,Person count,Overall,Numeric,Count,1068,FALSE
+rectal_prolapse_narrow_cs,Codelist,Overall,Age group,45 to 54,Person count,Overall,Numeric,Count,1816,FALSE
+rectal_prolapse_narrow_cs,Codelist,Overall,Age group,65 to 74,Person count,Overall,Numeric,Count,2908,FALSE
+rectal_prolapse_narrow_cs,Codelist,Overall,Age group,35 to 44,Person count,Overall,Numeric,Count,1325,FALSE
+rectal_prolapse_narrow_cs,Codelist,Overall,Age group,18 to 24,Person count,Overall,Numeric,Count,272,FALSE
+rectal_prolapse_narrow_cs,By concept,Proctoptosis (4006305),Age group,None,Person count,Overall,Numeric,Count,293,FALSE
+rectal_prolapse_narrow_cs,By concept,Rectal prolapse (81336),Age group,65 to 74,Person count,Overall,Numeric,Count,2707,FALSE
+rectal_prolapse_narrow_cs,By concept,Rectal prolapse (81336),Age group,25 to 34,Person count,Overall,Numeric,Count,657,FALSE
+rectal_prolapse_narrow_cs,By concept,Proctoptosis (4006305),Age group,65 to 74,Person count,Overall,Numeric,Count,280,FALSE
+rectal_prolapse_narrow_cs,By concept,Rectal prolapse (81336),Age group,0 to 17,Person count,Overall,Numeric,Count,1048,FALSE
+rectal_prolapse_narrow_cs,By concept,Proctoptosis (4006305),Age group,25 to 34,Person count,Overall,Numeric,Count,117,FALSE
+rectal_prolapse_narrow_cs,By concept,Proctoptosis (4006305),Age group,18 to 24,Person count,Overall,Numeric,Count,38,FALSE
+rectal_prolapse_narrow_cs,By concept,Proctoptosis (4006305),Age group,45 to 54,Person count,Overall,Numeric,Count,289,FALSE
+rectal_prolapse_narrow_cs,By concept,Rectal prolapse (81336),Age group,18 to 24,Person count,Overall,Numeric,Count,240,FALSE
+rectal_prolapse_narrow_cs,By concept,Rectal prolapse (81336),Age group,None,Person count,Overall,Numeric,Count,2334,FALSE
+rectal_prolapse_narrow_cs,By concept,Rectal prolapse (81336),Age group,75 to 150,Person count,Overall,Numeric,Count,4326,FALSE
+rectal_prolapse_narrow_cs,By concept,Proctoptosis (4006305),Age group,35 to 44,Person count,Overall,Numeric,Count,190,FALSE
+rectal_prolapse_narrow_cs,By concept,Rectal prolapse (81336),Age group,35 to 44,Person count,Overall,Numeric,Count,1184,FALSE
+rectal_prolapse_narrow_cs,By concept,Proctoptosis (4006305),Age group,0 to 17,Person count,Overall,Numeric,Count,47,FALSE
+rectal_prolapse_narrow_cs,By concept,Rectal prolapse (81336),Age group,45 to 54,Person count,Overall,Numeric,Count,1599,FALSE
+rectal_prolapse_narrow_cs,By concept,Proctoptosis (4006305),Age group,75 to 150,Person count,Overall,Numeric,Count,399,FALSE
+rectal_prolapse_narrow_cs,Codelist,Overall,Age group and sex,25 to 34 and Female,Person count,Overall,Numeric,Count,464,FALSE
+rectal_prolapse_narrow_cs,Codelist,Overall,Age group and sex,None and Male,Person count,Overall,Numeric,Count,700,FALSE
+rectal_prolapse_narrow_cs,Codelist,Overall,Age group and sex,35 to 44 and Male,Person count,Overall,Numeric,Count,544,FALSE
+rectal_prolapse_narrow_cs,Codelist,Overall,Age group and sex,0 to 17 and Female,Person count,Overall,Numeric,Count,433,FALSE
+rectal_prolapse_narrow_cs,Codelist,Overall,Age group and sex,65 to 74 and Male,Person count,Overall,Numeric,Count,659,FALSE
+rectal_prolapse_narrow_cs,Codelist,Overall,Age group and sex,25 to 34 and Male,Person count,Overall,Numeric,Count,275,FALSE
+rectal_prolapse_narrow_cs,Codelist,Overall,Age group and sex,35 to 44 and Female,Person count,Overall,Numeric,Count,781,FALSE
+rectal_prolapse_narrow_cs,Codelist,Overall,Age group and sex,45 to 54 and Male,Person count,Overall,Numeric,Count,663,FALSE
+rectal_prolapse_narrow_cs,Codelist,Overall,Age group and sex,65 to 74 and Female,Person count,Overall,Numeric,Count,2249,FALSE
+rectal_prolapse_narrow_cs,Codelist,Overall,Age group and sex,75 to 150 and Female,Person count,Overall,Numeric,Count,3962,FALSE
+rectal_prolapse_narrow_cs,Codelist,Overall,Age group and sex,45 to 54 and Female,Person count,Overall,Numeric,Count,1153,FALSE
+rectal_prolapse_narrow_cs,Codelist,Overall,Age group and sex,None and Female,Person count,Overall,Numeric,Count,1850,FALSE
+rectal_prolapse_narrow_cs,Codelist,Overall,Age group and sex,18 to 24 and Male,Person count,Overall,Numeric,Count,125,FALSE
+rectal_prolapse_narrow_cs,Codelist,Overall,Age group and sex,18 to 24 and Female,Person count,Overall,Numeric,Count,147,FALSE
+rectal_prolapse_narrow_cs,Codelist,Overall,Age group and sex,75 to 150 and Male,Person count,Overall,Numeric,Count,624,FALSE
+rectal_prolapse_narrow_cs,Codelist,Overall,Age group and sex,0 to 17 and Male,Person count,Overall,Numeric,Count,635,FALSE
+rectal_prolapse_narrow_cs,By concept,Proctoptosis (4006305),Age group and sex,65 to 74 and Female,Person count,Overall,Numeric,Count,150,FALSE
+rectal_prolapse_narrow_cs,By concept,Proctoptosis (4006305),Age group and sex,18 to 24 and Male,Person count,Overall,Numeric,Count,21,FALSE
+rectal_prolapse_narrow_cs,By concept,Proctoptosis (4006305),Age group and sex,None and Female,Person count,Overall,Numeric,Count,165,FALSE
+rectal_prolapse_narrow_cs,By concept,Rectal prolapse (81336),Age group and sex,75 to 150 and Female,Person count,Overall,Numeric,Count,3781,FALSE
+rectal_prolapse_narrow_cs,By concept,Proctoptosis (4006305),Age group and sex,45 to 54 and Male,Person count,Overall,Numeric,Count,141,FALSE
+rectal_prolapse_narrow_cs,By concept,Rectal prolapse (81336),Age group and sex,25 to 34 and Female,Person count,Overall,Numeric,Count,421,FALSE
+rectal_prolapse_narrow_cs,By concept,Rectal prolapse (81336),Age group and sex,None and Male,Person count,Overall,Numeric,Count,605,FALSE
+rectal_prolapse_narrow_cs,By concept,Proctoptosis (4006305),Age group and sex,75 to 150 and Female,Person count,Overall,Numeric,Count,295,FALSE
+rectal_prolapse_narrow_cs,By concept,Proctoptosis (4006305),Age group and sex,0 to 17 and Male,Person count,Overall,Numeric,Count,32,FALSE
+rectal_prolapse_narrow_cs,By concept,Rectal prolapse (81336),Age group and sex,25 to 34 and Male,Person count,Overall,Numeric,Count,236,FALSE
+rectal_prolapse_narrow_cs,By concept,Rectal prolapse (81336),Age group and sex,75 to 150 and Male,Person count,Overall,Numeric,Count,545,FALSE
+rectal_prolapse_narrow_cs,By concept,Rectal prolapse (81336),Age group and sex,35 to 44 and Female,Person count,Overall,Numeric,Count,715,FALSE
+rectal_prolapse_narrow_cs,By concept,Proctoptosis (4006305),Age group and sex,18 to 24 and Female,Person count,Overall,Numeric,Count,17,FALSE
+rectal_prolapse_narrow_cs,By concept,Proctoptosis (4006305),Age group and sex,35 to 44 and Female,Person count,Overall,Numeric,Count,83,FALSE
+rectal_prolapse_narrow_cs,By concept,Rectal prolapse (81336),Age group and sex,35 to 44 and Male,Person count,Overall,Numeric,Count,469,FALSE
+rectal_prolapse_narrow_cs,By concept,Proctoptosis (4006305),Age group and sex,75 to 150 and Male,Person count,Overall,Numeric,Count,104,FALSE
+rectal_prolapse_narrow_cs,By concept,Proctoptosis (4006305),Age group and sex,0 to 17 and Female,Person count,Overall,Numeric,Count,15,FALSE
+rectal_prolapse_narrow_cs,By concept,Proctoptosis (4006305),Age group and sex,25 to 34 and Male,Person count,Overall,Numeric,Count,58,FALSE
+rectal_prolapse_narrow_cs,By concept,Proctoptosis (4006305),Age group and sex,65 to 74 and Male,Person count,Overall,Numeric,Count,130,FALSE
+rectal_prolapse_narrow_cs,By concept,Rectal prolapse (81336),Age group and sex,18 to 24 and Female,Person count,Overall,Numeric,Count,132,FALSE
+rectal_prolapse_narrow_cs,By concept,Rectal prolapse (81336),Age group and sex,65 to 74 and Female,Person count,Overall,Numeric,Count,2154,FALSE
+rectal_prolapse_narrow_cs,By concept,Rectal prolapse (81336),Age group and sex,0 to 17 and Female,Person count,Overall,Numeric,Count,424,FALSE
+rectal_prolapse_narrow_cs,By concept,Rectal prolapse (81336),Age group and sex,18 to 24 and Male,Person count,Overall,Numeric,Count,108,FALSE
+rectal_prolapse_narrow_cs,By concept,Proctoptosis (4006305),Age group and sex,None and Male,Person count,Overall,Numeric,Count,128,FALSE
+rectal_prolapse_narrow_cs,By concept,Proctoptosis (4006305),Age group and sex,35 to 44 and Male,Person count,Overall,Numeric,Count,107,FALSE
+rectal_prolapse_narrow_cs,By concept,Rectal prolapse (81336),Age group and sex,None and Female,Person count,Overall,Numeric,Count,1729,FALSE
+rectal_prolapse_narrow_cs,By concept,Proctoptosis (4006305),Age group and sex,25 to 34 and Female,Person count,Overall,Numeric,Count,59,FALSE
+rectal_prolapse_narrow_cs,By concept,Rectal prolapse (81336),Age group and sex,45 to 54 and Female,Person count,Overall,Numeric,Count,1039,FALSE
+rectal_prolapse_narrow_cs,By concept,Rectal prolapse (81336),Age group and sex,45 to 54 and Male,Person count,Overall,Numeric,Count,560,FALSE
+rectal_prolapse_narrow_cs,By concept,Proctoptosis (4006305),Age group and sex,45 to 54 and Female,Person count,Overall,Numeric,Count,148,FALSE
+rectal_prolapse_narrow_cs,By concept,Rectal prolapse (81336),Age group and sex,0 to 17 and Male,Person count,Overall,Numeric,Count,624,FALSE
+rectal_prolapse_narrow_cs,By concept,Rectal prolapse (81336),Age group and sex,65 to 74 and Male,Person count,Overall,Numeric,Count,553,FALSE
+rectopexy_broad_cs,Codelist,Overall,Overall,Overall,Record count,Overall,Numeric,Count,2937,FALSE
+rectopexy_broad_cs,By concept,"Proctopexy (eg, for prolapse); abdominal approach (2109214)",Overall,Overall,Record count,Overall,Numeric,Count,280,FALSE
+rectopexy_broad_cs,By concept,Reduction of procidentia (separate procedure) under anesthesia (2109224),Overall,Overall,Record count,Overall,Numeric,Count,83,FALSE
+rectopexy_broad_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse) (2109208)",Overall,Overall,Record count,Overall,Numeric,Count,1000,FALSE
+rectopexy_broad_cs,By concept,Proctoplasty; for prolapse of mucous membrane (2109212),Overall,Overall,Record count,Overall,Numeric,Count,894,FALSE
+rectopexy_broad_cs,By concept,"Proctopexy (eg, for prolapse); perineal approach (2109215)",Overall,Overall,Record count,Overall,Numeric,Count,340,FALSE
+rectopexy_broad_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse), with sigmoid resection (2109209)",Overall,Overall,Record count,Overall,Numeric,Count,229,FALSE
+rectopexy_broad_cs,By concept,"Proctopexy (eg, for prolapse); with sigmoid resection, abdominal approach (2109216)",Overall,Overall,Record count,Overall,Numeric,Count,111,FALSE
+rectopexy_broad_cs,Codelist,Overall,Year,2021,Record count,Overall,Numeric,Count,435,FALSE
+rectopexy_broad_cs,Codelist,Overall,Year,2022,Record count,Overall,Numeric,Count,113,FALSE
+rectopexy_broad_cs,Codelist,Overall,Year,2019,Record count,Overall,Numeric,Count,587,FALSE
+rectopexy_broad_cs,Codelist,Overall,Year,2017,Record count,Overall,Numeric,Count,786,FALSE
+rectopexy_broad_cs,Codelist,Overall,Year,2018,Record count,Overall,Numeric,Count,590,FALSE
+rectopexy_broad_cs,Codelist,Overall,Year,2020,Record count,Overall,Numeric,Count,426,FALSE
+rectopexy_broad_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse) (2109208)",Year,2019,Record count,Overall,Numeric,Count,189,FALSE
+rectopexy_broad_cs,By concept,Reduction of procidentia (separate procedure) under anesthesia (2109224),Year,2020,Record count,Overall,Numeric,Count,14,FALSE
+rectopexy_broad_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse), with sigmoid resection (2109209)",Year,2017,Record count,Overall,Numeric,Count,58,FALSE
+rectopexy_broad_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse) (2109208)",Year,2022,Record count,Overall,Numeric,Count,47,FALSE
+rectopexy_broad_cs,By concept,"Proctopexy (eg, for prolapse); perineal approach (2109215)",Year,2022,Record count,Overall,Numeric,Count,10,FALSE
+rectopexy_broad_cs,By concept,"Proctopexy (eg, for prolapse); abdominal approach (2109214)",Year,2019,Record count,Overall,Numeric,Count,59,FALSE
+rectopexy_broad_cs,By concept,"Proctopexy (eg, for prolapse); abdominal approach (2109214)",Year,2018,Record count,Overall,Numeric,Count,65,FALSE
+rectopexy_broad_cs,By concept,Proctoplasty; for prolapse of mucous membrane (2109212),Year,2017,Record count,Overall,Numeric,Count,342,FALSE
+rectopexy_broad_cs,By concept,Reduction of procidentia (separate procedure) under anesthesia (2109224),Year,2017,Record count,Overall,Numeric,Count,12,FALSE
+rectopexy_broad_cs,By concept,Proctoplasty; for prolapse of mucous membrane (2109212),Year,2019,Record count,Overall,Numeric,Count,192,FALSE
+rectopexy_broad_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse), with sigmoid resection (2109209)",Year,2019,Record count,Overall,Numeric,Count,29,FALSE
+rectopexy_broad_cs,By concept,"Proctopexy (eg, for prolapse); with sigmoid resection, abdominal approach (2109216)",Year,2018,Record count,Overall,Numeric,Count,25,FALSE
+rectopexy_broad_cs,By concept,"Proctopexy (eg, for prolapse); with sigmoid resection, abdominal approach (2109216)",Year,2022,Record count,Overall,Numeric,Count,NA,TRUE
+rectopexy_broad_cs,By concept,Reduction of procidentia (separate procedure) under anesthesia (2109224),Year,2018,Record count,Overall,Numeric,Count,13,FALSE
+rectopexy_broad_cs,By concept,"Proctopexy (eg, for prolapse); abdominal approach (2109214)",Year,2021,Record count,Overall,Numeric,Count,43,FALSE
+rectopexy_broad_cs,By concept,"Proctopexy (eg, for prolapse); abdominal approach (2109214)",Year,2020,Record count,Overall,Numeric,Count,49,FALSE
+rectopexy_broad_cs,By concept,Reduction of procidentia (separate procedure) under anesthesia (2109224),Year,2022,Record count,Overall,Numeric,Count,NA,TRUE
+rectopexy_broad_cs,By concept,Reduction of procidentia (separate procedure) under anesthesia (2109224),Year,2019,Record count,Overall,Numeric,Count,24,FALSE
+rectopexy_broad_cs,By concept,Proctoplasty; for prolapse of mucous membrane (2109212),Year,2018,Record count,Overall,Numeric,Count,179,FALSE
+rectopexy_broad_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse), with sigmoid resection (2109209)",Year,2022,Record count,Overall,Numeric,Count,25,FALSE
+rectopexy_broad_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse), with sigmoid resection (2109209)",Year,2021,Record count,Overall,Numeric,Count,34,FALSE
+rectopexy_broad_cs,By concept,Reduction of procidentia (separate procedure) under anesthesia (2109224),Year,2021,Record count,Overall,Numeric,Count,17,FALSE
+rectopexy_broad_cs,By concept,Proctoplasty; for prolapse of mucous membrane (2109212),Year,2020,Record count,Overall,Numeric,Count,100,FALSE
+rectopexy_broad_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse), with sigmoid resection (2109209)",Year,2018,Record count,Overall,Numeric,Count,45,FALSE
+rectopexy_broad_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse) (2109208)",Year,2020,Record count,Overall,Numeric,Count,155,FALSE
+rectopexy_broad_cs,By concept,"Proctopexy (eg, for prolapse); with sigmoid resection, abdominal approach (2109216)",Year,2021,Record count,Overall,Numeric,Count,13,FALSE
+rectopexy_broad_cs,By concept,Proctoplasty; for prolapse of mucous membrane (2109212),Year,2021,Record count,Overall,Numeric,Count,68,FALSE
+rectopexy_broad_cs,By concept,"Proctopexy (eg, for prolapse); perineal approach (2109215)",Year,2018,Record count,Overall,Numeric,Count,64,FALSE
+rectopexy_broad_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse) (2109208)",Year,2017,Record count,Overall,Numeric,Count,201,FALSE
+rectopexy_broad_cs,By concept,"Proctopexy (eg, for prolapse); perineal approach (2109215)",Year,2020,Record count,Overall,Numeric,Count,49,FALSE
+rectopexy_broad_cs,By concept,"Proctopexy (eg, for prolapse); with sigmoid resection, abdominal approach (2109216)",Year,2017,Record count,Overall,Numeric,Count,31,FALSE
+rectopexy_broad_cs,By concept,"Proctopexy (eg, for prolapse); with sigmoid resection, abdominal approach (2109216)",Year,2020,Record count,Overall,Numeric,Count,21,FALSE
+rectopexy_broad_cs,By concept,Proctoplasty; for prolapse of mucous membrane (2109212),Year,2022,Record count,Overall,Numeric,Count,13,FALSE
+rectopexy_broad_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse), with sigmoid resection (2109209)",Year,2020,Record count,Overall,Numeric,Count,38,FALSE
+rectopexy_broad_cs,By concept,"Proctopexy (eg, for prolapse); abdominal approach (2109214)",Year,2022,Record count,Overall,Numeric,Count,13,FALSE
+rectopexy_broad_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse) (2109208)",Year,2021,Record count,Overall,Numeric,Count,209,FALSE
+rectopexy_broad_cs,By concept,"Proctopexy (eg, for prolapse); perineal approach (2109215)",Year,2019,Record count,Overall,Numeric,Count,75,FALSE
+rectopexy_broad_cs,By concept,"Proctopexy (eg, for prolapse); abdominal approach (2109214)",Year,2017,Record count,Overall,Numeric,Count,51,FALSE
+rectopexy_broad_cs,By concept,"Proctopexy (eg, for prolapse); perineal approach (2109215)",Year,2021,Record count,Overall,Numeric,Count,51,FALSE
+rectopexy_broad_cs,By concept,"Proctopexy (eg, for prolapse); perineal approach (2109215)",Year,2017,Record count,Overall,Numeric,Count,91,FALSE
+rectopexy_broad_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse) (2109208)",Year,2018,Record count,Overall,Numeric,Count,199,FALSE
+rectopexy_broad_cs,By concept,"Proctopexy (eg, for prolapse); with sigmoid resection, abdominal approach (2109216)",Year,2019,Record count,Overall,Numeric,Count,19,FALSE
+rectopexy_broad_cs,Codelist,Overall,Sex,Female,Record count,Overall,Numeric,Count,2206,FALSE
+rectopexy_broad_cs,Codelist,Overall,Sex,Male,Record count,Overall,Numeric,Count,731,FALSE
+rectopexy_broad_cs,By concept,"Proctopexy (eg, for prolapse); with sigmoid resection, abdominal approach (2109216)",Sex,Female,Record count,Overall,Numeric,Count,95,FALSE
+rectopexy_broad_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse), with sigmoid resection (2109209)",Sex,Female,Record count,Overall,Numeric,Count,208,FALSE
+rectopexy_broad_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse) (2109208)",Sex,Female,Record count,Overall,Numeric,Count,937,FALSE
+rectopexy_broad_cs,By concept,"Proctopexy (eg, for prolapse); perineal approach (2109215)",Sex,Female,Record count,Overall,Numeric,Count,227,FALSE
+rectopexy_broad_cs,By concept,"Proctopexy (eg, for prolapse); with sigmoid resection, abdominal approach (2109216)",Sex,Male,Record count,Overall,Numeric,Count,16,FALSE
+rectopexy_broad_cs,By concept,Reduction of procidentia (separate procedure) under anesthesia (2109224),Sex,Female,Record count,Overall,Numeric,Count,58,FALSE
+rectopexy_broad_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse), with sigmoid resection (2109209)",Sex,Male,Record count,Overall,Numeric,Count,21,FALSE
+rectopexy_broad_cs,By concept,"Proctopexy (eg, for prolapse); perineal approach (2109215)",Sex,Male,Record count,Overall,Numeric,Count,113,FALSE
+rectopexy_broad_cs,By concept,Proctoplasty; for prolapse of mucous membrane (2109212),Sex,Female,Record count,Overall,Numeric,Count,418,FALSE
+rectopexy_broad_cs,By concept,Reduction of procidentia (separate procedure) under anesthesia (2109224),Sex,Male,Record count,Overall,Numeric,Count,25,FALSE
+rectopexy_broad_cs,By concept,Proctoplasty; for prolapse of mucous membrane (2109212),Sex,Male,Record count,Overall,Numeric,Count,476,FALSE
+rectopexy_broad_cs,By concept,"Proctopexy (eg, for prolapse); abdominal approach (2109214)",Sex,Female,Record count,Overall,Numeric,Count,263,FALSE
+rectopexy_broad_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse) (2109208)",Sex,Male,Record count,Overall,Numeric,Count,63,FALSE
+rectopexy_broad_cs,By concept,"Proctopexy (eg, for prolapse); abdominal approach (2109214)",Sex,Male,Record count,Overall,Numeric,Count,17,FALSE
+rectopexy_broad_cs,Codelist,Overall,Age group,18 to 24,Record count,Overall,Numeric,Count,56,FALSE
+rectopexy_broad_cs,Codelist,Overall,Age group,None,Record count,Overall,Numeric,Count,672,FALSE
+rectopexy_broad_cs,Codelist,Overall,Age group,75 to 150,Record count,Overall,Numeric,Count,582,FALSE
+rectopexy_broad_cs,Codelist,Overall,Age group,45 to 54,Record count,Overall,Numeric,Count,477,FALSE
+rectopexy_broad_cs,Codelist,Overall,Age group,25 to 34,Record count,Overall,Numeric,Count,164,FALSE
+rectopexy_broad_cs,Codelist,Overall,Age group,35 to 44,Record count,Overall,Numeric,Count,361,FALSE
+rectopexy_broad_cs,Codelist,Overall,Age group,0 to 17,Record count,Overall,Numeric,Count,39,FALSE
+rectopexy_broad_cs,Codelist,Overall,Age group,65 to 74,Record count,Overall,Numeric,Count,586,FALSE
+rectopexy_broad_cs,By concept,"Proctopexy (eg, for prolapse); perineal approach (2109215)",Age group,18 to 24,Record count,Overall,Numeric,Count,NA,TRUE
+rectopexy_broad_cs,By concept,Proctoplasty; for prolapse of mucous membrane (2109212),Age group,45 to 54,Record count,Overall,Numeric,Count,212,FALSE
+rectopexy_broad_cs,By concept,Reduction of procidentia (separate procedure) under anesthesia (2109224),Age group,0 to 17,Record count,Overall,Numeric,Count,12,FALSE
+rectopexy_broad_cs,By concept,"Proctopexy (eg, for prolapse); perineal approach (2109215)",Age group,35 to 44,Record count,Overall,Numeric,Count,44,FALSE
+rectopexy_broad_cs,By concept,"Proctopexy (eg, for prolapse); abdominal approach (2109214)",Age group,25 to 34,Record count,Overall,Numeric,Count,7,FALSE
+rectopexy_broad_cs,By concept,"Proctopexy (eg, for prolapse); perineal approach (2109215)",Age group,None,Record count,Overall,Numeric,Count,64,FALSE
+rectopexy_broad_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse), with sigmoid resection (2109209)",Age group,25 to 34,Record count,Overall,Numeric,Count,11,FALSE
+rectopexy_broad_cs,By concept,Reduction of procidentia (separate procedure) under anesthesia (2109224),Age group,35 to 44,Record count,Overall,Numeric,Count,9,FALSE
+rectopexy_broad_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse) (2109208)",Age group,18 to 24,Record count,Overall,Numeric,Count,29,FALSE
+rectopexy_broad_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse) (2109208)",Age group,75 to 150,Record count,Overall,Numeric,Count,212,FALSE
+rectopexy_broad_cs,By concept,"Proctopexy (eg, for prolapse); abdominal approach (2109214)",Age group,75 to 150,Record count,Overall,Numeric,Count,77,FALSE
+rectopexy_broad_cs,By concept,"Proctopexy (eg, for prolapse); perineal approach (2109215)",Age group,65 to 74,Record count,Overall,Numeric,Count,62,FALSE
+rectopexy_broad_cs,By concept,"Proctopexy (eg, for prolapse); perineal approach (2109215)",Age group,0 to 17,Record count,Overall,Numeric,Count,6,FALSE
+rectopexy_broad_cs,By concept,"Proctopexy (eg, for prolapse); abdominal approach (2109214)",Age group,35 to 44,Record count,Overall,Numeric,Count,17,FALSE
+rectopexy_broad_cs,By concept,Proctoplasty; for prolapse of mucous membrane (2109212),Age group,18 to 24,Record count,Overall,Numeric,Count,10,FALSE
+rectopexy_broad_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse) (2109208)",Age group,45 to 54,Record count,Overall,Numeric,Count,144,FALSE
+rectopexy_broad_cs,By concept,"Proctopexy (eg, for prolapse); abdominal approach (2109214)",Age group,45 to 54,Record count,Overall,Numeric,Count,24,FALSE
+rectopexy_broad_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse), with sigmoid resection (2109209)",Age group,65 to 74,Record count,Overall,Numeric,Count,57,FALSE
+rectopexy_broad_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse), with sigmoid resection (2109209)",Age group,18 to 24,Record count,Overall,Numeric,Count,7,FALSE
+rectopexy_broad_cs,By concept,Proctoplasty; for prolapse of mucous membrane (2109212),Age group,None,Record count,Overall,Numeric,Count,205,FALSE
+rectopexy_broad_cs,By concept,"Proctopexy (eg, for prolapse); abdominal approach (2109214)",Age group,65 to 74,Record count,Overall,Numeric,Count,76,FALSE
+rectopexy_broad_cs,By concept,Reduction of procidentia (separate procedure) under anesthesia (2109224),Age group,None,Record count,Overall,Numeric,Count,14,FALSE
+rectopexy_broad_cs,By concept,Reduction of procidentia (separate procedure) under anesthesia (2109224),Age group,65 to 74,Record count,Overall,Numeric,Count,10,FALSE
+rectopexy_broad_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse) (2109208)",Age group,65 to 74,Record count,Overall,Numeric,Count,234,FALSE
+rectopexy_broad_cs,By concept,Proctoplasty; for prolapse of mucous membrane (2109212),Age group,0 to 17,Record count,Overall,Numeric,Count,10,FALSE
+rectopexy_broad_cs,By concept,Reduction of procidentia (separate procedure) under anesthesia (2109224),Age group,18 to 24,Record count,Overall,Numeric,Count,NA,TRUE
+rectopexy_broad_cs,By concept,"Proctopexy (eg, for prolapse); with sigmoid resection, abdominal approach (2109216)",Age group,35 to 44,Record count,Overall,Numeric,Count,8,FALSE
+rectopexy_broad_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse) (2109208)",Age group,0 to 17,Record count,Overall,Numeric,Count,10,FALSE
+rectopexy_broad_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse) (2109208)",Age group,None,Record count,Overall,Numeric,Count,224,FALSE
+rectopexy_broad_cs,By concept,Proctoplasty; for prolapse of mucous membrane (2109212),Age group,65 to 74,Record count,Overall,Numeric,Count,125,FALSE
+rectopexy_broad_cs,By concept,Proctoplasty; for prolapse of mucous membrane (2109212),Age group,75 to 150,Record count,Overall,Numeric,Count,93,FALSE
+rectopexy_broad_cs,By concept,"Proctopexy (eg, for prolapse); abdominal approach (2109214)",Age group,18 to 24,Record count,Overall,Numeric,Count,5,FALSE
+rectopexy_broad_cs,By concept,Proctoplasty; for prolapse of mucous membrane (2109212),Age group,25 to 34,Record count,Overall,Numeric,Count,86,FALSE
+rectopexy_broad_cs,By concept,"Proctopexy (eg, for prolapse); perineal approach (2109215)",Age group,45 to 54,Record count,Overall,Numeric,Count,46,FALSE
+rectopexy_broad_cs,By concept,"Proctopexy (eg, for prolapse); with sigmoid resection, abdominal approach (2109216)",Age group,65 to 74,Record count,Overall,Numeric,Count,22,FALSE
+rectopexy_broad_cs,By concept,Reduction of procidentia (separate procedure) under anesthesia (2109224),Age group,75 to 150,Record count,Overall,Numeric,Count,26,FALSE
+rectopexy_broad_cs,By concept,"Proctopexy (eg, for prolapse); abdominal approach (2109214)",Age group,None,Record count,Overall,Numeric,Count,74,FALSE
+rectopexy_broad_cs,By concept,"Proctopexy (eg, for prolapse); with sigmoid resection, abdominal approach (2109216)",Age group,0 to 17,Record count,Overall,Numeric,Count,NA,TRUE
+rectopexy_broad_cs,By concept,"Proctopexy (eg, for prolapse); perineal approach (2109215)",Age group,75 to 150,Record count,Overall,Numeric,Count,105,FALSE
+rectopexy_broad_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse) (2109208)",Age group,25 to 34,Record count,Overall,Numeric,Count,45,FALSE
+rectopexy_broad_cs,By concept,"Proctopexy (eg, for prolapse); perineal approach (2109215)",Age group,25 to 34,Record count,Overall,Numeric,Count,11,FALSE
+rectopexy_broad_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse) (2109208)",Age group,35 to 44,Record count,Overall,Numeric,Count,102,FALSE
+rectopexy_broad_cs,By concept,"Proctopexy (eg, for prolapse); with sigmoid resection, abdominal approach (2109216)",Age group,18 to 24,Record count,Overall,Numeric,Count,NA,TRUE
+rectopexy_broad_cs,By concept,"Proctopexy (eg, for prolapse); with sigmoid resection, abdominal approach (2109216)",Age group,None,Record count,Overall,Numeric,Count,37,FALSE
+rectopexy_broad_cs,By concept,"Proctopexy (eg, for prolapse); with sigmoid resection, abdominal approach (2109216)",Age group,75 to 150,Record count,Overall,Numeric,Count,27,FALSE
+rectopexy_broad_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse), with sigmoid resection (2109209)",Age group,35 to 44,Record count,Overall,Numeric,Count,28,FALSE
+rectopexy_broad_cs,By concept,"Proctopexy (eg, for prolapse); with sigmoid resection, abdominal approach (2109216)",Age group,25 to 34,Record count,Overall,Numeric,Count,NA,TRUE
+rectopexy_broad_cs,By concept,Reduction of procidentia (separate procedure) under anesthesia (2109224),Age group,45 to 54,Record count,Overall,Numeric,Count,11,FALSE
+rectopexy_broad_cs,By concept,"Proctopexy (eg, for prolapse); with sigmoid resection, abdominal approach (2109216)",Age group,45 to 54,Record count,Overall,Numeric,Count,10,FALSE
+rectopexy_broad_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse), with sigmoid resection (2109209)",Age group,None,Record count,Overall,Numeric,Count,54,FALSE
+rectopexy_broad_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse), with sigmoid resection (2109209)",Age group,75 to 150,Record count,Overall,Numeric,Count,42,FALSE
+rectopexy_broad_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse), with sigmoid resection (2109209)",Age group,45 to 54,Record count,Overall,Numeric,Count,30,FALSE
+rectopexy_broad_cs,By concept,Proctoplasty; for prolapse of mucous membrane (2109212),Age group,35 to 44,Record count,Overall,Numeric,Count,153,FALSE
+rectopexy_broad_cs,Codelist,Overall,Age group and sex,0 to 17 and Male,Record count,Overall,Numeric,Count,23,FALSE
+rectopexy_broad_cs,Codelist,Overall,Age group and sex,45 to 54 and Male,Record count,Overall,Numeric,Count,181,FALSE
+rectopexy_broad_cs,Codelist,Overall,Age group and sex,65 to 74 and Female,Record count,Overall,Numeric,Count,481,FALSE
+rectopexy_broad_cs,Codelist,Overall,Age group and sex,35 to 44 and Male,Record count,Overall,Numeric,Count,128,FALSE
+rectopexy_broad_cs,Codelist,Overall,Age group and sex,25 to 34 and Female,Record count,Overall,Numeric,Count,112,FALSE
+rectopexy_broad_cs,Codelist,Overall,Age group and sex,25 to 34 and Male,Record count,Overall,Numeric,Count,52,FALSE
+rectopexy_broad_cs,Codelist,Overall,Age group and sex,18 to 24 and Male,Record count,Overall,Numeric,Count,19,FALSE
+rectopexy_broad_cs,Codelist,Overall,Age group and sex,45 to 54 and Female,Record count,Overall,Numeric,Count,296,FALSE
+rectopexy_broad_cs,Codelist,Overall,Age group and sex,18 to 24 and Female,Record count,Overall,Numeric,Count,37,FALSE
+rectopexy_broad_cs,Codelist,Overall,Age group and sex,75 to 150 and Female,Record count,Overall,Numeric,Count,515,FALSE
+rectopexy_broad_cs,Codelist,Overall,Age group and sex,35 to 44 and Female,Record count,Overall,Numeric,Count,233,FALSE
+rectopexy_broad_cs,Codelist,Overall,Age group and sex,65 to 74 and Male,Record count,Overall,Numeric,Count,105,FALSE
+rectopexy_broad_cs,Codelist,Overall,Age group and sex,None and Female,Record count,Overall,Numeric,Count,516,FALSE
+rectopexy_broad_cs,Codelist,Overall,Age group and sex,75 to 150 and Male,Record count,Overall,Numeric,Count,67,FALSE
+rectopexy_broad_cs,Codelist,Overall,Age group and sex,None and Male,Record count,Overall,Numeric,Count,156,FALSE
+rectopexy_broad_cs,Codelist,Overall,Age group and sex,0 to 17 and Female,Record count,Overall,Numeric,Count,16,FALSE
+rectopexy_broad_cs,By concept,Proctoplasty; for prolapse of mucous membrane (2109212),Age group and sex,None and Male,Record count,Overall,Numeric,Count,112,FALSE
+rectopexy_broad_cs,By concept,"Proctopexy (eg, for prolapse); abdominal approach (2109214)",Age group and sex,35 to 44 and Male,Record count,Overall,Numeric,Count,NA,TRUE
+rectopexy_broad_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse), with sigmoid resection (2109209)",Age group and sex,35 to 44 and Male,Record count,Overall,Numeric,Count,NA,TRUE
+rectopexy_broad_cs,By concept,"Proctopexy (eg, for prolapse); abdominal approach (2109214)",Age group and sex,45 to 54 and Female,Record count,Overall,Numeric,Count,23,FALSE
+rectopexy_broad_cs,By concept,"Proctopexy (eg, for prolapse); abdominal approach (2109214)",Age group and sex,35 to 44 and Female,Record count,Overall,Numeric,Count,15,FALSE
+rectopexy_broad_cs,By concept,"Proctopexy (eg, for prolapse); abdominal approach (2109214)",Age group and sex,25 to 34 and Female,Record count,Overall,Numeric,Count,5,FALSE
+rectopexy_broad_cs,By concept,Proctoplasty; for prolapse of mucous membrane (2109212),Age group and sex,None and Female,Record count,Overall,Numeric,Count,93,FALSE
+rectopexy_broad_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse), with sigmoid resection (2109209)",Age group and sex,18 to 24 and Female,Record count,Overall,Numeric,Count,5,FALSE
+rectopexy_broad_cs,By concept,Proctoplasty; for prolapse of mucous membrane (2109212),Age group and sex,75 to 150 and Female,Record count,Overall,Numeric,Count,59,FALSE
+rectopexy_broad_cs,By concept,Proctoplasty; for prolapse of mucous membrane (2109212),Age group and sex,0 to 17 and Female,Record count,Overall,Numeric,Count,NA,TRUE
+rectopexy_broad_cs,By concept,Proctoplasty; for prolapse of mucous membrane (2109212),Age group and sex,65 to 74 and Male,Record count,Overall,Numeric,Count,60,FALSE
+rectopexy_broad_cs,By concept,Reduction of procidentia (separate procedure) under anesthesia (2109224),Age group and sex,45 to 54 and Female,Record count,Overall,Numeric,Count,NA,TRUE
+rectopexy_broad_cs,By concept,"Proctopexy (eg, for prolapse); perineal approach (2109215)",Age group and sex,75 to 150 and Female,Record count,Overall,Numeric,Count,91,FALSE
+rectopexy_broad_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse), with sigmoid resection (2109209)",Age group and sex,75 to 150 and Female,Record count,Overall,Numeric,Count,40,FALSE
+rectopexy_broad_cs,By concept,Proctoplasty; for prolapse of mucous membrane (2109212),Age group and sex,45 to 54 and Male,Record count,Overall,Numeric,Count,134,FALSE
+rectopexy_broad_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse) (2109208)",Age group and sex,35 to 44 and Male,Record count,Overall,Numeric,Count,8,FALSE
+rectopexy_broad_cs,By concept,Reduction of procidentia (separate procedure) under anesthesia (2109224),Age group and sex,18 to 24 and Female,Record count,Overall,Numeric,Count,NA,TRUE
+rectopexy_broad_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse) (2109208)",Age group and sex,65 to 74 and Male,Record count,Overall,Numeric,Count,9,FALSE
+rectopexy_broad_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse) (2109208)",Age group and sex,18 to 24 and Male,Record count,Overall,Numeric,Count,5,FALSE
+rectopexy_broad_cs,By concept,"Proctopexy (eg, for prolapse); perineal approach (2109215)",Age group and sex,None and Male,Record count,Overall,Numeric,Count,20,FALSE
+rectopexy_broad_cs,By concept,"Proctopexy (eg, for prolapse); abdominal approach (2109214)",Age group and sex,75 to 150 and Male,Record count,Overall,Numeric,Count,NA,TRUE
+rectopexy_broad_cs,By concept,"Proctopexy (eg, for prolapse); perineal approach (2109215)",Age group and sex,25 to 34 and Male,Record count,Overall,Numeric,Count,6,FALSE
+rectopexy_broad_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse) (2109208)",Age group and sex,45 to 54 and Female,Record count,Overall,Numeric,Count,131,FALSE
+rectopexy_broad_cs,By concept,"Proctopexy (eg, for prolapse); perineal approach (2109215)",Age group and sex,18 to 24 and Female,Record count,Overall,Numeric,Count,NA,TRUE
+rectopexy_broad_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse) (2109208)",Age group and sex,0 to 17 and Female,Record count,Overall,Numeric,Count,NA,TRUE
+rectopexy_broad_cs,By concept,"Proctopexy (eg, for prolapse); perineal approach (2109215)",Age group and sex,65 to 74 and Male,Record count,Overall,Numeric,Count,23,FALSE
+rectopexy_broad_cs,By concept,"Proctopexy (eg, for prolapse); with sigmoid resection, abdominal approach (2109216)",Age group and sex,65 to 74 and Male,Record count,Overall,Numeric,Count,NA,TRUE
+rectopexy_broad_cs,By concept,Reduction of procidentia (separate procedure) under anesthesia (2109224),Age group and sex,None and Male,Record count,Overall,Numeric,Count,NA,TRUE
+rectopexy_broad_cs,By concept,"Proctopexy (eg, for prolapse); perineal approach (2109215)",Age group and sex,65 to 74 and Female,Record count,Overall,Numeric,Count,39,FALSE
+rectopexy_broad_cs,By concept,"Proctopexy (eg, for prolapse); with sigmoid resection, abdominal approach (2109216)",Age group and sex,35 to 44 and Male,Record count,Overall,Numeric,Count,NA,TRUE
+rectopexy_broad_cs,By concept,Reduction of procidentia (separate procedure) under anesthesia (2109224),Age group and sex,65 to 74 and Female,Record count,Overall,Numeric,Count,6,FALSE
+rectopexy_broad_cs,By concept,Reduction of procidentia (separate procedure) under anesthesia (2109224),Age group and sex,75 to 150 and Female,Record count,Overall,Numeric,Count,25,FALSE
+rectopexy_broad_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse), with sigmoid resection (2109209)",Age group and sex,None and Female,Record count,Overall,Numeric,Count,49,FALSE
+rectopexy_broad_cs,By concept,Reduction of procidentia (separate procedure) under anesthesia (2109224),Age group and sex,None and Female,Record count,Overall,Numeric,Count,10,FALSE
+rectopexy_broad_cs,By concept,"Proctopexy (eg, for prolapse); perineal approach (2109215)",Age group and sex,35 to 44 and Male,Record count,Overall,Numeric,Count,23,FALSE
+rectopexy_broad_cs,By concept,"Proctopexy (eg, for prolapse); abdominal approach (2109214)",Age group and sex,18 to 24 and Male,Record count,Overall,Numeric,Count,NA,TRUE
+rectopexy_broad_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse) (2109208)",Age group and sex,75 to 150 and Female,Record count,Overall,Numeric,Count,204,FALSE
+rectopexy_broad_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse) (2109208)",Age group and sex,35 to 44 and Female,Record count,Overall,Numeric,Count,94,FALSE
+rectopexy_broad_cs,By concept,"Proctopexy (eg, for prolapse); perineal approach (2109215)",Age group and sex,35 to 44 and Female,Record count,Overall,Numeric,Count,21,FALSE
+rectopexy_broad_cs,By concept,"Proctopexy (eg, for prolapse); perineal approach (2109215)",Age group and sex,25 to 34 and Female,Record count,Overall,Numeric,Count,5,FALSE
+rectopexy_broad_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse) (2109208)",Age group and sex,0 to 17 and Male,Record count,Overall,Numeric,Count,7,FALSE
+rectopexy_broad_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse) (2109208)",Age group and sex,None and Female,Record count,Overall,Numeric,Count,217,FALSE
+rectopexy_broad_cs,By concept,"Proctopexy (eg, for prolapse); abdominal approach (2109214)",Age group and sex,25 to 34 and Male,Record count,Overall,Numeric,Count,NA,TRUE
+rectopexy_broad_cs,By concept,"Proctopexy (eg, for prolapse); perineal approach (2109215)",Age group and sex,18 to 24 and Male,Record count,Overall,Numeric,Count,NA,TRUE
+rectopexy_broad_cs,By concept,Reduction of procidentia (separate procedure) under anesthesia (2109224),Age group and sex,65 to 74 and Male,Record count,Overall,Numeric,Count,NA,TRUE
+rectopexy_broad_cs,By concept,"Proctopexy (eg, for prolapse); abdominal approach (2109214)",Age group and sex,65 to 74 and Female,Record count,Overall,Numeric,Count,74,FALSE
+rectopexy_broad_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse), with sigmoid resection (2109209)",Age group and sex,45 to 54 and Female,Record count,Overall,Numeric,Count,29,FALSE
+rectopexy_broad_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse), with sigmoid resection (2109209)",Age group and sex,65 to 74 and Female,Record count,Overall,Numeric,Count,51,FALSE
+rectopexy_broad_cs,By concept,Reduction of procidentia (separate procedure) under anesthesia (2109224),Age group and sex,0 to 17 and Female,Record count,Overall,Numeric,Count,8,FALSE
+rectopexy_broad_cs,By concept,Reduction of procidentia (separate procedure) under anesthesia (2109224),Age group and sex,75 to 150 and Male,Record count,Overall,Numeric,Count,NA,TRUE
+rectopexy_broad_cs,By concept,Proctoplasty; for prolapse of mucous membrane (2109212),Age group and sex,35 to 44 and Male,Record count,Overall,Numeric,Count,88,FALSE
+rectopexy_broad_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse), with sigmoid resection (2109209)",Age group and sex,18 to 24 and Male,Record count,Overall,Numeric,Count,NA,TRUE
+rectopexy_broad_cs,By concept,"Proctopexy (eg, for prolapse); perineal approach (2109215)",Age group and sex,0 to 17 and Male,Record count,Overall,Numeric,Count,NA,TRUE
+rectopexy_broad_cs,By concept,"Proctopexy (eg, for prolapse); with sigmoid resection, abdominal approach (2109216)",Age group and sex,45 to 54 and Female,Record count,Overall,Numeric,Count,8,FALSE
+rectopexy_broad_cs,By concept,Proctoplasty; for prolapse of mucous membrane (2109212),Age group and sex,18 to 24 and Female,Record count,Overall,Numeric,Count,5,FALSE
+rectopexy_broad_cs,By concept,Proctoplasty; for prolapse of mucous membrane (2109212),Age group and sex,25 to 34 and Male,Record count,Overall,Numeric,Count,35,FALSE
+rectopexy_broad_cs,By concept,"Proctopexy (eg, for prolapse); abdominal approach (2109214)",Age group and sex,None and Male,Record count,Overall,Numeric,Count,NA,TRUE
+rectopexy_broad_cs,By concept,Proctoplasty; for prolapse of mucous membrane (2109212),Age group and sex,18 to 24 and Male,Record count,Overall,Numeric,Count,5,FALSE
+rectopexy_broad_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse) (2109208)",Age group and sex,65 to 74 and Female,Record count,Overall,Numeric,Count,225,FALSE
+rectopexy_broad_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse) (2109208)",Age group and sex,45 to 54 and Male,Record count,Overall,Numeric,Count,13,FALSE
+rectopexy_broad_cs,By concept,"Proctopexy (eg, for prolapse); with sigmoid resection, abdominal approach (2109216)",Age group and sex,None and Male,Record count,Overall,Numeric,Count,5,FALSE
+rectopexy_broad_cs,By concept,"Proctopexy (eg, for prolapse); abdominal approach (2109214)",Age group and sex,18 to 24 and Female,Record count,Overall,Numeric,Count,NA,TRUE
+rectopexy_broad_cs,By concept,"Proctopexy (eg, for prolapse); perineal approach (2109215)",Age group and sex,75 to 150 and Male,Record count,Overall,Numeric,Count,14,FALSE
+rectopexy_broad_cs,By concept,"Proctopexy (eg, for prolapse); perineal approach (2109215)",Age group and sex,None and Female,Record count,Overall,Numeric,Count,44,FALSE
+rectopexy_broad_cs,By concept,Proctoplasty; for prolapse of mucous membrane (2109212),Age group and sex,65 to 74 and Female,Record count,Overall,Numeric,Count,65,FALSE
+rectopexy_broad_cs,By concept,"Proctopexy (eg, for prolapse); abdominal approach (2109214)",Age group and sex,45 to 54 and Male,Record count,Overall,Numeric,Count,NA,TRUE
+rectopexy_broad_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse) (2109208)",Age group and sex,18 to 24 and Female,Record count,Overall,Numeric,Count,24,FALSE
+rectopexy_broad_cs,By concept,"Proctopexy (eg, for prolapse); with sigmoid resection, abdominal approach (2109216)",Age group and sex,25 to 34 and Female,Record count,Overall,Numeric,Count,NA,TRUE
+rectopexy_broad_cs,By concept,"Proctopexy (eg, for prolapse); perineal approach (2109215)",Age group and sex,45 to 54 and Female,Record count,Overall,Numeric,Count,24,FALSE
+rectopexy_broad_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse) (2109208)",Age group and sex,25 to 34 and Male,Record count,Overall,Numeric,Count,6,FALSE
+rectopexy_broad_cs,By concept,"Proctopexy (eg, for prolapse); with sigmoid resection, abdominal approach (2109216)",Age group and sex,75 to 150 and Female,Record count,Overall,Numeric,Count,22,FALSE
+rectopexy_broad_cs,By concept,Proctoplasty; for prolapse of mucous membrane (2109212),Age group and sex,0 to 17 and Male,Record count,Overall,Numeric,Count,8,FALSE
+rectopexy_broad_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse), with sigmoid resection (2109209)",Age group and sex,25 to 34 and Female,Record count,Overall,Numeric,Count,8,FALSE
+rectopexy_broad_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse), with sigmoid resection (2109209)",Age group and sex,None and Male,Record count,Overall,Numeric,Count,5,FALSE
+rectopexy_broad_cs,By concept,"Proctopexy (eg, for prolapse); with sigmoid resection, abdominal approach (2109216)",Age group and sex,18 to 24 and Male,Record count,Overall,Numeric,Count,NA,TRUE
+rectopexy_broad_cs,By concept,"Proctopexy (eg, for prolapse); abdominal approach (2109214)",Age group and sex,65 to 74 and Male,Record count,Overall,Numeric,Count,NA,TRUE
+rectopexy_broad_cs,By concept,Reduction of procidentia (separate procedure) under anesthesia (2109224),Age group and sex,35 to 44 and Male,Record count,Overall,Numeric,Count,NA,TRUE
+rectopexy_broad_cs,By concept,"Proctopexy (eg, for prolapse); perineal approach (2109215)",Age group and sex,0 to 17 and Female,Record count,Overall,Numeric,Count,NA,TRUE
+rectopexy_broad_cs,By concept,Proctoplasty; for prolapse of mucous membrane (2109212),Age group and sex,45 to 54 and Female,Record count,Overall,Numeric,Count,78,FALSE
+rectopexy_broad_cs,By concept,"Proctopexy (eg, for prolapse); abdominal approach (2109214)",Age group and sex,75 to 150 and Female,Record count,Overall,Numeric,Count,74,FALSE
+rectopexy_broad_cs,By concept,"Proctopexy (eg, for prolapse); with sigmoid resection, abdominal approach (2109216)",Age group and sex,None and Female,Record count,Overall,Numeric,Count,32,FALSE
+rectopexy_broad_cs,By concept,"Proctopexy (eg, for prolapse); with sigmoid resection, abdominal approach (2109216)",Age group and sex,0 to 17 and Female,Record count,Overall,Numeric,Count,NA,TRUE
+rectopexy_broad_cs,By concept,Reduction of procidentia (separate procedure) under anesthesia (2109224),Age group and sex,45 to 54 and Male,Record count,Overall,Numeric,Count,8,FALSE
+rectopexy_broad_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse), with sigmoid resection (2109209)",Age group and sex,65 to 74 and Male,Record count,Overall,Numeric,Count,6,FALSE
+rectopexy_broad_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse), with sigmoid resection (2109209)",Age group and sex,75 to 150 and Male,Record count,Overall,Numeric,Count,NA,TRUE
+rectopexy_broad_cs,By concept,Proctoplasty; for prolapse of mucous membrane (2109212),Age group and sex,25 to 34 and Female,Record count,Overall,Numeric,Count,51,FALSE
+rectopexy_broad_cs,By concept,Reduction of procidentia (separate procedure) under anesthesia (2109224),Age group and sex,0 to 17 and Male,Record count,Overall,Numeric,Count,NA,TRUE
+rectopexy_broad_cs,By concept,"Proctopexy (eg, for prolapse); perineal approach (2109215)",Age group and sex,45 to 54 and Male,Record count,Overall,Numeric,Count,22,FALSE
+rectopexy_broad_cs,By concept,Proctoplasty; for prolapse of mucous membrane (2109212),Age group and sex,75 to 150 and Male,Record count,Overall,Numeric,Count,34,FALSE
+rectopexy_broad_cs,By concept,"Proctopexy (eg, for prolapse); with sigmoid resection, abdominal approach (2109216)",Age group and sex,35 to 44 and Female,Record count,Overall,Numeric,Count,7,FALSE
+rectopexy_broad_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse), with sigmoid resection (2109209)",Age group and sex,25 to 34 and Male,Record count,Overall,Numeric,Count,NA,TRUE
+rectopexy_broad_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse) (2109208)",Age group and sex,75 to 150 and Male,Record count,Overall,Numeric,Count,8,FALSE
+rectopexy_broad_cs,By concept,Reduction of procidentia (separate procedure) under anesthesia (2109224),Age group and sex,35 to 44 and Female,Record count,Overall,Numeric,Count,5,FALSE
+rectopexy_broad_cs,By concept,"Proctopexy (eg, for prolapse); abdominal approach (2109214)",Age group and sex,None and Female,Record count,Overall,Numeric,Count,71,FALSE
+rectopexy_broad_cs,By concept,"Proctopexy (eg, for prolapse); with sigmoid resection, abdominal approach (2109216)",Age group and sex,45 to 54 and Male,Record count,Overall,Numeric,Count,NA,TRUE
+rectopexy_broad_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse) (2109208)",Age group and sex,25 to 34 and Female,Record count,Overall,Numeric,Count,39,FALSE
+rectopexy_broad_cs,By concept,"Proctopexy (eg, for prolapse); with sigmoid resection, abdominal approach (2109216)",Age group and sex,75 to 150 and Male,Record count,Overall,Numeric,Count,5,FALSE
+rectopexy_broad_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse) (2109208)",Age group and sex,None and Male,Record count,Overall,Numeric,Count,7,FALSE
+rectopexy_broad_cs,By concept,Proctoplasty; for prolapse of mucous membrane (2109212),Age group and sex,35 to 44 and Female,Record count,Overall,Numeric,Count,65,FALSE
+rectopexy_broad_cs,By concept,"Proctopexy (eg, for prolapse); with sigmoid resection, abdominal approach (2109216)",Age group and sex,65 to 74 and Female,Record count,Overall,Numeric,Count,21,FALSE
+rectopexy_broad_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse), with sigmoid resection (2109209)",Age group and sex,35 to 44 and Female,Record count,Overall,Numeric,Count,26,FALSE
+rectopexy_broad_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse), with sigmoid resection (2109209)",Age group and sex,45 to 54 and Male,Record count,Overall,Numeric,Count,NA,TRUE
+rectopexy_broad_cs,Codelist,Overall,Overall,Overall,Person count,Overall,Numeric,Count,2095,FALSE
+rectopexy_broad_cs,By concept,"Proctopexy (eg, for prolapse); abdominal approach (2109214)",Overall,Overall,Person count,Overall,Numeric,Count,220,FALSE
+rectopexy_broad_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse) (2109208)",Overall,Overall,Person count,Overall,Numeric,Count,697,FALSE
+rectopexy_broad_cs,By concept,Proctoplasty; for prolapse of mucous membrane (2109212),Overall,Overall,Person count,Overall,Numeric,Count,698,FALSE
+rectopexy_broad_cs,By concept,"Proctopexy (eg, for prolapse); perineal approach (2109215)",Overall,Overall,Person count,Overall,Numeric,Count,260,FALSE
+rectopexy_broad_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse), with sigmoid resection (2109209)",Overall,Overall,Person count,Overall,Numeric,Count,173,FALSE
+rectopexy_broad_cs,By concept,Reduction of procidentia (separate procedure) under anesthesia (2109224),Overall,Overall,Person count,Overall,Numeric,Count,71,FALSE
+rectopexy_broad_cs,By concept,"Proctopexy (eg, for prolapse); with sigmoid resection, abdominal approach (2109216)",Overall,Overall,Person count,Overall,Numeric,Count,86,FALSE
+rectopexy_broad_cs,Codelist,Overall,Year,2017,Person count,Overall,Numeric,Count,584,FALSE
+rectopexy_broad_cs,Codelist,Overall,Year,2018,Person count,Overall,Numeric,Count,424,FALSE
+rectopexy_broad_cs,Codelist,Overall,Year,2022,Person count,Overall,Numeric,Count,88,FALSE
+rectopexy_broad_cs,Codelist,Overall,Year,2019,Person count,Overall,Numeric,Count,436,FALSE
+rectopexy_broad_cs,Codelist,Overall,Year,2021,Person count,Overall,Numeric,Count,317,FALSE
+rectopexy_broad_cs,Codelist,Overall,Year,2020,Person count,Overall,Numeric,Count,292,FALSE
+rectopexy_broad_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse) (2109208)",Year,2019,Person count,Overall,Numeric,Count,142,FALSE
+rectopexy_broad_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse) (2109208)",Year,2017,Person count,Overall,Numeric,Count,140,FALSE
+rectopexy_broad_cs,By concept,Reduction of procidentia (separate procedure) under anesthesia (2109224),Year,2020,Person count,Overall,Numeric,Count,10,FALSE
+rectopexy_broad_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse), with sigmoid resection (2109209)",Year,2017,Person count,Overall,Numeric,Count,45,FALSE
+rectopexy_broad_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse) (2109208)",Year,2022,Person count,Overall,Numeric,Count,38,FALSE
+rectopexy_broad_cs,By concept,"Proctopexy (eg, for prolapse); perineal approach (2109215)",Year,2022,Person count,Overall,Numeric,Count,9,FALSE
+rectopexy_broad_cs,By concept,"Proctopexy (eg, for prolapse); perineal approach (2109215)",Year,2020,Person count,Overall,Numeric,Count,39,FALSE
+rectopexy_broad_cs,By concept,"Proctopexy (eg, for prolapse); abdominal approach (2109214)",Year,2019,Person count,Overall,Numeric,Count,45,FALSE
+rectopexy_broad_cs,By concept,"Proctopexy (eg, for prolapse); abdominal approach (2109214)",Year,2018,Person count,Overall,Numeric,Count,50,FALSE
+rectopexy_broad_cs,By concept,"Proctopexy (eg, for prolapse); with sigmoid resection, abdominal approach (2109216)",Year,2017,Person count,Overall,Numeric,Count,27,FALSE
+rectopexy_broad_cs,By concept,Proctoplasty; for prolapse of mucous membrane (2109212),Year,2017,Person count,Overall,Numeric,Count,270,FALSE
+rectopexy_broad_cs,By concept,Reduction of procidentia (separate procedure) under anesthesia (2109224),Year,2017,Person count,Overall,Numeric,Count,12,FALSE
+rectopexy_broad_cs,By concept,Proctoplasty; for prolapse of mucous membrane (2109212),Year,2019,Person count,Overall,Numeric,Count,150,FALSE
+rectopexy_broad_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse), with sigmoid resection (2109209)",Year,2019,Person count,Overall,Numeric,Count,26,FALSE
+rectopexy_broad_cs,By concept,"Proctopexy (eg, for prolapse); with sigmoid resection, abdominal approach (2109216)",Year,2020,Person count,Overall,Numeric,Count,14,FALSE
+rectopexy_broad_cs,By concept,Proctoplasty; for prolapse of mucous membrane (2109212),Year,2022,Person count,Overall,Numeric,Count,13,FALSE
+rectopexy_broad_cs,By concept,"Proctopexy (eg, for prolapse); with sigmoid resection, abdominal approach (2109216)",Year,2018,Person count,Overall,Numeric,Count,19,FALSE
+rectopexy_broad_cs,By concept,"Proctopexy (eg, for prolapse); with sigmoid resection, abdominal approach (2109216)",Year,2022,Person count,Overall,Numeric,Count,NA,TRUE
+rectopexy_broad_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse), with sigmoid resection (2109209)",Year,2020,Person count,Overall,Numeric,Count,28,FALSE
+rectopexy_broad_cs,By concept,Reduction of procidentia (separate procedure) under anesthesia (2109224),Year,2018,Person count,Overall,Numeric,Count,12,FALSE
+rectopexy_broad_cs,By concept,"Proctopexy (eg, for prolapse); abdominal approach (2109214)",Year,2021,Person count,Overall,Numeric,Count,34,FALSE
+rectopexy_broad_cs,By concept,"Proctopexy (eg, for prolapse); abdominal approach (2109214)",Year,2022,Person count,Overall,Numeric,Count,10,FALSE
+rectopexy_broad_cs,By concept,"Proctopexy (eg, for prolapse); abdominal approach (2109214)",Year,2020,Person count,Overall,Numeric,Count,41,FALSE
+rectopexy_broad_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse) (2109208)",Year,2021,Person count,Overall,Numeric,Count,152,FALSE
+rectopexy_broad_cs,By concept,"Proctopexy (eg, for prolapse); perineal approach (2109215)",Year,2019,Person count,Overall,Numeric,Count,57,FALSE
+rectopexy_broad_cs,By concept,"Proctopexy (eg, for prolapse); abdominal approach (2109214)",Year,2017,Person count,Overall,Numeric,Count,41,FALSE
+rectopexy_broad_cs,By concept,Reduction of procidentia (separate procedure) under anesthesia (2109224),Year,2022,Person count,Overall,Numeric,Count,NA,TRUE
+rectopexy_broad_cs,By concept,Reduction of procidentia (separate procedure) under anesthesia (2109224),Year,2019,Person count,Overall,Numeric,Count,21,FALSE
+rectopexy_broad_cs,By concept,"Proctopexy (eg, for prolapse); perineal approach (2109215)",Year,2021,Person count,Overall,Numeric,Count,41,FALSE
+rectopexy_broad_cs,By concept,Proctoplasty; for prolapse of mucous membrane (2109212),Year,2018,Person count,Overall,Numeric,Count,147,FALSE
+rectopexy_broad_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse), with sigmoid resection (2109209)",Year,2022,Person count,Overall,Numeric,Count,17,FALSE
+rectopexy_broad_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse), with sigmoid resection (2109209)",Year,2021,Person count,Overall,Numeric,Count,27,FALSE
+rectopexy_broad_cs,By concept,Reduction of procidentia (separate procedure) under anesthesia (2109224),Year,2021,Person count,Overall,Numeric,Count,13,FALSE
+rectopexy_broad_cs,By concept,"Proctopexy (eg, for prolapse); perineal approach (2109215)",Year,2017,Person count,Overall,Numeric,Count,67,FALSE
+rectopexy_broad_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse) (2109208)",Year,2018,Person count,Overall,Numeric,Count,131,FALSE
+rectopexy_broad_cs,By concept,Proctoplasty; for prolapse of mucous membrane (2109212),Year,2020,Person count,Overall,Numeric,Count,66,FALSE
+rectopexy_broad_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse), with sigmoid resection (2109209)",Year,2018,Person count,Overall,Numeric,Count,30,FALSE
+rectopexy_broad_cs,By concept,"Proctopexy (eg, for prolapse); with sigmoid resection, abdominal approach (2109216)",Year,2019,Person count,Overall,Numeric,Count,13,FALSE
+rectopexy_broad_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse) (2109208)",Year,2020,Person count,Overall,Numeric,Count,104,FALSE
+rectopexy_broad_cs,By concept,"Proctopexy (eg, for prolapse); with sigmoid resection, abdominal approach (2109216)",Year,2021,Person count,Overall,Numeric,Count,13,FALSE
+rectopexy_broad_cs,By concept,Proctoplasty; for prolapse of mucous membrane (2109212),Year,2021,Person count,Overall,Numeric,Count,56,FALSE
+rectopexy_broad_cs,By concept,"Proctopexy (eg, for prolapse); perineal approach (2109215)",Year,2018,Person count,Overall,Numeric,Count,50,FALSE
+rectopexy_broad_cs,Codelist,Overall,Sex,Female,Person count,Overall,Numeric,Count,1556,FALSE
+rectopexy_broad_cs,Codelist,Overall,Sex,Male,Person count,Overall,Numeric,Count,539,FALSE
+rectopexy_broad_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse), with sigmoid resection (2109209)",Sex,Female,Person count,Overall,Numeric,Count,159,FALSE
+rectopexy_broad_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse) (2109208)",Sex,Female,Person count,Overall,Numeric,Count,652,FALSE
+rectopexy_broad_cs,By concept,"Proctopexy (eg, for prolapse); with sigmoid resection, abdominal approach (2109216)",Sex,Male,Person count,Overall,Numeric,Count,12,FALSE
+rectopexy_broad_cs,By concept,Proctoplasty; for prolapse of mucous membrane (2109212),Sex,Male,Person count,Overall,Numeric,Count,367,FALSE
+rectopexy_broad_cs,By concept,"Proctopexy (eg, for prolapse); abdominal approach (2109214)",Sex,Male,Person count,Overall,Numeric,Count,13,FALSE
+rectopexy_broad_cs,By concept,"Proctopexy (eg, for prolapse); with sigmoid resection, abdominal approach (2109216)",Sex,Female,Person count,Overall,Numeric,Count,74,FALSE
+rectopexy_broad_cs,By concept,"Proctopexy (eg, for prolapse); perineal approach (2109215)",Sex,Female,Person count,Overall,Numeric,Count,176,FALSE
+rectopexy_broad_cs,By concept,Reduction of procidentia (separate procedure) under anesthesia (2109224),Sex,Female,Person count,Overall,Numeric,Count,48,FALSE
+rectopexy_broad_cs,By concept,"Proctopexy (eg, for prolapse); perineal approach (2109215)",Sex,Male,Person count,Overall,Numeric,Count,84,FALSE
+rectopexy_broad_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse), with sigmoid resection (2109209)",Sex,Male,Person count,Overall,Numeric,Count,14,FALSE
+rectopexy_broad_cs,By concept,Proctoplasty; for prolapse of mucous membrane (2109212),Sex,Female,Person count,Overall,Numeric,Count,331,FALSE
+rectopexy_broad_cs,By concept,Reduction of procidentia (separate procedure) under anesthesia (2109224),Sex,Male,Person count,Overall,Numeric,Count,23,FALSE
+rectopexy_broad_cs,By concept,"Proctopexy (eg, for prolapse); abdominal approach (2109214)",Sex,Female,Person count,Overall,Numeric,Count,207,FALSE
+rectopexy_broad_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse) (2109208)",Sex,Male,Person count,Overall,Numeric,Count,45,FALSE
+rectopexy_broad_cs,Codelist,Overall,Age group,75 to 150,Person count,Overall,Numeric,Count,438,FALSE
+rectopexy_broad_cs,Codelist,Overall,Age group,25 to 34,Person count,Overall,Numeric,Count,119,FALSE
+rectopexy_broad_cs,Codelist,Overall,Age group,None,Person count,Overall,Numeric,Count,462,FALSE
+rectopexy_broad_cs,Codelist,Overall,Age group,0 to 17,Person count,Overall,Numeric,Count,30,FALSE
+rectopexy_broad_cs,Codelist,Overall,Age group,45 to 54,Person count,Overall,Numeric,Count,332,FALSE
+rectopexy_broad_cs,Codelist,Overall,Age group,65 to 74,Person count,Overall,Numeric,Count,428,FALSE
+rectopexy_broad_cs,Codelist,Overall,Age group,35 to 44,Person count,Overall,Numeric,Count,249,FALSE
+rectopexy_broad_cs,Codelist,Overall,Age group,18 to 24,Person count,Overall,Numeric,Count,41,FALSE
+rectopexy_broad_cs,By concept,Reduction of procidentia (separate procedure) under anesthesia (2109224),Age group,65 to 74,Person count,Overall,Numeric,Count,9,FALSE
+rectopexy_broad_cs,By concept,"Proctopexy (eg, for prolapse); perineal approach (2109215)",Age group,18 to 24,Person count,Overall,Numeric,Count,NA,TRUE
+rectopexy_broad_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse) (2109208)",Age group,65 to 74,Person count,Overall,Numeric,Count,175,FALSE
+rectopexy_broad_cs,By concept,Proctoplasty; for prolapse of mucous membrane (2109212),Age group,0 to 17,Person count,Overall,Numeric,Count,8,FALSE
+rectopexy_broad_cs,By concept,Reduction of procidentia (separate procedure) under anesthesia (2109224),Age group,18 to 24,Person count,Overall,Numeric,Count,NA,TRUE
+rectopexy_broad_cs,By concept,"Proctopexy (eg, for prolapse); with sigmoid resection, abdominal approach (2109216)",Age group,35 to 44,Person count,Overall,Numeric,Count,6,FALSE
+rectopexy_broad_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse) (2109208)",Age group,0 to 17,Person count,Overall,Numeric,Count,6,FALSE
+rectopexy_broad_cs,By concept,Proctoplasty; for prolapse of mucous membrane (2109212),Age group,45 to 54,Person count,Overall,Numeric,Count,165,FALSE
+rectopexy_broad_cs,By concept,Reduction of procidentia (separate procedure) under anesthesia (2109224),Age group,0 to 17,Person count,Overall,Numeric,Count,11,FALSE
+rectopexy_broad_cs,By concept,"Proctopexy (eg, for prolapse); perineal approach (2109215)",Age group,35 to 44,Person count,Overall,Numeric,Count,31,FALSE
+rectopexy_broad_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse) (2109208)",Age group,None,Person count,Overall,Numeric,Count,151,FALSE
+rectopexy_broad_cs,By concept,"Proctopexy (eg, for prolapse); abdominal approach (2109214)",Age group,25 to 34,Person count,Overall,Numeric,Count,5,FALSE
+rectopexy_broad_cs,By concept,"Proctopexy (eg, for prolapse); perineal approach (2109215)",Age group,None,Person count,Overall,Numeric,Count,49,FALSE
+rectopexy_broad_cs,By concept,Proctoplasty; for prolapse of mucous membrane (2109212),Age group,65 to 74,Person count,Overall,Numeric,Count,105,FALSE
+rectopexy_broad_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse), with sigmoid resection (2109209)",Age group,25 to 34,Person count,Overall,Numeric,Count,10,FALSE
+rectopexy_broad_cs,By concept,Reduction of procidentia (separate procedure) under anesthesia (2109224),Age group,35 to 44,Person count,Overall,Numeric,Count,6,FALSE
+rectopexy_broad_cs,By concept,Proctoplasty; for prolapse of mucous membrane (2109212),Age group,75 to 150,Person count,Overall,Numeric,Count,79,FALSE
+rectopexy_broad_cs,By concept,"Proctopexy (eg, for prolapse); abdominal approach (2109214)",Age group,18 to 24,Person count,Overall,Numeric,Count,5,FALSE
+rectopexy_broad_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse) (2109208)",Age group,18 to 24,Person count,Overall,Numeric,Count,19,FALSE
+rectopexy_broad_cs,By concept,Proctoplasty; for prolapse of mucous membrane (2109212),Age group,25 to 34,Person count,Overall,Numeric,Count,62,FALSE
+rectopexy_broad_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse) (2109208)",Age group,75 to 150,Person count,Overall,Numeric,Count,165,FALSE
+rectopexy_broad_cs,By concept,"Proctopexy (eg, for prolapse); abdominal approach (2109214)",Age group,75 to 150,Person count,Overall,Numeric,Count,64,FALSE
+rectopexy_broad_cs,By concept,"Proctopexy (eg, for prolapse); perineal approach (2109215)",Age group,45 to 54,Person count,Overall,Numeric,Count,33,FALSE
+rectopexy_broad_cs,By concept,"Proctopexy (eg, for prolapse); with sigmoid resection, abdominal approach (2109216)",Age group,65 to 74,Person count,Overall,Numeric,Count,17,FALSE
+rectopexy_broad_cs,By concept,Reduction of procidentia (separate procedure) under anesthesia (2109224),Age group,75 to 150,Person count,Overall,Numeric,Count,22,FALSE
+rectopexy_broad_cs,By concept,"Proctopexy (eg, for prolapse); perineal approach (2109215)",Age group,65 to 74,Person count,Overall,Numeric,Count,52,FALSE
+rectopexy_broad_cs,By concept,"Proctopexy (eg, for prolapse); abdominal approach (2109214)",Age group,None,Person count,Overall,Numeric,Count,52,FALSE
+rectopexy_broad_cs,By concept,"Proctopexy (eg, for prolapse); perineal approach (2109215)",Age group,0 to 17,Person count,Overall,Numeric,Count,5,FALSE
+rectopexy_broad_cs,By concept,"Proctopexy (eg, for prolapse); with sigmoid resection, abdominal approach (2109216)",Age group,0 to 17,Person count,Overall,Numeric,Count,NA,TRUE
+rectopexy_broad_cs,By concept,"Proctopexy (eg, for prolapse); abdominal approach (2109214)",Age group,35 to 44,Person count,Overall,Numeric,Count,14,FALSE
+rectopexy_broad_cs,By concept,"Proctopexy (eg, for prolapse); perineal approach (2109215)",Age group,75 to 150,Person count,Overall,Numeric,Count,79,FALSE
+rectopexy_broad_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse) (2109208)",Age group,25 to 34,Person count,Overall,Numeric,Count,30,FALSE
+rectopexy_broad_cs,By concept,"Proctopexy (eg, for prolapse); perineal approach (2109215)",Age group,25 to 34,Person count,Overall,Numeric,Count,9,FALSE
+rectopexy_broad_cs,By concept,Proctoplasty; for prolapse of mucous membrane (2109212),Age group,18 to 24,Person count,Overall,Numeric,Count,9,FALSE
+rectopexy_broad_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse) (2109208)",Age group,35 to 44,Person count,Overall,Numeric,Count,67,FALSE
+rectopexy_broad_cs,By concept,"Proctopexy (eg, for prolapse); with sigmoid resection, abdominal approach (2109216)",Age group,18 to 24,Person count,Overall,Numeric,Count,NA,TRUE
+rectopexy_broad_cs,By concept,"Proctopexy (eg, for prolapse); with sigmoid resection, abdominal approach (2109216)",Age group,None,Person count,Overall,Numeric,Count,30,FALSE
+rectopexy_broad_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse) (2109208)",Age group,45 to 54,Person count,Overall,Numeric,Count,85,FALSE
+rectopexy_broad_cs,By concept,"Proctopexy (eg, for prolapse); abdominal approach (2109214)",Age group,45 to 54,Person count,Overall,Numeric,Count,21,FALSE
+rectopexy_broad_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse), with sigmoid resection (2109209)",Age group,65 to 74,Person count,Overall,Numeric,Count,41,FALSE
+rectopexy_broad_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse), with sigmoid resection (2109209)",Age group,18 to 24,Person count,Overall,Numeric,Count,6,FALSE
+rectopexy_broad_cs,By concept,"Proctopexy (eg, for prolapse); with sigmoid resection, abdominal approach (2109216)",Age group,75 to 150,Person count,Overall,Numeric,Count,19,FALSE
+rectopexy_broad_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse), with sigmoid resection (2109209)",Age group,35 to 44,Person count,Overall,Numeric,Count,21,FALSE
+rectopexy_broad_cs,By concept,"Proctopexy (eg, for prolapse); with sigmoid resection, abdominal approach (2109216)",Age group,25 to 34,Person count,Overall,Numeric,Count,NA,TRUE
+rectopexy_broad_cs,By concept,Proctoplasty; for prolapse of mucous membrane (2109212),Age group,None,Person count,Overall,Numeric,Count,157,FALSE
+rectopexy_broad_cs,By concept,Reduction of procidentia (separate procedure) under anesthesia (2109224),Age group,45 to 54,Person count,Overall,Numeric,Count,10,FALSE
+rectopexy_broad_cs,By concept,"Proctopexy (eg, for prolapse); with sigmoid resection, abdominal approach (2109216)",Age group,45 to 54,Person count,Overall,Numeric,Count,8,FALSE
+rectopexy_broad_cs,By concept,"Proctopexy (eg, for prolapse); abdominal approach (2109214)",Age group,65 to 74,Person count,Overall,Numeric,Count,59,FALSE
+rectopexy_broad_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse), with sigmoid resection (2109209)",Age group,None,Person count,Overall,Numeric,Count,40,FALSE
+rectopexy_broad_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse), with sigmoid resection (2109209)",Age group,75 to 150,Person count,Overall,Numeric,Count,34,FALSE
+rectopexy_broad_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse), with sigmoid resection (2109209)",Age group,45 to 54,Person count,Overall,Numeric,Count,21,FALSE
+rectopexy_broad_cs,By concept,Proctoplasty; for prolapse of mucous membrane (2109212),Age group,35 to 44,Person count,Overall,Numeric,Count,113,FALSE
+rectopexy_broad_cs,By concept,Reduction of procidentia (separate procedure) under anesthesia (2109224),Age group,None,Person count,Overall,Numeric,Count,12,FALSE
+rectopexy_broad_cs,Codelist,Overall,Age group and sex,75 to 150 and Female,Person count,Overall,Numeric,Count,386,FALSE
+rectopexy_broad_cs,Codelist,Overall,Age group and sex,45 to 54 and Female,Person count,Overall,Numeric,Count,197,FALSE
+rectopexy_broad_cs,Codelist,Overall,Age group and sex,None and Male,Person count,Overall,Numeric,Count,112,FALSE
+rectopexy_broad_cs,Codelist,Overall,Age group and sex,35 to 44 and Male,Person count,Overall,Numeric,Count,91,FALSE
+rectopexy_broad_cs,Codelist,Overall,Age group and sex,35 to 44 and Female,Person count,Overall,Numeric,Count,158,FALSE
+rectopexy_broad_cs,Codelist,Overall,Age group and sex,None and Female,Person count,Overall,Numeric,Count,350,FALSE
+rectopexy_broad_cs,Codelist,Overall,Age group and sex,0 to 17 and Female,Person count,Overall,Numeric,Count,14,FALSE
+rectopexy_broad_cs,Codelist,Overall,Age group and sex,0 to 17 and Male,Person count,Overall,Numeric,Count,16,FALSE
+rectopexy_broad_cs,Codelist,Overall,Age group and sex,45 to 54 and Male,Person count,Overall,Numeric,Count,135,FALSE
+rectopexy_broad_cs,Codelist,Overall,Age group and sex,65 to 74 and Female,Person count,Overall,Numeric,Count,345,FALSE
+rectopexy_broad_cs,Codelist,Overall,Age group and sex,25 to 34 and Female,Person count,Overall,Numeric,Count,82,FALSE
+rectopexy_broad_cs,Codelist,Overall,Age group and sex,65 to 74 and Male,Person count,Overall,Numeric,Count,83,FALSE
+rectopexy_broad_cs,Codelist,Overall,Age group and sex,25 to 34 and Male,Person count,Overall,Numeric,Count,37,FALSE
+rectopexy_broad_cs,Codelist,Overall,Age group and sex,18 to 24 and Male,Person count,Overall,Numeric,Count,15,FALSE
+rectopexy_broad_cs,Codelist,Overall,Age group and sex,18 to 24 and Female,Person count,Overall,Numeric,Count,26,FALSE
+rectopexy_broad_cs,Codelist,Overall,Age group and sex,75 to 150 and Male,Person count,Overall,Numeric,Count,52,FALSE
+rectopexy_broad_cs,By concept,Proctoplasty; for prolapse of mucous membrane (2109212),Age group and sex,None and Male,Person count,Overall,Numeric,Count,85,FALSE
+rectopexy_broad_cs,By concept,"Proctopexy (eg, for prolapse); abdominal approach (2109214)",Age group and sex,35 to 44 and Male,Person count,Overall,Numeric,Count,NA,TRUE
+rectopexy_broad_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse), with sigmoid resection (2109209)",Age group and sex,35 to 44 and Male,Person count,Overall,Numeric,Count,NA,TRUE
+rectopexy_broad_cs,By concept,Reduction of procidentia (separate procedure) under anesthesia (2109224),Age group and sex,0 to 17 and Female,Person count,Overall,Numeric,Count,7,FALSE
+rectopexy_broad_cs,By concept,"Proctopexy (eg, for prolapse); abdominal approach (2109214)",Age group and sex,45 to 54 and Female,Person count,Overall,Numeric,Count,20,FALSE
+rectopexy_broad_cs,By concept,Reduction of procidentia (separate procedure) under anesthesia (2109224),Age group and sex,75 to 150 and Male,Person count,Overall,Numeric,Count,NA,TRUE
+rectopexy_broad_cs,By concept,Proctoplasty; for prolapse of mucous membrane (2109212),Age group and sex,35 to 44 and Male,Person count,Overall,Numeric,Count,65,FALSE
+rectopexy_broad_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse), with sigmoid resection (2109209)",Age group and sex,18 to 24 and Male,Person count,Overall,Numeric,Count,NA,TRUE
+rectopexy_broad_cs,By concept,"Proctopexy (eg, for prolapse); perineal approach (2109215)",Age group and sex,0 to 17 and Male,Person count,Overall,Numeric,Count,NA,TRUE
+rectopexy_broad_cs,By concept,"Proctopexy (eg, for prolapse); with sigmoid resection, abdominal approach (2109216)",Age group and sex,45 to 54 and Female,Person count,Overall,Numeric,Count,7,FALSE
+rectopexy_broad_cs,By concept,Proctoplasty; for prolapse of mucous membrane (2109212),Age group and sex,18 to 24 and Female,Person count,Overall,Numeric,Count,5,FALSE
+rectopexy_broad_cs,By concept,"Proctopexy (eg, for prolapse); abdominal approach (2109214)",Age group and sex,35 to 44 and Female,Person count,Overall,Numeric,Count,13,FALSE
+rectopexy_broad_cs,By concept,"Proctopexy (eg, for prolapse); abdominal approach (2109214)",Age group and sex,25 to 34 and Female,Person count,Overall,Numeric,Count,NA,TRUE
+rectopexy_broad_cs,By concept,Proctoplasty; for prolapse of mucous membrane (2109212),Age group and sex,25 to 34 and Male,Person count,Overall,Numeric,Count,26,FALSE
+rectopexy_broad_cs,By concept,Proctoplasty; for prolapse of mucous membrane (2109212),Age group and sex,None and Female,Person count,Overall,Numeric,Count,72,FALSE
+rectopexy_broad_cs,By concept,"Proctopexy (eg, for prolapse); abdominal approach (2109214)",Age group and sex,None and Male,Person count,Overall,Numeric,Count,NA,TRUE
+rectopexy_broad_cs,By concept,Proctoplasty; for prolapse of mucous membrane (2109212),Age group and sex,18 to 24 and Male,Person count,Overall,Numeric,Count,NA,TRUE
+rectopexy_broad_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse) (2109208)",Age group and sex,65 to 74 and Female,Person count,Overall,Numeric,Count,167,FALSE
+rectopexy_broad_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse), with sigmoid resection (2109209)",Age group and sex,18 to 24 and Female,Person count,Overall,Numeric,Count,NA,TRUE
+rectopexy_broad_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse) (2109208)",Age group and sex,45 to 54 and Male,Person count,Overall,Numeric,Count,10,FALSE
+rectopexy_broad_cs,By concept,Proctoplasty; for prolapse of mucous membrane (2109212),Age group and sex,75 to 150 and Female,Person count,Overall,Numeric,Count,50,FALSE
+rectopexy_broad_cs,By concept,"Proctopexy (eg, for prolapse); with sigmoid resection, abdominal approach (2109216)",Age group and sex,None and Male,Person count,Overall,Numeric,Count,NA,TRUE
+rectopexy_broad_cs,By concept,"Proctopexy (eg, for prolapse); perineal approach (2109215)",Age group and sex,75 to 150 and Male,Person count,Overall,Numeric,Count,11,FALSE
+rectopexy_broad_cs,By concept,"Proctopexy (eg, for prolapse); abdominal approach (2109214)",Age group and sex,18 to 24 and Female,Person count,Overall,Numeric,Count,NA,TRUE
+rectopexy_broad_cs,By concept,"Proctopexy (eg, for prolapse); perineal approach (2109215)",Age group and sex,None and Female,Person count,Overall,Numeric,Count,35,FALSE
+rectopexy_broad_cs,By concept,Proctoplasty; for prolapse of mucous membrane (2109212),Age group and sex,0 to 17 and Female,Person count,Overall,Numeric,Count,NA,TRUE
+rectopexy_broad_cs,By concept,Proctoplasty; for prolapse of mucous membrane (2109212),Age group and sex,65 to 74 and Female,Person count,Overall,Numeric,Count,54,FALSE
+rectopexy_broad_cs,By concept,Proctoplasty; for prolapse of mucous membrane (2109212),Age group and sex,65 to 74 and Male,Person count,Overall,Numeric,Count,51,FALSE
+rectopexy_broad_cs,By concept,Reduction of procidentia (separate procedure) under anesthesia (2109224),Age group and sex,45 to 54 and Female,Person count,Overall,Numeric,Count,NA,TRUE
+rectopexy_broad_cs,By concept,"Proctopexy (eg, for prolapse); abdominal approach (2109214)",Age group and sex,45 to 54 and Male,Person count,Overall,Numeric,Count,NA,TRUE
+rectopexy_broad_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse) (2109208)",Age group and sex,18 to 24 and Female,Person count,Overall,Numeric,Count,16,FALSE
+rectopexy_broad_cs,By concept,"Proctopexy (eg, for prolapse); perineal approach (2109215)",Age group and sex,75 to 150 and Female,Person count,Overall,Numeric,Count,68,FALSE
+rectopexy_broad_cs,By concept,"Proctopexy (eg, for prolapse); with sigmoid resection, abdominal approach (2109216)",Age group and sex,25 to 34 and Female,Person count,Overall,Numeric,Count,NA,TRUE
+rectopexy_broad_cs,By concept,"Proctopexy (eg, for prolapse); perineal approach (2109215)",Age group and sex,45 to 54 and Female,Person count,Overall,Numeric,Count,17,FALSE
+rectopexy_broad_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse), with sigmoid resection (2109209)",Age group and sex,75 to 150 and Female,Person count,Overall,Numeric,Count,33,FALSE
+rectopexy_broad_cs,By concept,"Proctopexy (eg, for prolapse); with sigmoid resection, abdominal approach (2109216)",Age group and sex,75 to 150 and Female,Person count,Overall,Numeric,Count,15,FALSE
+rectopexy_broad_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse) (2109208)",Age group and sex,25 to 34 and Male,Person count,Overall,Numeric,Count,NA,TRUE
+rectopexy_broad_cs,By concept,Proctoplasty; for prolapse of mucous membrane (2109212),Age group and sex,0 to 17 and Male,Person count,Overall,Numeric,Count,6,FALSE
+rectopexy_broad_cs,By concept,Proctoplasty; for prolapse of mucous membrane (2109212),Age group and sex,45 to 54 and Male,Person count,Overall,Numeric,Count,101,FALSE
+rectopexy_broad_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse), with sigmoid resection (2109209)",Age group and sex,25 to 34 and Female,Person count,Overall,Numeric,Count,8,FALSE
+rectopexy_broad_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse), with sigmoid resection (2109209)",Age group and sex,None and Male,Person count,Overall,Numeric,Count,NA,TRUE
+rectopexy_broad_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse) (2109208)",Age group and sex,35 to 44 and Male,Person count,Overall,Numeric,Count,5,FALSE
+rectopexy_broad_cs,By concept,"Proctopexy (eg, for prolapse); with sigmoid resection, abdominal approach (2109216)",Age group and sex,18 to 24 and Male,Person count,Overall,Numeric,Count,NA,TRUE
+rectopexy_broad_cs,By concept,"Proctopexy (eg, for prolapse); abdominal approach (2109214)",Age group and sex,65 to 74 and Male,Person count,Overall,Numeric,Count,NA,TRUE
+rectopexy_broad_cs,By concept,Reduction of procidentia (separate procedure) under anesthesia (2109224),Age group and sex,35 to 44 and Male,Person count,Overall,Numeric,Count,NA,TRUE
+rectopexy_broad_cs,By concept,Reduction of procidentia (separate procedure) under anesthesia (2109224),Age group and sex,18 to 24 and Female,Person count,Overall,Numeric,Count,NA,TRUE
+rectopexy_broad_cs,By concept,"Proctopexy (eg, for prolapse); perineal approach (2109215)",Age group and sex,0 to 17 and Female,Person count,Overall,Numeric,Count,NA,TRUE
+rectopexy_broad_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse) (2109208)",Age group and sex,65 to 74 and Male,Person count,Overall,Numeric,Count,8,FALSE
+rectopexy_broad_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse) (2109208)",Age group and sex,18 to 24 and Male,Person count,Overall,Numeric,Count,NA,TRUE
+rectopexy_broad_cs,By concept,Proctoplasty; for prolapse of mucous membrane (2109212),Age group and sex,45 to 54 and Female,Person count,Overall,Numeric,Count,64,FALSE
+rectopexy_broad_cs,By concept,"Proctopexy (eg, for prolapse); abdominal approach (2109214)",Age group and sex,75 to 150 and Female,Person count,Overall,Numeric,Count,62,FALSE
+rectopexy_broad_cs,By concept,"Proctopexy (eg, for prolapse); with sigmoid resection, abdominal approach (2109216)",Age group and sex,None and Female,Person count,Overall,Numeric,Count,26,FALSE
+rectopexy_broad_cs,By concept,"Proctopexy (eg, for prolapse); perineal approach (2109215)",Age group and sex,None and Male,Person count,Overall,Numeric,Count,14,FALSE
+rectopexy_broad_cs,By concept,"Proctopexy (eg, for prolapse); abdominal approach (2109214)",Age group and sex,75 to 150 and Male,Person count,Overall,Numeric,Count,NA,TRUE
+rectopexy_broad_cs,By concept,"Proctopexy (eg, for prolapse); perineal approach (2109215)",Age group and sex,25 to 34 and Male,Person count,Overall,Numeric,Count,5,FALSE
+rectopexy_broad_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse) (2109208)",Age group and sex,45 to 54 and Female,Person count,Overall,Numeric,Count,75,FALSE
+rectopexy_broad_cs,By concept,"Proctopexy (eg, for prolapse); with sigmoid resection, abdominal approach (2109216)",Age group and sex,0 to 17 and Female,Person count,Overall,Numeric,Count,NA,TRUE
+rectopexy_broad_cs,By concept,"Proctopexy (eg, for prolapse); perineal approach (2109215)",Age group and sex,18 to 24 and Female,Person count,Overall,Numeric,Count,NA,TRUE
+rectopexy_broad_cs,By concept,Reduction of procidentia (separate procedure) under anesthesia (2109224),Age group and sex,45 to 54 and Male,Person count,Overall,Numeric,Count,8,FALSE
+rectopexy_broad_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse), with sigmoid resection (2109209)",Age group and sex,65 to 74 and Male,Person count,Overall,Numeric,Count,NA,TRUE
+rectopexy_broad_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse), with sigmoid resection (2109209)",Age group and sex,75 to 150 and Male,Person count,Overall,Numeric,Count,NA,TRUE
+rectopexy_broad_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse) (2109208)",Age group and sex,0 to 17 and Female,Person count,Overall,Numeric,Count,NA,TRUE
+rectopexy_broad_cs,By concept,Proctoplasty; for prolapse of mucous membrane (2109212),Age group and sex,25 to 34 and Female,Person count,Overall,Numeric,Count,36,FALSE
+rectopexy_broad_cs,By concept,"Proctopexy (eg, for prolapse); perineal approach (2109215)",Age group and sex,65 to 74 and Male,Person count,Overall,Numeric,Count,18,FALSE
+rectopexy_broad_cs,By concept,Reduction of procidentia (separate procedure) under anesthesia (2109224),Age group and sex,0 to 17 and Male,Person count,Overall,Numeric,Count,NA,TRUE
+rectopexy_broad_cs,By concept,"Proctopexy (eg, for prolapse); with sigmoid resection, abdominal approach (2109216)",Age group and sex,65 to 74 and Male,Person count,Overall,Numeric,Count,NA,TRUE
+rectopexy_broad_cs,By concept,"Proctopexy (eg, for prolapse); perineal approach (2109215)",Age group and sex,45 to 54 and Male,Person count,Overall,Numeric,Count,16,FALSE
+rectopexy_broad_cs,By concept,Proctoplasty; for prolapse of mucous membrane (2109212),Age group and sex,75 to 150 and Male,Person count,Overall,Numeric,Count,29,FALSE
+rectopexy_broad_cs,By concept,Reduction of procidentia (separate procedure) under anesthesia (2109224),Age group and sex,None and Male,Person count,Overall,Numeric,Count,NA,TRUE
+rectopexy_broad_cs,By concept,"Proctopexy (eg, for prolapse); with sigmoid resection, abdominal approach (2109216)",Age group and sex,35 to 44 and Female,Person count,Overall,Numeric,Count,5,FALSE
+rectopexy_broad_cs,By concept,"Proctopexy (eg, for prolapse); perineal approach (2109215)",Age group and sex,65 to 74 and Female,Person count,Overall,Numeric,Count,34,FALSE
+rectopexy_broad_cs,By concept,"Proctopexy (eg, for prolapse); with sigmoid resection, abdominal approach (2109216)",Age group and sex,35 to 44 and Male,Person count,Overall,Numeric,Count,NA,TRUE
+rectopexy_broad_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse), with sigmoid resection (2109209)",Age group and sex,25 to 34 and Male,Person count,Overall,Numeric,Count,NA,TRUE
+rectopexy_broad_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse) (2109208)",Age group and sex,75 to 150 and Male,Person count,Overall,Numeric,Count,6,FALSE
+rectopexy_broad_cs,By concept,Reduction of procidentia (separate procedure) under anesthesia (2109224),Age group and sex,65 to 74 and Female,Person count,Overall,Numeric,Count,6,FALSE
+rectopexy_broad_cs,By concept,Reduction of procidentia (separate procedure) under anesthesia (2109224),Age group and sex,75 to 150 and Female,Person count,Overall,Numeric,Count,21,FALSE
+rectopexy_broad_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse), with sigmoid resection (2109209)",Age group and sex,None and Female,Person count,Overall,Numeric,Count,37,FALSE
+rectopexy_broad_cs,By concept,Reduction of procidentia (separate procedure) under anesthesia (2109224),Age group and sex,None and Female,Person count,Overall,Numeric,Count,9,FALSE
+rectopexy_broad_cs,By concept,"Proctopexy (eg, for prolapse); perineal approach (2109215)",Age group and sex,35 to 44 and Male,Person count,Overall,Numeric,Count,16,FALSE
+rectopexy_broad_cs,By concept,Reduction of procidentia (separate procedure) under anesthesia (2109224),Age group and sex,35 to 44 and Female,Person count,Overall,Numeric,Count,NA,TRUE
+rectopexy_broad_cs,By concept,"Proctopexy (eg, for prolapse); abdominal approach (2109214)",Age group and sex,18 to 24 and Male,Person count,Overall,Numeric,Count,NA,TRUE
+rectopexy_broad_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse) (2109208)",Age group and sex,75 to 150 and Female,Person count,Overall,Numeric,Count,159,FALSE
+rectopexy_broad_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse) (2109208)",Age group and sex,35 to 44 and Female,Person count,Overall,Numeric,Count,62,FALSE
+rectopexy_broad_cs,By concept,"Proctopexy (eg, for prolapse); abdominal approach (2109214)",Age group and sex,None and Female,Person count,Overall,Numeric,Count,50,FALSE
+rectopexy_broad_cs,By concept,"Proctopexy (eg, for prolapse); perineal approach (2109215)",Age group and sex,35 to 44 and Female,Person count,Overall,Numeric,Count,15,FALSE
+rectopexy_broad_cs,By concept,"Proctopexy (eg, for prolapse); with sigmoid resection, abdominal approach (2109216)",Age group and sex,45 to 54 and Male,Person count,Overall,Numeric,Count,NA,TRUE
+rectopexy_broad_cs,By concept,"Proctopexy (eg, for prolapse); perineal approach (2109215)",Age group and sex,25 to 34 and Female,Person count,Overall,Numeric,Count,NA,TRUE
+rectopexy_broad_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse) (2109208)",Age group and sex,0 to 17 and Male,Person count,Overall,Numeric,Count,NA,TRUE
+rectopexy_broad_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse) (2109208)",Age group and sex,25 to 34 and Female,Person count,Overall,Numeric,Count,27,FALSE
+rectopexy_broad_cs,By concept,"Proctopexy (eg, for prolapse); with sigmoid resection, abdominal approach (2109216)",Age group and sex,75 to 150 and Male,Person count,Overall,Numeric,Count,NA,TRUE
+rectopexy_broad_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse) (2109208)",Age group and sex,None and Male,Person count,Overall,Numeric,Count,6,FALSE
+rectopexy_broad_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse) (2109208)",Age group and sex,None and Female,Person count,Overall,Numeric,Count,145,FALSE
+rectopexy_broad_cs,By concept,"Proctopexy (eg, for prolapse); abdominal approach (2109214)",Age group and sex,25 to 34 and Male,Person count,Overall,Numeric,Count,NA,TRUE
+rectopexy_broad_cs,By concept,Proctoplasty; for prolapse of mucous membrane (2109212),Age group and sex,35 to 44 and Female,Person count,Overall,Numeric,Count,48,FALSE
+rectopexy_broad_cs,By concept,"Proctopexy (eg, for prolapse); with sigmoid resection, abdominal approach (2109216)",Age group and sex,65 to 74 and Female,Person count,Overall,Numeric,Count,16,FALSE
+rectopexy_broad_cs,By concept,"Proctopexy (eg, for prolapse); perineal approach (2109215)",Age group and sex,18 to 24 and Male,Person count,Overall,Numeric,Count,NA,TRUE
+rectopexy_broad_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse), with sigmoid resection (2109209)",Age group and sex,35 to 44 and Female,Person count,Overall,Numeric,Count,20,FALSE
+rectopexy_broad_cs,By concept,Reduction of procidentia (separate procedure) under anesthesia (2109224),Age group and sex,65 to 74 and Male,Person count,Overall,Numeric,Count,NA,TRUE
+rectopexy_broad_cs,By concept,"Proctopexy (eg, for prolapse); abdominal approach (2109214)",Age group and sex,65 to 74 and Female,Person count,Overall,Numeric,Count,57,FALSE
+rectopexy_broad_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse), with sigmoid resection (2109209)",Age group and sex,45 to 54 and Female,Person count,Overall,Numeric,Count,20,FALSE
+rectopexy_broad_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse), with sigmoid resection (2109209)",Age group and sex,65 to 74 and Female,Person count,Overall,Numeric,Count,37,FALSE
+rectopexy_broad_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse), with sigmoid resection (2109209)",Age group and sex,45 to 54 and Male,Person count,Overall,Numeric,Count,NA,TRUE
+rectopexy_narrow_cs,Codelist,Overall,Overall,Overall,Record count,Overall,Numeric,Count,1960,FALSE
+rectopexy_narrow_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse), with sigmoid resection (2109209)",Overall,Overall,Record count,Overall,Numeric,Count,229,FALSE
+rectopexy_narrow_cs,By concept,"Proctopexy (eg, for prolapse); abdominal approach (2109214)",Overall,Overall,Record count,Overall,Numeric,Count,280,FALSE
+rectopexy_narrow_cs,By concept,"Proctopexy (eg, for prolapse); with sigmoid resection, abdominal approach (2109216)",Overall,Overall,Record count,Overall,Numeric,Count,111,FALSE
+rectopexy_narrow_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse) (2109208)",Overall,Overall,Record count,Overall,Numeric,Count,1000,FALSE
+rectopexy_narrow_cs,By concept,"Proctopexy (eg, for prolapse); perineal approach (2109215)",Overall,Overall,Record count,Overall,Numeric,Count,340,FALSE
+rectopexy_narrow_cs,Codelist,Overall,Year,2021,Record count,Overall,Numeric,Count,350,FALSE
+rectopexy_narrow_cs,Codelist,Overall,Year,2017,Record count,Overall,Numeric,Count,432,FALSE
+rectopexy_narrow_cs,Codelist,Overall,Year,2022,Record count,Overall,Numeric,Count,97,FALSE
+rectopexy_narrow_cs,Codelist,Overall,Year,2019,Record count,Overall,Numeric,Count,371,FALSE
+rectopexy_narrow_cs,Codelist,Overall,Year,2018,Record count,Overall,Numeric,Count,398,FALSE
+rectopexy_narrow_cs,Codelist,Overall,Year,2020,Record count,Overall,Numeric,Count,312,FALSE
+rectopexy_narrow_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse) (2109208)",Year,2019,Record count,Overall,Numeric,Count,189,FALSE
+rectopexy_narrow_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse) (2109208)",Year,2017,Record count,Overall,Numeric,Count,201,FALSE
+rectopexy_narrow_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse), with sigmoid resection (2109209)",Year,2017,Record count,Overall,Numeric,Count,58,FALSE
+rectopexy_narrow_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse) (2109208)",Year,2022,Record count,Overall,Numeric,Count,47,FALSE
+rectopexy_narrow_cs,By concept,"Proctopexy (eg, for prolapse); perineal approach (2109215)",Year,2022,Record count,Overall,Numeric,Count,10,FALSE
+rectopexy_narrow_cs,By concept,"Proctopexy (eg, for prolapse); perineal approach (2109215)",Year,2020,Record count,Overall,Numeric,Count,49,FALSE
+rectopexy_narrow_cs,By concept,"Proctopexy (eg, for prolapse); abdominal approach (2109214)",Year,2019,Record count,Overall,Numeric,Count,59,FALSE
+rectopexy_narrow_cs,By concept,"Proctopexy (eg, for prolapse); abdominal approach (2109214)",Year,2018,Record count,Overall,Numeric,Count,65,FALSE
+rectopexy_narrow_cs,By concept,"Proctopexy (eg, for prolapse); with sigmoid resection, abdominal approach (2109216)",Year,2017,Record count,Overall,Numeric,Count,31,FALSE
+rectopexy_narrow_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse), with sigmoid resection (2109209)",Year,2019,Record count,Overall,Numeric,Count,29,FALSE
+rectopexy_narrow_cs,By concept,"Proctopexy (eg, for prolapse); with sigmoid resection, abdominal approach (2109216)",Year,2020,Record count,Overall,Numeric,Count,21,FALSE
+rectopexy_narrow_cs,By concept,"Proctopexy (eg, for prolapse); with sigmoid resection, abdominal approach (2109216)",Year,2018,Record count,Overall,Numeric,Count,25,FALSE
+rectopexy_narrow_cs,By concept,"Proctopexy (eg, for prolapse); with sigmoid resection, abdominal approach (2109216)",Year,2022,Record count,Overall,Numeric,Count,NA,TRUE
+rectopexy_narrow_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse), with sigmoid resection (2109209)",Year,2020,Record count,Overall,Numeric,Count,38,FALSE
+rectopexy_narrow_cs,By concept,"Proctopexy (eg, for prolapse); abdominal approach (2109214)",Year,2021,Record count,Overall,Numeric,Count,43,FALSE
+rectopexy_narrow_cs,By concept,"Proctopexy (eg, for prolapse); abdominal approach (2109214)",Year,2022,Record count,Overall,Numeric,Count,13,FALSE
+rectopexy_narrow_cs,By concept,"Proctopexy (eg, for prolapse); abdominal approach (2109214)",Year,2020,Record count,Overall,Numeric,Count,49,FALSE
+rectopexy_narrow_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse) (2109208)",Year,2021,Record count,Overall,Numeric,Count,209,FALSE
+rectopexy_narrow_cs,By concept,"Proctopexy (eg, for prolapse); perineal approach (2109215)",Year,2019,Record count,Overall,Numeric,Count,75,FALSE
+rectopexy_narrow_cs,By concept,"Proctopexy (eg, for prolapse); abdominal approach (2109214)",Year,2017,Record count,Overall,Numeric,Count,51,FALSE
+rectopexy_narrow_cs,By concept,"Proctopexy (eg, for prolapse); perineal approach (2109215)",Year,2021,Record count,Overall,Numeric,Count,51,FALSE
+rectopexy_narrow_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse), with sigmoid resection (2109209)",Year,2022,Record count,Overall,Numeric,Count,25,FALSE
+rectopexy_narrow_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse), with sigmoid resection (2109209)",Year,2021,Record count,Overall,Numeric,Count,34,FALSE
+rectopexy_narrow_cs,By concept,"Proctopexy (eg, for prolapse); perineal approach (2109215)",Year,2017,Record count,Overall,Numeric,Count,91,FALSE
+rectopexy_narrow_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse) (2109208)",Year,2018,Record count,Overall,Numeric,Count,199,FALSE
+rectopexy_narrow_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse), with sigmoid resection (2109209)",Year,2018,Record count,Overall,Numeric,Count,45,FALSE
+rectopexy_narrow_cs,By concept,"Proctopexy (eg, for prolapse); with sigmoid resection, abdominal approach (2109216)",Year,2019,Record count,Overall,Numeric,Count,19,FALSE
+rectopexy_narrow_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse) (2109208)",Year,2020,Record count,Overall,Numeric,Count,155,FALSE
+rectopexy_narrow_cs,By concept,"Proctopexy (eg, for prolapse); with sigmoid resection, abdominal approach (2109216)",Year,2021,Record count,Overall,Numeric,Count,13,FALSE
+rectopexy_narrow_cs,By concept,"Proctopexy (eg, for prolapse); perineal approach (2109215)",Year,2018,Record count,Overall,Numeric,Count,64,FALSE
+rectopexy_narrow_cs,Codelist,Overall,Sex,Female,Record count,Overall,Numeric,Count,1730,FALSE
+rectopexy_narrow_cs,Codelist,Overall,Sex,Male,Record count,Overall,Numeric,Count,230,FALSE
+rectopexy_narrow_cs,By concept,"Proctopexy (eg, for prolapse); with sigmoid resection, abdominal approach (2109216)",Sex,Female,Record count,Overall,Numeric,Count,95,FALSE
+rectopexy_narrow_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse), with sigmoid resection (2109209)",Sex,Female,Record count,Overall,Numeric,Count,208,FALSE
+rectopexy_narrow_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse) (2109208)",Sex,Female,Record count,Overall,Numeric,Count,937,FALSE
+rectopexy_narrow_cs,By concept,"Proctopexy (eg, for prolapse); perineal approach (2109215)",Sex,Female,Record count,Overall,Numeric,Count,227,FALSE
+rectopexy_narrow_cs,By concept,"Proctopexy (eg, for prolapse); abdominal approach (2109214)",Sex,Female,Record count,Overall,Numeric,Count,263,FALSE
+rectopexy_narrow_cs,By concept,"Proctopexy (eg, for prolapse); with sigmoid resection, abdominal approach (2109216)",Sex,Male,Record count,Overall,Numeric,Count,16,FALSE
+rectopexy_narrow_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse) (2109208)",Sex,Male,Record count,Overall,Numeric,Count,63,FALSE
+rectopexy_narrow_cs,By concept,"Proctopexy (eg, for prolapse); abdominal approach (2109214)",Sex,Male,Record count,Overall,Numeric,Count,17,FALSE
+rectopexy_narrow_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse), with sigmoid resection (2109209)",Sex,Male,Record count,Overall,Numeric,Count,21,FALSE
+rectopexy_narrow_cs,By concept,"Proctopexy (eg, for prolapse); perineal approach (2109215)",Sex,Male,Record count,Overall,Numeric,Count,113,FALSE
+rectopexy_narrow_cs,Codelist,Overall,Age group,18 to 24,Record count,Overall,Numeric,Count,45,FALSE
+rectopexy_narrow_cs,Codelist,Overall,Age group,None,Record count,Overall,Numeric,Count,453,FALSE
+rectopexy_narrow_cs,Codelist,Overall,Age group,75 to 150,Record count,Overall,Numeric,Count,463,FALSE
+rectopexy_narrow_cs,Codelist,Overall,Age group,45 to 54,Record count,Overall,Numeric,Count,254,FALSE
+rectopexy_narrow_cs,Codelist,Overall,Age group,25 to 34,Record count,Overall,Numeric,Count,78,FALSE
+rectopexy_narrow_cs,Codelist,Overall,Age group,35 to 44,Record count,Overall,Numeric,Count,199,FALSE
+rectopexy_narrow_cs,Codelist,Overall,Age group,0 to 17,Record count,Overall,Numeric,Count,17,FALSE
+rectopexy_narrow_cs,Codelist,Overall,Age group,65 to 74,Record count,Overall,Numeric,Count,451,FALSE
+rectopexy_narrow_cs,By concept,"Proctopexy (eg, for prolapse); perineal approach (2109215)",Age group,18 to 24,Record count,Overall,Numeric,Count,NA,TRUE
+rectopexy_narrow_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse) (2109208)",Age group,65 to 74,Record count,Overall,Numeric,Count,234,FALSE
+rectopexy_narrow_cs,By concept,"Proctopexy (eg, for prolapse); with sigmoid resection, abdominal approach (2109216)",Age group,35 to 44,Record count,Overall,Numeric,Count,8,FALSE
+rectopexy_narrow_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse) (2109208)",Age group,0 to 17,Record count,Overall,Numeric,Count,10,FALSE
+rectopexy_narrow_cs,By concept,"Proctopexy (eg, for prolapse); perineal approach (2109215)",Age group,35 to 44,Record count,Overall,Numeric,Count,44,FALSE
+rectopexy_narrow_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse) (2109208)",Age group,None,Record count,Overall,Numeric,Count,224,FALSE
+rectopexy_narrow_cs,By concept,"Proctopexy (eg, for prolapse); abdominal approach (2109214)",Age group,25 to 34,Record count,Overall,Numeric,Count,7,FALSE
+rectopexy_narrow_cs,By concept,"Proctopexy (eg, for prolapse); perineal approach (2109215)",Age group,None,Record count,Overall,Numeric,Count,64,FALSE
+rectopexy_narrow_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse), with sigmoid resection (2109209)",Age group,25 to 34,Record count,Overall,Numeric,Count,11,FALSE
+rectopexy_narrow_cs,By concept,"Proctopexy (eg, for prolapse); abdominal approach (2109214)",Age group,18 to 24,Record count,Overall,Numeric,Count,5,FALSE
+rectopexy_narrow_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse) (2109208)",Age group,18 to 24,Record count,Overall,Numeric,Count,29,FALSE
+rectopexy_narrow_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse) (2109208)",Age group,75 to 150,Record count,Overall,Numeric,Count,212,FALSE
+rectopexy_narrow_cs,By concept,"Proctopexy (eg, for prolapse); abdominal approach (2109214)",Age group,75 to 150,Record count,Overall,Numeric,Count,77,FALSE
+rectopexy_narrow_cs,By concept,"Proctopexy (eg, for prolapse); perineal approach (2109215)",Age group,45 to 54,Record count,Overall,Numeric,Count,46,FALSE
+rectopexy_narrow_cs,By concept,"Proctopexy (eg, for prolapse); with sigmoid resection, abdominal approach (2109216)",Age group,65 to 74,Record count,Overall,Numeric,Count,22,FALSE
+rectopexy_narrow_cs,By concept,"Proctopexy (eg, for prolapse); abdominal approach (2109214)",Age group,None,Record count,Overall,Numeric,Count,74,FALSE
+rectopexy_narrow_cs,By concept,"Proctopexy (eg, for prolapse); perineal approach (2109215)",Age group,65 to 74,Record count,Overall,Numeric,Count,62,FALSE
+rectopexy_narrow_cs,By concept,"Proctopexy (eg, for prolapse); perineal approach (2109215)",Age group,0 to 17,Record count,Overall,Numeric,Count,6,FALSE
+rectopexy_narrow_cs,By concept,"Proctopexy (eg, for prolapse); with sigmoid resection, abdominal approach (2109216)",Age group,0 to 17,Record count,Overall,Numeric,Count,NA,TRUE
+rectopexy_narrow_cs,By concept,"Proctopexy (eg, for prolapse); abdominal approach (2109214)",Age group,35 to 44,Record count,Overall,Numeric,Count,17,FALSE
+rectopexy_narrow_cs,By concept,"Proctopexy (eg, for prolapse); perineal approach (2109215)",Age group,75 to 150,Record count,Overall,Numeric,Count,105,FALSE
+rectopexy_narrow_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse) (2109208)",Age group,25 to 34,Record count,Overall,Numeric,Count,45,FALSE
+rectopexy_narrow_cs,By concept,"Proctopexy (eg, for prolapse); perineal approach (2109215)",Age group,25 to 34,Record count,Overall,Numeric,Count,11,FALSE
+rectopexy_narrow_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse) (2109208)",Age group,35 to 44,Record count,Overall,Numeric,Count,102,FALSE
+rectopexy_narrow_cs,By concept,"Proctopexy (eg, for prolapse); with sigmoid resection, abdominal approach (2109216)",Age group,18 to 24,Record count,Overall,Numeric,Count,NA,TRUE
+rectopexy_narrow_cs,By concept,"Proctopexy (eg, for prolapse); with sigmoid resection, abdominal approach (2109216)",Age group,None,Record count,Overall,Numeric,Count,37,FALSE
+rectopexy_narrow_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse) (2109208)",Age group,45 to 54,Record count,Overall,Numeric,Count,144,FALSE
+rectopexy_narrow_cs,By concept,"Proctopexy (eg, for prolapse); abdominal approach (2109214)",Age group,45 to 54,Record count,Overall,Numeric,Count,24,FALSE
+rectopexy_narrow_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse), with sigmoid resection (2109209)",Age group,65 to 74,Record count,Overall,Numeric,Count,57,FALSE
+rectopexy_narrow_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse), with sigmoid resection (2109209)",Age group,18 to 24,Record count,Overall,Numeric,Count,7,FALSE
+rectopexy_narrow_cs,By concept,"Proctopexy (eg, for prolapse); with sigmoid resection, abdominal approach (2109216)",Age group,75 to 150,Record count,Overall,Numeric,Count,27,FALSE
+rectopexy_narrow_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse), with sigmoid resection (2109209)",Age group,35 to 44,Record count,Overall,Numeric,Count,28,FALSE
+rectopexy_narrow_cs,By concept,"Proctopexy (eg, for prolapse); with sigmoid resection, abdominal approach (2109216)",Age group,25 to 34,Record count,Overall,Numeric,Count,NA,TRUE
+rectopexy_narrow_cs,By concept,"Proctopexy (eg, for prolapse); with sigmoid resection, abdominal approach (2109216)",Age group,45 to 54,Record count,Overall,Numeric,Count,10,FALSE
+rectopexy_narrow_cs,By concept,"Proctopexy (eg, for prolapse); abdominal approach (2109214)",Age group,65 to 74,Record count,Overall,Numeric,Count,76,FALSE
+rectopexy_narrow_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse), with sigmoid resection (2109209)",Age group,None,Record count,Overall,Numeric,Count,54,FALSE
+rectopexy_narrow_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse), with sigmoid resection (2109209)",Age group,75 to 150,Record count,Overall,Numeric,Count,42,FALSE
+rectopexy_narrow_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse), with sigmoid resection (2109209)",Age group,45 to 54,Record count,Overall,Numeric,Count,30,FALSE
+rectopexy_narrow_cs,Codelist,Overall,Age group and sex,0 to 17 and Male,Record count,Overall,Numeric,Count,11,FALSE
+rectopexy_narrow_cs,Codelist,Overall,Age group and sex,45 to 54 and Male,Record count,Overall,Numeric,Count,39,FALSE
+rectopexy_narrow_cs,Codelist,Overall,Age group and sex,65 to 74 and Female,Record count,Overall,Numeric,Count,410,FALSE
+rectopexy_narrow_cs,Codelist,Overall,Age group and sex,35 to 44 and Male,Record count,Overall,Numeric,Count,36,FALSE
+rectopexy_narrow_cs,Codelist,Overall,Age group and sex,25 to 34 and Female,Record count,Overall,Numeric,Count,61,FALSE
+rectopexy_narrow_cs,Codelist,Overall,Age group and sex,25 to 34 and Male,Record count,Overall,Numeric,Count,17,FALSE
+rectopexy_narrow_cs,Codelist,Overall,Age group and sex,18 to 24 and Male,Record count,Overall,Numeric,Count,14,FALSE
+rectopexy_narrow_cs,Codelist,Overall,Age group and sex,45 to 54 and Female,Record count,Overall,Numeric,Count,215,FALSE
+rectopexy_narrow_cs,Codelist,Overall,Age group and sex,18 to 24 and Female,Record count,Overall,Numeric,Count,31,FALSE
+rectopexy_narrow_cs,Codelist,Overall,Age group and sex,75 to 150 and Female,Record count,Overall,Numeric,Count,431,FALSE
+rectopexy_narrow_cs,Codelist,Overall,Age group and sex,35 to 44 and Female,Record count,Overall,Numeric,Count,163,FALSE
+rectopexy_narrow_cs,Codelist,Overall,Age group and sex,65 to 74 and Male,Record count,Overall,Numeric,Count,41,FALSE
+rectopexy_narrow_cs,Codelist,Overall,Age group and sex,None and Female,Record count,Overall,Numeric,Count,413,FALSE
+rectopexy_narrow_cs,Codelist,Overall,Age group and sex,None and Male,Record count,Overall,Numeric,Count,40,FALSE
+rectopexy_narrow_cs,Codelist,Overall,Age group and sex,75 to 150 and Male,Record count,Overall,Numeric,Count,32,FALSE
+rectopexy_narrow_cs,Codelist,Overall,Age group and sex,0 to 17 and Female,Record count,Overall,Numeric,Count,6,FALSE
+rectopexy_narrow_cs,By concept,"Proctopexy (eg, for prolapse); abdominal approach (2109214)",Age group and sex,35 to 44 and Male,Record count,Overall,Numeric,Count,NA,TRUE
+rectopexy_narrow_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse), with sigmoid resection (2109209)",Age group and sex,35 to 44 and Male,Record count,Overall,Numeric,Count,NA,TRUE
+rectopexy_narrow_cs,By concept,"Proctopexy (eg, for prolapse); abdominal approach (2109214)",Age group and sex,45 to 54 and Female,Record count,Overall,Numeric,Count,23,FALSE
+rectopexy_narrow_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse), with sigmoid resection (2109209)",Age group and sex,18 to 24 and Male,Record count,Overall,Numeric,Count,NA,TRUE
+rectopexy_narrow_cs,By concept,"Proctopexy (eg, for prolapse); perineal approach (2109215)",Age group and sex,0 to 17 and Male,Record count,Overall,Numeric,Count,NA,TRUE
+rectopexy_narrow_cs,By concept,"Proctopexy (eg, for prolapse); with sigmoid resection, abdominal approach (2109216)",Age group and sex,45 to 54 and Female,Record count,Overall,Numeric,Count,8,FALSE
+rectopexy_narrow_cs,By concept,"Proctopexy (eg, for prolapse); abdominal approach (2109214)",Age group and sex,35 to 44 and Female,Record count,Overall,Numeric,Count,15,FALSE
+rectopexy_narrow_cs,By concept,"Proctopexy (eg, for prolapse); abdominal approach (2109214)",Age group and sex,25 to 34 and Female,Record count,Overall,Numeric,Count,5,FALSE
+rectopexy_narrow_cs,By concept,"Proctopexy (eg, for prolapse); abdominal approach (2109214)",Age group and sex,None and Male,Record count,Overall,Numeric,Count,NA,TRUE
+rectopexy_narrow_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse) (2109208)",Age group and sex,65 to 74 and Female,Record count,Overall,Numeric,Count,225,FALSE
+rectopexy_narrow_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse), with sigmoid resection (2109209)",Age group and sex,18 to 24 and Female,Record count,Overall,Numeric,Count,5,FALSE
+rectopexy_narrow_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse) (2109208)",Age group and sex,45 to 54 and Male,Record count,Overall,Numeric,Count,13,FALSE
+rectopexy_narrow_cs,By concept,"Proctopexy (eg, for prolapse); abdominal approach (2109214)",Age group and sex,18 to 24 and Female,Record count,Overall,Numeric,Count,NA,TRUE
+rectopexy_narrow_cs,By concept,"Proctopexy (eg, for prolapse); perineal approach (2109215)",Age group and sex,75 to 150 and Male,Record count,Overall,Numeric,Count,14,FALSE
+rectopexy_narrow_cs,By concept,"Proctopexy (eg, for prolapse); with sigmoid resection, abdominal approach (2109216)",Age group and sex,None and Male,Record count,Overall,Numeric,Count,5,FALSE
+rectopexy_narrow_cs,By concept,"Proctopexy (eg, for prolapse); perineal approach (2109215)",Age group and sex,None and Female,Record count,Overall,Numeric,Count,44,FALSE
+rectopexy_narrow_cs,By concept,"Proctopexy (eg, for prolapse); abdominal approach (2109214)",Age group and sex,45 to 54 and Male,Record count,Overall,Numeric,Count,NA,TRUE
+rectopexy_narrow_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse) (2109208)",Age group and sex,18 to 24 and Female,Record count,Overall,Numeric,Count,24,FALSE
+rectopexy_narrow_cs,By concept,"Proctopexy (eg, for prolapse); perineal approach (2109215)",Age group and sex,75 to 150 and Female,Record count,Overall,Numeric,Count,91,FALSE
+rectopexy_narrow_cs,By concept,"Proctopexy (eg, for prolapse); with sigmoid resection, abdominal approach (2109216)",Age group and sex,25 to 34 and Female,Record count,Overall,Numeric,Count,NA,TRUE
+rectopexy_narrow_cs,By concept,"Proctopexy (eg, for prolapse); perineal approach (2109215)",Age group and sex,45 to 54 and Female,Record count,Overall,Numeric,Count,24,FALSE
+rectopexy_narrow_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse), with sigmoid resection (2109209)",Age group and sex,75 to 150 and Female,Record count,Overall,Numeric,Count,40,FALSE
+rectopexy_narrow_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse) (2109208)",Age group and sex,25 to 34 and Male,Record count,Overall,Numeric,Count,6,FALSE
+rectopexy_narrow_cs,By concept,"Proctopexy (eg, for prolapse); with sigmoid resection, abdominal approach (2109216)",Age group and sex,75 to 150 and Female,Record count,Overall,Numeric,Count,22,FALSE
+rectopexy_narrow_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse), with sigmoid resection (2109209)",Age group and sex,25 to 34 and Female,Record count,Overall,Numeric,Count,8,FALSE
+rectopexy_narrow_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse), with sigmoid resection (2109209)",Age group and sex,None and Male,Record count,Overall,Numeric,Count,5,FALSE
+rectopexy_narrow_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse) (2109208)",Age group and sex,35 to 44 and Male,Record count,Overall,Numeric,Count,8,FALSE
+rectopexy_narrow_cs,By concept,"Proctopexy (eg, for prolapse); with sigmoid resection, abdominal approach (2109216)",Age group and sex,18 to 24 and Male,Record count,Overall,Numeric,Count,NA,TRUE
+rectopexy_narrow_cs,By concept,"Proctopexy (eg, for prolapse); abdominal approach (2109214)",Age group and sex,65 to 74 and Male,Record count,Overall,Numeric,Count,NA,TRUE
+rectopexy_narrow_cs,By concept,"Proctopexy (eg, for prolapse); perineal approach (2109215)",Age group and sex,0 to 17 and Female,Record count,Overall,Numeric,Count,NA,TRUE
+rectopexy_narrow_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse) (2109208)",Age group and sex,65 to 74 and Male,Record count,Overall,Numeric,Count,9,FALSE
+rectopexy_narrow_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse) (2109208)",Age group and sex,18 to 24 and Male,Record count,Overall,Numeric,Count,5,FALSE
+rectopexy_narrow_cs,By concept,"Proctopexy (eg, for prolapse); abdominal approach (2109214)",Age group and sex,75 to 150 and Female,Record count,Overall,Numeric,Count,74,FALSE
+rectopexy_narrow_cs,By concept,"Proctopexy (eg, for prolapse); with sigmoid resection, abdominal approach (2109216)",Age group and sex,None and Female,Record count,Overall,Numeric,Count,32,FALSE
+rectopexy_narrow_cs,By concept,"Proctopexy (eg, for prolapse); perineal approach (2109215)",Age group and sex,None and Male,Record count,Overall,Numeric,Count,20,FALSE
+rectopexy_narrow_cs,By concept,"Proctopexy (eg, for prolapse); abdominal approach (2109214)",Age group and sex,75 to 150 and Male,Record count,Overall,Numeric,Count,NA,TRUE
+rectopexy_narrow_cs,By concept,"Proctopexy (eg, for prolapse); perineal approach (2109215)",Age group and sex,25 to 34 and Male,Record count,Overall,Numeric,Count,6,FALSE
+rectopexy_narrow_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse) (2109208)",Age group and sex,45 to 54 and Female,Record count,Overall,Numeric,Count,131,FALSE
+rectopexy_narrow_cs,By concept,"Proctopexy (eg, for prolapse); with sigmoid resection, abdominal approach (2109216)",Age group and sex,0 to 17 and Female,Record count,Overall,Numeric,Count,NA,TRUE
+rectopexy_narrow_cs,By concept,"Proctopexy (eg, for prolapse); perineal approach (2109215)",Age group and sex,18 to 24 and Female,Record count,Overall,Numeric,Count,NA,TRUE
+rectopexy_narrow_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse), with sigmoid resection (2109209)",Age group and sex,65 to 74 and Male,Record count,Overall,Numeric,Count,6,FALSE
+rectopexy_narrow_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse) (2109208)",Age group and sex,0 to 17 and Female,Record count,Overall,Numeric,Count,NA,TRUE
+rectopexy_narrow_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse), with sigmoid resection (2109209)",Age group and sex,75 to 150 and Male,Record count,Overall,Numeric,Count,NA,TRUE
+rectopexy_narrow_cs,By concept,"Proctopexy (eg, for prolapse); perineal approach (2109215)",Age group and sex,65 to 74 and Male,Record count,Overall,Numeric,Count,23,FALSE
+rectopexy_narrow_cs,By concept,"Proctopexy (eg, for prolapse); with sigmoid resection, abdominal approach (2109216)",Age group and sex,65 to 74 and Male,Record count,Overall,Numeric,Count,NA,TRUE
+rectopexy_narrow_cs,By concept,"Proctopexy (eg, for prolapse); perineal approach (2109215)",Age group and sex,45 to 54 and Male,Record count,Overall,Numeric,Count,22,FALSE
+rectopexy_narrow_cs,By concept,"Proctopexy (eg, for prolapse); with sigmoid resection, abdominal approach (2109216)",Age group and sex,35 to 44 and Female,Record count,Overall,Numeric,Count,7,FALSE
+rectopexy_narrow_cs,By concept,"Proctopexy (eg, for prolapse); perineal approach (2109215)",Age group and sex,65 to 74 and Female,Record count,Overall,Numeric,Count,39,FALSE
+rectopexy_narrow_cs,By concept,"Proctopexy (eg, for prolapse); with sigmoid resection, abdominal approach (2109216)",Age group and sex,35 to 44 and Male,Record count,Overall,Numeric,Count,NA,TRUE
+rectopexy_narrow_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse), with sigmoid resection (2109209)",Age group and sex,25 to 34 and Male,Record count,Overall,Numeric,Count,NA,TRUE
+rectopexy_narrow_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse) (2109208)",Age group and sex,75 to 150 and Male,Record count,Overall,Numeric,Count,8,FALSE
+rectopexy_narrow_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse), with sigmoid resection (2109209)",Age group and sex,None and Female,Record count,Overall,Numeric,Count,49,FALSE
+rectopexy_narrow_cs,By concept,"Proctopexy (eg, for prolapse); perineal approach (2109215)",Age group and sex,35 to 44 and Male,Record count,Overall,Numeric,Count,23,FALSE
+rectopexy_narrow_cs,By concept,"Proctopexy (eg, for prolapse); abdominal approach (2109214)",Age group and sex,18 to 24 and Male,Record count,Overall,Numeric,Count,NA,TRUE
+rectopexy_narrow_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse) (2109208)",Age group and sex,75 to 150 and Female,Record count,Overall,Numeric,Count,204,FALSE
+rectopexy_narrow_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse) (2109208)",Age group and sex,35 to 44 and Female,Record count,Overall,Numeric,Count,94,FALSE
+rectopexy_narrow_cs,By concept,"Proctopexy (eg, for prolapse); abdominal approach (2109214)",Age group and sex,None and Female,Record count,Overall,Numeric,Count,71,FALSE
+rectopexy_narrow_cs,By concept,"Proctopexy (eg, for prolapse); perineal approach (2109215)",Age group and sex,35 to 44 and Female,Record count,Overall,Numeric,Count,21,FALSE
+rectopexy_narrow_cs,By concept,"Proctopexy (eg, for prolapse); with sigmoid resection, abdominal approach (2109216)",Age group and sex,45 to 54 and Male,Record count,Overall,Numeric,Count,NA,TRUE
+rectopexy_narrow_cs,By concept,"Proctopexy (eg, for prolapse); perineal approach (2109215)",Age group and sex,25 to 34 and Female,Record count,Overall,Numeric,Count,5,FALSE
+rectopexy_narrow_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse) (2109208)",Age group and sex,0 to 17 and Male,Record count,Overall,Numeric,Count,7,FALSE
+rectopexy_narrow_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse) (2109208)",Age group and sex,25 to 34 and Female,Record count,Overall,Numeric,Count,39,FALSE
+rectopexy_narrow_cs,By concept,"Proctopexy (eg, for prolapse); with sigmoid resection, abdominal approach (2109216)",Age group and sex,75 to 150 and Male,Record count,Overall,Numeric,Count,5,FALSE
+rectopexy_narrow_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse) (2109208)",Age group and sex,None and Male,Record count,Overall,Numeric,Count,7,FALSE
+rectopexy_narrow_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse) (2109208)",Age group and sex,None and Female,Record count,Overall,Numeric,Count,217,FALSE
+rectopexy_narrow_cs,By concept,"Proctopexy (eg, for prolapse); abdominal approach (2109214)",Age group and sex,25 to 34 and Male,Record count,Overall,Numeric,Count,NA,TRUE
+rectopexy_narrow_cs,By concept,"Proctopexy (eg, for prolapse); with sigmoid resection, abdominal approach (2109216)",Age group and sex,65 to 74 and Female,Record count,Overall,Numeric,Count,21,FALSE
+rectopexy_narrow_cs,By concept,"Proctopexy (eg, for prolapse); perineal approach (2109215)",Age group and sex,18 to 24 and Male,Record count,Overall,Numeric,Count,NA,TRUE
+rectopexy_narrow_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse), with sigmoid resection (2109209)",Age group and sex,35 to 44 and Female,Record count,Overall,Numeric,Count,26,FALSE
+rectopexy_narrow_cs,By concept,"Proctopexy (eg, for prolapse); abdominal approach (2109214)",Age group and sex,65 to 74 and Female,Record count,Overall,Numeric,Count,74,FALSE
+rectopexy_narrow_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse), with sigmoid resection (2109209)",Age group and sex,45 to 54 and Female,Record count,Overall,Numeric,Count,29,FALSE
+rectopexy_narrow_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse), with sigmoid resection (2109209)",Age group and sex,65 to 74 and Female,Record count,Overall,Numeric,Count,51,FALSE
+rectopexy_narrow_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse), with sigmoid resection (2109209)",Age group and sex,45 to 54 and Male,Record count,Overall,Numeric,Count,NA,TRUE
+rectopexy_narrow_cs,Codelist,Overall,Overall,Overall,Person count,Overall,Numeric,Count,1381,FALSE
+rectopexy_narrow_cs,By concept,"Proctopexy (eg, for prolapse); abdominal approach (2109214)",Overall,Overall,Person count,Overall,Numeric,Count,220,FALSE
+rectopexy_narrow_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse) (2109208)",Overall,Overall,Person count,Overall,Numeric,Count,697,FALSE
+rectopexy_narrow_cs,By concept,"Proctopexy (eg, for prolapse); perineal approach (2109215)",Overall,Overall,Person count,Overall,Numeric,Count,260,FALSE
+rectopexy_narrow_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse), with sigmoid resection (2109209)",Overall,Overall,Person count,Overall,Numeric,Count,173,FALSE
+rectopexy_narrow_cs,By concept,"Proctopexy (eg, for prolapse); with sigmoid resection, abdominal approach (2109216)",Overall,Overall,Person count,Overall,Numeric,Count,86,FALSE
+rectopexy_narrow_cs,Codelist,Overall,Year,2017,Person count,Overall,Numeric,Count,314,FALSE
+rectopexy_narrow_cs,Codelist,Overall,Year,2018,Person count,Overall,Numeric,Count,276,FALSE
+rectopexy_narrow_cs,Codelist,Overall,Year,2022,Person count,Overall,Numeric,Count,74,FALSE
+rectopexy_narrow_cs,Codelist,Overall,Year,2019,Person count,Overall,Numeric,Count,276,FALSE
+rectopexy_narrow_cs,Codelist,Overall,Year,2021,Person count,Overall,Numeric,Count,258,FALSE
+rectopexy_narrow_cs,Codelist,Overall,Year,2020,Person count,Overall,Numeric,Count,220,FALSE
+rectopexy_narrow_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse) (2109208)",Year,2019,Person count,Overall,Numeric,Count,142,FALSE
+rectopexy_narrow_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse) (2109208)",Year,2017,Person count,Overall,Numeric,Count,140,FALSE
+rectopexy_narrow_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse), with sigmoid resection (2109209)",Year,2017,Person count,Overall,Numeric,Count,45,FALSE
+rectopexy_narrow_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse) (2109208)",Year,2022,Person count,Overall,Numeric,Count,38,FALSE
+rectopexy_narrow_cs,By concept,"Proctopexy (eg, for prolapse); perineal approach (2109215)",Year,2022,Person count,Overall,Numeric,Count,9,FALSE
+rectopexy_narrow_cs,By concept,"Proctopexy (eg, for prolapse); perineal approach (2109215)",Year,2020,Person count,Overall,Numeric,Count,39,FALSE
+rectopexy_narrow_cs,By concept,"Proctopexy (eg, for prolapse); abdominal approach (2109214)",Year,2019,Person count,Overall,Numeric,Count,45,FALSE
+rectopexy_narrow_cs,By concept,"Proctopexy (eg, for prolapse); abdominal approach (2109214)",Year,2018,Person count,Overall,Numeric,Count,50,FALSE
+rectopexy_narrow_cs,By concept,"Proctopexy (eg, for prolapse); with sigmoid resection, abdominal approach (2109216)",Year,2017,Person count,Overall,Numeric,Count,27,FALSE
+rectopexy_narrow_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse), with sigmoid resection (2109209)",Year,2019,Person count,Overall,Numeric,Count,26,FALSE
+rectopexy_narrow_cs,By concept,"Proctopexy (eg, for prolapse); with sigmoid resection, abdominal approach (2109216)",Year,2020,Person count,Overall,Numeric,Count,14,FALSE
+rectopexy_narrow_cs,By concept,"Proctopexy (eg, for prolapse); with sigmoid resection, abdominal approach (2109216)",Year,2018,Person count,Overall,Numeric,Count,19,FALSE
+rectopexy_narrow_cs,By concept,"Proctopexy (eg, for prolapse); with sigmoid resection, abdominal approach (2109216)",Year,2022,Person count,Overall,Numeric,Count,NA,TRUE
+rectopexy_narrow_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse), with sigmoid resection (2109209)",Year,2020,Person count,Overall,Numeric,Count,28,FALSE
+rectopexy_narrow_cs,By concept,"Proctopexy (eg, for prolapse); abdominal approach (2109214)",Year,2021,Person count,Overall,Numeric,Count,34,FALSE
+rectopexy_narrow_cs,By concept,"Proctopexy (eg, for prolapse); abdominal approach (2109214)",Year,2022,Person count,Overall,Numeric,Count,10,FALSE
+rectopexy_narrow_cs,By concept,"Proctopexy (eg, for prolapse); abdominal approach (2109214)",Year,2020,Person count,Overall,Numeric,Count,41,FALSE
+rectopexy_narrow_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse) (2109208)",Year,2021,Person count,Overall,Numeric,Count,152,FALSE
+rectopexy_narrow_cs,By concept,"Proctopexy (eg, for prolapse); perineal approach (2109215)",Year,2019,Person count,Overall,Numeric,Count,57,FALSE
+rectopexy_narrow_cs,By concept,"Proctopexy (eg, for prolapse); abdominal approach (2109214)",Year,2017,Person count,Overall,Numeric,Count,41,FALSE
+rectopexy_narrow_cs,By concept,"Proctopexy (eg, for prolapse); perineal approach (2109215)",Year,2021,Person count,Overall,Numeric,Count,41,FALSE
+rectopexy_narrow_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse), with sigmoid resection (2109209)",Year,2022,Person count,Overall,Numeric,Count,17,FALSE
+rectopexy_narrow_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse), with sigmoid resection (2109209)",Year,2021,Person count,Overall,Numeric,Count,27,FALSE
+rectopexy_narrow_cs,By concept,"Proctopexy (eg, for prolapse); perineal approach (2109215)",Year,2017,Person count,Overall,Numeric,Count,67,FALSE
+rectopexy_narrow_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse) (2109208)",Year,2018,Person count,Overall,Numeric,Count,131,FALSE
+rectopexy_narrow_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse), with sigmoid resection (2109209)",Year,2018,Person count,Overall,Numeric,Count,30,FALSE
+rectopexy_narrow_cs,By concept,"Proctopexy (eg, for prolapse); with sigmoid resection, abdominal approach (2109216)",Year,2019,Person count,Overall,Numeric,Count,13,FALSE
+rectopexy_narrow_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse) (2109208)",Year,2020,Person count,Overall,Numeric,Count,104,FALSE
+rectopexy_narrow_cs,By concept,"Proctopexy (eg, for prolapse); with sigmoid resection, abdominal approach (2109216)",Year,2021,Person count,Overall,Numeric,Count,13,FALSE
+rectopexy_narrow_cs,By concept,"Proctopexy (eg, for prolapse); perineal approach (2109215)",Year,2018,Person count,Overall,Numeric,Count,50,FALSE
+rectopexy_narrow_cs,Codelist,Overall,Sex,Female,Person count,Overall,Numeric,Count,1217,FALSE
+rectopexy_narrow_cs,Codelist,Overall,Sex,Male,Person count,Overall,Numeric,Count,164,FALSE
+rectopexy_narrow_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse), with sigmoid resection (2109209)",Sex,Female,Person count,Overall,Numeric,Count,159,FALSE
+rectopexy_narrow_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse) (2109208)",Sex,Female,Person count,Overall,Numeric,Count,652,FALSE
+rectopexy_narrow_cs,By concept,"Proctopexy (eg, for prolapse); with sigmoid resection, abdominal approach (2109216)",Sex,Male,Person count,Overall,Numeric,Count,12,FALSE
+rectopexy_narrow_cs,By concept,"Proctopexy (eg, for prolapse); abdominal approach (2109214)",Sex,Male,Person count,Overall,Numeric,Count,13,FALSE
+rectopexy_narrow_cs,By concept,"Proctopexy (eg, for prolapse); with sigmoid resection, abdominal approach (2109216)",Sex,Female,Person count,Overall,Numeric,Count,74,FALSE
+rectopexy_narrow_cs,By concept,"Proctopexy (eg, for prolapse); perineal approach (2109215)",Sex,Female,Person count,Overall,Numeric,Count,176,FALSE
+rectopexy_narrow_cs,By concept,"Proctopexy (eg, for prolapse); perineal approach (2109215)",Sex,Male,Person count,Overall,Numeric,Count,84,FALSE
+rectopexy_narrow_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse), with sigmoid resection (2109209)",Sex,Male,Person count,Overall,Numeric,Count,14,FALSE
+rectopexy_narrow_cs,By concept,"Proctopexy (eg, for prolapse); abdominal approach (2109214)",Sex,Female,Person count,Overall,Numeric,Count,207,FALSE
+rectopexy_narrow_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse) (2109208)",Sex,Male,Person count,Overall,Numeric,Count,45,FALSE
+rectopexy_narrow_cs,Codelist,Overall,Age group,75 to 150,Person count,Overall,Numeric,Count,353,FALSE
+rectopexy_narrow_cs,Codelist,Overall,Age group,25 to 34,Person count,Overall,Numeric,Count,58,FALSE
+rectopexy_narrow_cs,Codelist,Overall,Age group,None,Person count,Overall,Numeric,Count,306,FALSE
+rectopexy_narrow_cs,Codelist,Overall,Age group,0 to 17,Person count,Overall,Numeric,Count,12,FALSE
+rectopexy_narrow_cs,Codelist,Overall,Age group,45 to 54,Person count,Overall,Numeric,Count,162,FALSE
+rectopexy_narrow_cs,Codelist,Overall,Age group,65 to 74,Person count,Overall,Numeric,Count,328,FALSE
+rectopexy_narrow_cs,Codelist,Overall,Age group,35 to 44,Person count,Overall,Numeric,Count,133,FALSE
+rectopexy_narrow_cs,Codelist,Overall,Age group,18 to 24,Person count,Overall,Numeric,Count,31,FALSE
+rectopexy_narrow_cs,By concept,"Proctopexy (eg, for prolapse); perineal approach (2109215)",Age group,18 to 24,Person count,Overall,Numeric,Count,NA,TRUE
+rectopexy_narrow_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse) (2109208)",Age group,65 to 74,Person count,Overall,Numeric,Count,175,FALSE
+rectopexy_narrow_cs,By concept,"Proctopexy (eg, for prolapse); with sigmoid resection, abdominal approach (2109216)",Age group,35 to 44,Person count,Overall,Numeric,Count,6,FALSE
+rectopexy_narrow_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse) (2109208)",Age group,0 to 17,Person count,Overall,Numeric,Count,6,FALSE
+rectopexy_narrow_cs,By concept,"Proctopexy (eg, for prolapse); perineal approach (2109215)",Age group,35 to 44,Person count,Overall,Numeric,Count,31,FALSE
+rectopexy_narrow_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse) (2109208)",Age group,None,Person count,Overall,Numeric,Count,151,FALSE
+rectopexy_narrow_cs,By concept,"Proctopexy (eg, for prolapse); abdominal approach (2109214)",Age group,25 to 34,Person count,Overall,Numeric,Count,5,FALSE
+rectopexy_narrow_cs,By concept,"Proctopexy (eg, for prolapse); perineal approach (2109215)",Age group,None,Person count,Overall,Numeric,Count,49,FALSE
+rectopexy_narrow_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse), with sigmoid resection (2109209)",Age group,25 to 34,Person count,Overall,Numeric,Count,10,FALSE
+rectopexy_narrow_cs,By concept,"Proctopexy (eg, for prolapse); abdominal approach (2109214)",Age group,18 to 24,Person count,Overall,Numeric,Count,5,FALSE
+rectopexy_narrow_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse) (2109208)",Age group,18 to 24,Person count,Overall,Numeric,Count,19,FALSE
+rectopexy_narrow_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse) (2109208)",Age group,75 to 150,Person count,Overall,Numeric,Count,165,FALSE
+rectopexy_narrow_cs,By concept,"Proctopexy (eg, for prolapse); abdominal approach (2109214)",Age group,75 to 150,Person count,Overall,Numeric,Count,64,FALSE
+rectopexy_narrow_cs,By concept,"Proctopexy (eg, for prolapse); perineal approach (2109215)",Age group,45 to 54,Person count,Overall,Numeric,Count,33,FALSE
+rectopexy_narrow_cs,By concept,"Proctopexy (eg, for prolapse); with sigmoid resection, abdominal approach (2109216)",Age group,65 to 74,Person count,Overall,Numeric,Count,17,FALSE
+rectopexy_narrow_cs,By concept,"Proctopexy (eg, for prolapse); abdominal approach (2109214)",Age group,None,Person count,Overall,Numeric,Count,52,FALSE
+rectopexy_narrow_cs,By concept,"Proctopexy (eg, for prolapse); perineal approach (2109215)",Age group,65 to 74,Person count,Overall,Numeric,Count,52,FALSE
+rectopexy_narrow_cs,By concept,"Proctopexy (eg, for prolapse); perineal approach (2109215)",Age group,0 to 17,Person count,Overall,Numeric,Count,5,FALSE
+rectopexy_narrow_cs,By concept,"Proctopexy (eg, for prolapse); with sigmoid resection, abdominal approach (2109216)",Age group,0 to 17,Person count,Overall,Numeric,Count,NA,TRUE
+rectopexy_narrow_cs,By concept,"Proctopexy (eg, for prolapse); abdominal approach (2109214)",Age group,35 to 44,Person count,Overall,Numeric,Count,14,FALSE
+rectopexy_narrow_cs,By concept,"Proctopexy (eg, for prolapse); perineal approach (2109215)",Age group,75 to 150,Person count,Overall,Numeric,Count,79,FALSE
+rectopexy_narrow_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse) (2109208)",Age group,25 to 34,Person count,Overall,Numeric,Count,30,FALSE
+rectopexy_narrow_cs,By concept,"Proctopexy (eg, for prolapse); perineal approach (2109215)",Age group,25 to 34,Person count,Overall,Numeric,Count,9,FALSE
+rectopexy_narrow_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse) (2109208)",Age group,35 to 44,Person count,Overall,Numeric,Count,67,FALSE
+rectopexy_narrow_cs,By concept,"Proctopexy (eg, for prolapse); with sigmoid resection, abdominal approach (2109216)",Age group,18 to 24,Person count,Overall,Numeric,Count,NA,TRUE
+rectopexy_narrow_cs,By concept,"Proctopexy (eg, for prolapse); with sigmoid resection, abdominal approach (2109216)",Age group,None,Person count,Overall,Numeric,Count,30,FALSE
+rectopexy_narrow_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse) (2109208)",Age group,45 to 54,Person count,Overall,Numeric,Count,85,FALSE
+rectopexy_narrow_cs,By concept,"Proctopexy (eg, for prolapse); abdominal approach (2109214)",Age group,45 to 54,Person count,Overall,Numeric,Count,21,FALSE
+rectopexy_narrow_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse), with sigmoid resection (2109209)",Age group,65 to 74,Person count,Overall,Numeric,Count,41,FALSE
+rectopexy_narrow_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse), with sigmoid resection (2109209)",Age group,18 to 24,Person count,Overall,Numeric,Count,6,FALSE
+rectopexy_narrow_cs,By concept,"Proctopexy (eg, for prolapse); with sigmoid resection, abdominal approach (2109216)",Age group,75 to 150,Person count,Overall,Numeric,Count,19,FALSE
+rectopexy_narrow_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse), with sigmoid resection (2109209)",Age group,35 to 44,Person count,Overall,Numeric,Count,21,FALSE
+rectopexy_narrow_cs,By concept,"Proctopexy (eg, for prolapse); with sigmoid resection, abdominal approach (2109216)",Age group,25 to 34,Person count,Overall,Numeric,Count,NA,TRUE
+rectopexy_narrow_cs,By concept,"Proctopexy (eg, for prolapse); with sigmoid resection, abdominal approach (2109216)",Age group,45 to 54,Person count,Overall,Numeric,Count,8,FALSE
+rectopexy_narrow_cs,By concept,"Proctopexy (eg, for prolapse); abdominal approach (2109214)",Age group,65 to 74,Person count,Overall,Numeric,Count,59,FALSE
+rectopexy_narrow_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse), with sigmoid resection (2109209)",Age group,None,Person count,Overall,Numeric,Count,40,FALSE
+rectopexy_narrow_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse), with sigmoid resection (2109209)",Age group,75 to 150,Person count,Overall,Numeric,Count,34,FALSE
+rectopexy_narrow_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse), with sigmoid resection (2109209)",Age group,45 to 54,Person count,Overall,Numeric,Count,21,FALSE
+rectopexy_narrow_cs,Codelist,Overall,Age group and sex,75 to 150 and Female,Person count,Overall,Numeric,Count,329,FALSE
+rectopexy_narrow_cs,Codelist,Overall,Age group and sex,45 to 54 and Female,Person count,Overall,Numeric,Count,133,FALSE
+rectopexy_narrow_cs,Codelist,Overall,Age group and sex,None and Male,Person count,Overall,Numeric,Count,27,FALSE
+rectopexy_narrow_cs,Codelist,Overall,Age group and sex,35 to 44 and Male,Person count,Overall,Numeric,Count,24,FALSE
+rectopexy_narrow_cs,Codelist,Overall,Age group and sex,35 to 44 and Female,Person count,Overall,Numeric,Count,109,FALSE
+rectopexy_narrow_cs,Codelist,Overall,Age group and sex,None and Female,Person count,Overall,Numeric,Count,279,FALSE
+rectopexy_narrow_cs,Codelist,Overall,Age group and sex,0 to 17 and Female,Person count,Overall,Numeric,Count,5,FALSE
+rectopexy_narrow_cs,Codelist,Overall,Age group and sex,0 to 17 and Male,Person count,Overall,Numeric,Count,7,FALSE
+rectopexy_narrow_cs,Codelist,Overall,Age group and sex,45 to 54 and Male,Person count,Overall,Numeric,Count,29,FALSE
+rectopexy_narrow_cs,Codelist,Overall,Age group and sex,65 to 74 and Female,Person count,Overall,Numeric,Count,296,FALSE
+rectopexy_narrow_cs,Codelist,Overall,Age group and sex,25 to 34 and Female,Person count,Overall,Numeric,Count,47,FALSE
+rectopexy_narrow_cs,Codelist,Overall,Age group and sex,65 to 74 and Male,Person count,Overall,Numeric,Count,32,FALSE
+rectopexy_narrow_cs,Codelist,Overall,Age group and sex,25 to 34 and Male,Person count,Overall,Numeric,Count,11,FALSE
+rectopexy_narrow_cs,Codelist,Overall,Age group and sex,18 to 24 and Male,Person count,Overall,Numeric,Count,11,FALSE
+rectopexy_narrow_cs,Codelist,Overall,Age group and sex,18 to 24 and Female,Person count,Overall,Numeric,Count,20,FALSE
+rectopexy_narrow_cs,Codelist,Overall,Age group and sex,75 to 150 and Male,Person count,Overall,Numeric,Count,24,FALSE
+rectopexy_narrow_cs,By concept,"Proctopexy (eg, for prolapse); abdominal approach (2109214)",Age group and sex,35 to 44 and Male,Person count,Overall,Numeric,Count,NA,TRUE
+rectopexy_narrow_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse), with sigmoid resection (2109209)",Age group and sex,35 to 44 and Male,Person count,Overall,Numeric,Count,NA,TRUE
+rectopexy_narrow_cs,By concept,"Proctopexy (eg, for prolapse); abdominal approach (2109214)",Age group and sex,45 to 54 and Female,Person count,Overall,Numeric,Count,20,FALSE
+rectopexy_narrow_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse), with sigmoid resection (2109209)",Age group and sex,18 to 24 and Male,Person count,Overall,Numeric,Count,NA,TRUE
+rectopexy_narrow_cs,By concept,"Proctopexy (eg, for prolapse); perineal approach (2109215)",Age group and sex,0 to 17 and Male,Person count,Overall,Numeric,Count,NA,TRUE
+rectopexy_narrow_cs,By concept,"Proctopexy (eg, for prolapse); with sigmoid resection, abdominal approach (2109216)",Age group and sex,45 to 54 and Female,Person count,Overall,Numeric,Count,7,FALSE
+rectopexy_narrow_cs,By concept,"Proctopexy (eg, for prolapse); abdominal approach (2109214)",Age group and sex,35 to 44 and Female,Person count,Overall,Numeric,Count,13,FALSE
+rectopexy_narrow_cs,By concept,"Proctopexy (eg, for prolapse); abdominal approach (2109214)",Age group and sex,25 to 34 and Female,Person count,Overall,Numeric,Count,NA,TRUE
+rectopexy_narrow_cs,By concept,"Proctopexy (eg, for prolapse); abdominal approach (2109214)",Age group and sex,None and Male,Person count,Overall,Numeric,Count,NA,TRUE
+rectopexy_narrow_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse) (2109208)",Age group and sex,65 to 74 and Female,Person count,Overall,Numeric,Count,167,FALSE
+rectopexy_narrow_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse), with sigmoid resection (2109209)",Age group and sex,18 to 24 and Female,Person count,Overall,Numeric,Count,NA,TRUE
+rectopexy_narrow_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse) (2109208)",Age group and sex,45 to 54 and Male,Person count,Overall,Numeric,Count,10,FALSE
+rectopexy_narrow_cs,By concept,"Proctopexy (eg, for prolapse); with sigmoid resection, abdominal approach (2109216)",Age group and sex,None and Male,Person count,Overall,Numeric,Count,NA,TRUE
+rectopexy_narrow_cs,By concept,"Proctopexy (eg, for prolapse); perineal approach (2109215)",Age group and sex,75 to 150 and Male,Person count,Overall,Numeric,Count,11,FALSE
+rectopexy_narrow_cs,By concept,"Proctopexy (eg, for prolapse); abdominal approach (2109214)",Age group and sex,18 to 24 and Female,Person count,Overall,Numeric,Count,NA,TRUE
+rectopexy_narrow_cs,By concept,"Proctopexy (eg, for prolapse); perineal approach (2109215)",Age group and sex,None and Female,Person count,Overall,Numeric,Count,35,FALSE
+rectopexy_narrow_cs,By concept,"Proctopexy (eg, for prolapse); abdominal approach (2109214)",Age group and sex,45 to 54 and Male,Person count,Overall,Numeric,Count,NA,TRUE
+rectopexy_narrow_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse) (2109208)",Age group and sex,18 to 24 and Female,Person count,Overall,Numeric,Count,16,FALSE
+rectopexy_narrow_cs,By concept,"Proctopexy (eg, for prolapse); perineal approach (2109215)",Age group and sex,75 to 150 and Female,Person count,Overall,Numeric,Count,68,FALSE
+rectopexy_narrow_cs,By concept,"Proctopexy (eg, for prolapse); with sigmoid resection, abdominal approach (2109216)",Age group and sex,25 to 34 and Female,Person count,Overall,Numeric,Count,NA,TRUE
+rectopexy_narrow_cs,By concept,"Proctopexy (eg, for prolapse); perineal approach (2109215)",Age group and sex,45 to 54 and Female,Person count,Overall,Numeric,Count,17,FALSE
+rectopexy_narrow_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse), with sigmoid resection (2109209)",Age group and sex,75 to 150 and Female,Person count,Overall,Numeric,Count,33,FALSE
+rectopexy_narrow_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse) (2109208)",Age group and sex,25 to 34 and Male,Person count,Overall,Numeric,Count,NA,TRUE
+rectopexy_narrow_cs,By concept,"Proctopexy (eg, for prolapse); with sigmoid resection, abdominal approach (2109216)",Age group and sex,75 to 150 and Female,Person count,Overall,Numeric,Count,15,FALSE
+rectopexy_narrow_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse), with sigmoid resection (2109209)",Age group and sex,25 to 34 and Female,Person count,Overall,Numeric,Count,8,FALSE
+rectopexy_narrow_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse), with sigmoid resection (2109209)",Age group and sex,None and Male,Person count,Overall,Numeric,Count,NA,TRUE
+rectopexy_narrow_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse) (2109208)",Age group and sex,35 to 44 and Male,Person count,Overall,Numeric,Count,5,FALSE
+rectopexy_narrow_cs,By concept,"Proctopexy (eg, for prolapse); with sigmoid resection, abdominal approach (2109216)",Age group and sex,18 to 24 and Male,Person count,Overall,Numeric,Count,NA,TRUE
+rectopexy_narrow_cs,By concept,"Proctopexy (eg, for prolapse); abdominal approach (2109214)",Age group and sex,65 to 74 and Male,Person count,Overall,Numeric,Count,NA,TRUE
+rectopexy_narrow_cs,By concept,"Proctopexy (eg, for prolapse); perineal approach (2109215)",Age group and sex,0 to 17 and Female,Person count,Overall,Numeric,Count,NA,TRUE
+rectopexy_narrow_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse) (2109208)",Age group and sex,65 to 74 and Male,Person count,Overall,Numeric,Count,8,FALSE
+rectopexy_narrow_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse) (2109208)",Age group and sex,18 to 24 and Male,Person count,Overall,Numeric,Count,NA,TRUE
+rectopexy_narrow_cs,By concept,"Proctopexy (eg, for prolapse); abdominal approach (2109214)",Age group and sex,75 to 150 and Female,Person count,Overall,Numeric,Count,62,FALSE
+rectopexy_narrow_cs,By concept,"Proctopexy (eg, for prolapse); with sigmoid resection, abdominal approach (2109216)",Age group and sex,None and Female,Person count,Overall,Numeric,Count,26,FALSE
+rectopexy_narrow_cs,By concept,"Proctopexy (eg, for prolapse); perineal approach (2109215)",Age group and sex,None and Male,Person count,Overall,Numeric,Count,14,FALSE
+rectopexy_narrow_cs,By concept,"Proctopexy (eg, for prolapse); abdominal approach (2109214)",Age group and sex,75 to 150 and Male,Person count,Overall,Numeric,Count,NA,TRUE
+rectopexy_narrow_cs,By concept,"Proctopexy (eg, for prolapse); perineal approach (2109215)",Age group and sex,25 to 34 and Male,Person count,Overall,Numeric,Count,5,FALSE
+rectopexy_narrow_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse) (2109208)",Age group and sex,45 to 54 and Female,Person count,Overall,Numeric,Count,75,FALSE
+rectopexy_narrow_cs,By concept,"Proctopexy (eg, for prolapse); with sigmoid resection, abdominal approach (2109216)",Age group and sex,0 to 17 and Female,Person count,Overall,Numeric,Count,NA,TRUE
+rectopexy_narrow_cs,By concept,"Proctopexy (eg, for prolapse); perineal approach (2109215)",Age group and sex,18 to 24 and Female,Person count,Overall,Numeric,Count,NA,TRUE
+rectopexy_narrow_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse), with sigmoid resection (2109209)",Age group and sex,65 to 74 and Male,Person count,Overall,Numeric,Count,NA,TRUE
+rectopexy_narrow_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse), with sigmoid resection (2109209)",Age group and sex,75 to 150 and Male,Person count,Overall,Numeric,Count,NA,TRUE
+rectopexy_narrow_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse) (2109208)",Age group and sex,0 to 17 and Female,Person count,Overall,Numeric,Count,NA,TRUE
+rectopexy_narrow_cs,By concept,"Proctopexy (eg, for prolapse); perineal approach (2109215)",Age group and sex,65 to 74 and Male,Person count,Overall,Numeric,Count,18,FALSE
+rectopexy_narrow_cs,By concept,"Proctopexy (eg, for prolapse); with sigmoid resection, abdominal approach (2109216)",Age group and sex,65 to 74 and Male,Person count,Overall,Numeric,Count,NA,TRUE
+rectopexy_narrow_cs,By concept,"Proctopexy (eg, for prolapse); perineal approach (2109215)",Age group and sex,45 to 54 and Male,Person count,Overall,Numeric,Count,16,FALSE
+rectopexy_narrow_cs,By concept,"Proctopexy (eg, for prolapse); with sigmoid resection, abdominal approach (2109216)",Age group and sex,35 to 44 and Female,Person count,Overall,Numeric,Count,5,FALSE
+rectopexy_narrow_cs,By concept,"Proctopexy (eg, for prolapse); perineal approach (2109215)",Age group and sex,65 to 74 and Female,Person count,Overall,Numeric,Count,34,FALSE
+rectopexy_narrow_cs,By concept,"Proctopexy (eg, for prolapse); with sigmoid resection, abdominal approach (2109216)",Age group and sex,35 to 44 and Male,Person count,Overall,Numeric,Count,NA,TRUE
+rectopexy_narrow_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse), with sigmoid resection (2109209)",Age group and sex,25 to 34 and Male,Person count,Overall,Numeric,Count,NA,TRUE
+rectopexy_narrow_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse) (2109208)",Age group and sex,75 to 150 and Male,Person count,Overall,Numeric,Count,6,FALSE
+rectopexy_narrow_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse), with sigmoid resection (2109209)",Age group and sex,None and Female,Person count,Overall,Numeric,Count,37,FALSE
+rectopexy_narrow_cs,By concept,"Proctopexy (eg, for prolapse); perineal approach (2109215)",Age group and sex,35 to 44 and Male,Person count,Overall,Numeric,Count,16,FALSE
+rectopexy_narrow_cs,By concept,"Proctopexy (eg, for prolapse); abdominal approach (2109214)",Age group and sex,18 to 24 and Male,Person count,Overall,Numeric,Count,NA,TRUE
+rectopexy_narrow_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse) (2109208)",Age group and sex,75 to 150 and Female,Person count,Overall,Numeric,Count,159,FALSE
+rectopexy_narrow_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse) (2109208)",Age group and sex,35 to 44 and Female,Person count,Overall,Numeric,Count,62,FALSE
+rectopexy_narrow_cs,By concept,"Proctopexy (eg, for prolapse); abdominal approach (2109214)",Age group and sex,None and Female,Person count,Overall,Numeric,Count,50,FALSE
+rectopexy_narrow_cs,By concept,"Proctopexy (eg, for prolapse); perineal approach (2109215)",Age group and sex,35 to 44 and Female,Person count,Overall,Numeric,Count,15,FALSE
+rectopexy_narrow_cs,By concept,"Proctopexy (eg, for prolapse); with sigmoid resection, abdominal approach (2109216)",Age group and sex,45 to 54 and Male,Person count,Overall,Numeric,Count,NA,TRUE
+rectopexy_narrow_cs,By concept,"Proctopexy (eg, for prolapse); perineal approach (2109215)",Age group and sex,25 to 34 and Female,Person count,Overall,Numeric,Count,NA,TRUE
+rectopexy_narrow_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse) (2109208)",Age group and sex,0 to 17 and Male,Person count,Overall,Numeric,Count,NA,TRUE
+rectopexy_narrow_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse) (2109208)",Age group and sex,25 to 34 and Female,Person count,Overall,Numeric,Count,27,FALSE
+rectopexy_narrow_cs,By concept,"Proctopexy (eg, for prolapse); with sigmoid resection, abdominal approach (2109216)",Age group and sex,75 to 150 and Male,Person count,Overall,Numeric,Count,NA,TRUE
+rectopexy_narrow_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse) (2109208)",Age group and sex,None and Male,Person count,Overall,Numeric,Count,6,FALSE
+rectopexy_narrow_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse) (2109208)",Age group and sex,None and Female,Person count,Overall,Numeric,Count,145,FALSE
+rectopexy_narrow_cs,By concept,"Proctopexy (eg, for prolapse); abdominal approach (2109214)",Age group and sex,25 to 34 and Male,Person count,Overall,Numeric,Count,NA,TRUE
+rectopexy_narrow_cs,By concept,"Proctopexy (eg, for prolapse); with sigmoid resection, abdominal approach (2109216)",Age group and sex,65 to 74 and Female,Person count,Overall,Numeric,Count,16,FALSE
+rectopexy_narrow_cs,By concept,"Proctopexy (eg, for prolapse); perineal approach (2109215)",Age group and sex,18 to 24 and Male,Person count,Overall,Numeric,Count,NA,TRUE
+rectopexy_narrow_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse), with sigmoid resection (2109209)",Age group and sex,35 to 44 and Female,Person count,Overall,Numeric,Count,20,FALSE
+rectopexy_narrow_cs,By concept,"Proctopexy (eg, for prolapse); abdominal approach (2109214)",Age group and sex,65 to 74 and Female,Person count,Overall,Numeric,Count,57,FALSE
+rectopexy_narrow_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse), with sigmoid resection (2109209)",Age group and sex,65 to 74 and Female,Person count,Overall,Numeric,Count,37,FALSE
+rectopexy_narrow_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse), with sigmoid resection (2109209)",Age group and sex,45 to 54 and Female,Person count,Overall,Numeric,Count,20,FALSE
+rectopexy_narrow_cs,By concept,"Laparoscopy, surgical; proctopexy (for prolapse), with sigmoid resection (2109209)",Age group and sex,45 to 54 and Male,Person count,Overall,Numeric,Count,NA,TRUE
