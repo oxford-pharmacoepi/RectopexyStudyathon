@@ -20,24 +20,20 @@ study_cs <- CodelistGenerator::codesFromConceptSet(
   cdm = cdm)
 
 # summarise code use -------
-code_use <- list()
-cli::cli_text("- Getting code use in source")
-for(i in seq_along(study_cs)){
-  cli::cli_text("-- For {names(study_cs)[i]} ({i} of {length(study_cs)})")
-  code_use[[i]] <- summariseCodeUse(study_cs[[i]],
-                                    cdm = cdm,
-                                    byYear = TRUE,
-                                    bySex = TRUE,
-                                    ageGroup = list(c(0,17),
-                                                    c(18,24),
-                                                    c(25,34),
-                                                    c(35,44),
-                                                    c(45,54),
-                                                    c(65,74),
-                                                    c(75,150))) %>%
-    mutate(concept_set = names(study_cs)[i])
-}
-code_use <- bind_rows(code_use)
+cli::cli_text("- Getting code use in database")
+code_use <- summariseCodeUse(study_cs,
+                             cdm = cdm,
+                             byYear = TRUE,
+                             bySex = TRUE,
+                             ageGroup = list(c(0,17),
+                                             c(18,24),
+                                             c(25,34),
+                                             c(35,44),
+                                             c(45,54),
+                                             c(65,74),
+                                             c(75,150))) %>%
+  mutate(cdm_name = db_name)
+
 write_csv(code_use,
           here("Results", paste0(
             "code_use_", cdmName(cdm), ".csv"
@@ -55,17 +51,12 @@ cdm <- generateConceptCohortSet(cdm,
 cli::cli_text("- Instantiating cohorts")
 rp_cohort_counts <- cohort_count(cdm[["study_cohorts"]]) %>%
   left_join(cohort_set(cdm[["study_cohorts"]]),
-            by = "cohort_definition_id")
+            by = "cohort_definition_id") %>%
+  mutate(cdm_name = db_name)
 write_csv(rp_cohort_counts,
           here("Results", paste0(
             "cohort_count_", cdmName(cdm), ".csv"
           )))
-
-
-
-
-
-
 
 # cohort overlap  ----
 # add cohort name to cohort table
@@ -99,9 +90,9 @@ write_csv(cohort_intersection,
 # index events  ----
 cli::cli_text("- Getting index event codes")
 index_codes<- list()
-non_empty_cohorts <- cohort_count(cdm[["study_cohorts"]]) %>%
+non_empty_cohorts <- sort(cohort_count(cdm[["study_cohorts"]]) %>%
   filter(number_records > 0) %>%
-  pull("cohort_definition_id")
+  pull("cohort_definition_id"))
 
 for(i in seq_along(non_empty_cohorts)){
   working_cohort_id <- non_empty_cohorts[i]
@@ -110,7 +101,7 @@ for(i in seq_along(non_empty_cohorts)){
     pull("cohort_name")
   cli::cli_text("-- For {working_cohort} ({i} of {length(non_empty_cohorts)})")
 
-  index_codes[[i]] <- summariseCohortCodeUse(study_cs[[working_cohort]],
+  index_codes[[i]] <- summariseCohortCodeUse(study_cs[working_cohort] ,
                                              cohortTable = "study_cohorts",
                                              cohortId = working_cohort_id,
                                              timing = "entry",
@@ -127,10 +118,32 @@ for(i in seq_along(non_empty_cohorts)){
     mutate(cohort_name = working_cohort)
 
 }
-index_codes <- bind_rows(index_codes)
+index_codes <- bind_rows(index_codes) %>%
+  mutate(cdm_name = db_name)
 write_csv(index_codes,
           here("Results", paste0(
             "index_codes_", cdmName(cdm), ".csv"
+          )))
+
+# characteristics ----
+cli::cli_text("- Getting patient characteristics")
+chars <- summariseCharacteristics(cdm$study_cohorts)
+write_csv(chars,
+          here("Results", paste0(
+            "patient_characteristics_", cdmName(cdm), ".csv"
+          )))
+
+cli::cli_text("- Getting large scale characteristics")
+lsc <- summariseLargeScaleCharacteristics(cdm$study_cohorts,
+                                          eventInWindow = c("drug_exposure",
+                                                            "condition_occurrence",
+                                                            "observation",
+                                                            "measurement",
+                                                            "procedure_occurrence",
+                                                            "visit_occurrence"))
+write_csv(lsc,
+          here("Results", paste0(
+            "large_scale_characteristics_", cdmName(cdm), ".csv"
           )))
 
 # end -----

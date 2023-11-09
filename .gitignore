@@ -2,3 +2,6 @@
 1_Diagnostics/Results/cdm_snapshot_pharmetrics.csv
 1_Diagnostics/Results/code_use_pharmetrics.csv
 1_Diagnostics/CodeToRun_local.R
+1_Diagnostics/Results/*.csv
+1_Diagnostics/Results/cohort_count_pharmetrics.csv
+1_Diagnostics/Results/cohort_intersection_pharmetrics.csv
