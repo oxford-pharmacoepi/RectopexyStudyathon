@@ -5,3 +5,4 @@
 1_Diagnostics/Results/*.csv
 1_Diagnostics/Results/cohort_count_pharmetrics.csv
 1_Diagnostics/Results/cohort_intersection_pharmetrics.csv
+1_Diagnostics/Results/*.zip

@@ -58,7 +58,7 @@ write_csv(rp_cohort_counts,
             "cohort_count_", cdmName(cdm), ".csv"
           )))
 
-# cohort overlap  ----
+# cohort intersection  ----
 # add cohort name to cohort table
 cdm[["study_cohorts"]] <- cdm[["study_cohorts"]] %>%
   left_join(attr(cdm[["study_cohorts"]], "cohort_set") %>%
@@ -146,7 +146,17 @@ write_csv(lsc,
             "large_scale_characteristics_", cdmName(cdm), ".csv"
           )))
 
-# end -----
+# zip all results -----
+cli::cli_text("- Zipping results")
+files_to_zip <- list.files(here("Results"))
+files_to_zip <- files_to_zip[str_detect(files_to_zip, "readme.md", negate = TRUE)]
+
+zip::zip(zipfile = file.path(paste0(
+  here("Results"), "/Results_", db_name, ".zip"
+)),
+files = files_to_zip,
+root = here("Results"))
+
 dur <- abs(as.numeric(Sys.time() - start_time, units = "secs"))
 cli::cli_alert_success("Cohort diagnostics finished")
 cli::cli_alert_success(glue::glue(

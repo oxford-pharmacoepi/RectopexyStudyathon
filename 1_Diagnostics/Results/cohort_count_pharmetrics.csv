@@ -1,7 +1,0 @@
-cohort_definition_id,number_records,number_subjects,cohort_name,limit,prior_observation,future_observation,end
-1,81201,79417,mesh_broad_cs,all,0,0,1
-2,81201,79417,mesh_narrow_cs,all,0,0,1
-3,36225,15020,rectal_prolapse_broad_cs,all,0,0,1
-4,36225,15020,rectal_prolapse_narrow_cs,all,0,0,1
-5,2181,2095,rectopexy_broad_cs,all,0,0,1
-6,1437,1381,rectopexy_narrow_cs,all,0,0,1

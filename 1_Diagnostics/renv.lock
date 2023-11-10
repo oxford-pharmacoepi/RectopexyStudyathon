@@ -49,7 +49,7 @@
       "RemoteRepo": "CodelistGenerator",
       "RemoteUsername": "darwin-eu",
       "RemoteRef": "device",
-      "RemoteSha": "16205994122a086b58c6e793930a2f47c7b0fe41",
+      "RemoteSha": "0ef5736235692a997b05c1677f3eeb7fd365b8ee",
       "Requirements": [
         "CDMConnector",
         "DBI",
@@ -67,7 +67,7 @@
         "tidyr",
         "tidyselect"
       ],
-      "Hash": "0204a53c98e6b7b1b59c8f5bec5db74c"
+      "Hash": "f4e299b80c13cf4074ed3e428b956c76"
     },
     "DBI": {
       "Package": "DBI",
@@ -959,6 +959,23 @@
         "utils"
       ],
       "Hash": "dbca60742be0c9eddc5205e5c7ca1f44"
+    },
+    "odbc": {
+      "Package": "odbc",
+      "Version": "1.3.5",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Requirements": [
+        "DBI",
+        "R",
+        "Rcpp",
+        "bit64",
+        "blob",
+        "hms",
+        "methods",
+        "rlang"
+      ],
+      "Hash": "d42c4f464e14ce542718a17525265e05"
     },
     "pillar": {
       "Package": "pillar",

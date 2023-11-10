@@ -8,12 +8,16 @@ library(DBI)
 library(CDMConnector)
 library(dbplyr)
 library(dplyr)
+library(RPostgres)
+library(odbc)
 library(CodelistGenerator)
 library(PatientProfiles)
 library(DrugUtilisation)
 library(IncidencePrevalence)
 library(here)
 library(readr)
+library(zip)
+library(stringr)
 
 # database metadata and connection details -----
 # The name/ acronym for the database
