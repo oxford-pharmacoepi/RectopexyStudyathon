@@ -49,7 +49,7 @@
       "RemoteRepo": "CodelistGenerator",
       "RemoteUsername": "darwin-eu",
       "RemoteRef": "device",
-      "RemoteSha": "0ef5736235692a997b05c1677f3eeb7fd365b8ee",
+      "RemoteSha": "4379857f78e1ad0df3ff595af48f3ddfdb3fc16d",
       "Requirements": [
         "CDMConnector",
         "DBI",
@@ -67,7 +67,7 @@
         "tidyr",
         "tidyselect"
       ],
-      "Hash": "f4e299b80c13cf4074ed3e428b956c76"
+      "Hash": "cadf926f7f76619170a81e0756c68f6e"
     },
     "DBI": {
       "Package": "DBI",

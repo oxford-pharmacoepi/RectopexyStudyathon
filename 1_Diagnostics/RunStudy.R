@@ -15,7 +15,7 @@ write_csv(snapshot(cdm), here("Results", paste0(
 
 # import concepts ------
 cli::cli_text("- Importing concepts")
-study_cs <- CodelistGenerator::codesFromConceptSet(
+study_cs <- codesFromConceptSet(
   path = here("Cohorts", "ConceptSets"),
   cdm = cdm)
 
@@ -40,7 +40,7 @@ write_csv(code_use,
           )))
 
 # instantiate concept cohorts -------
-cdm <- generateConceptCohortSet(cdm,
+cdm <- CDMConnector::generateConceptCohortSet(cdm,
                                 conceptSet = study_cs,
                                 limit = "all",
                                 end = 1,
