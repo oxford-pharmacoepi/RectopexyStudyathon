@@ -58,8 +58,7 @@ write_csv(rp_cohort_counts,
             "cohort_count_", cdmName(cdm), ".csv"
           )))
 
-# cohort intersection  ----
-# add cohort name to cohort table
+# cohort intersection ----
 cdm[["study_cohorts"]] <- cdm[["study_cohorts"]] %>%
   left_join(attr(cdm[["study_cohorts"]], "cohort_set") %>%
               select("cohort_definition_id", "cohort_name"),
@@ -86,6 +85,9 @@ write_csv(cohort_intersection,
           here("Results", paste0(
             "cohort_intersection_", cdmName(cdm), ".csv"
           )))
+
+# cohort timings ----
+
 
 # index events  ----
 cli::cli_text("- Getting index event codes")
