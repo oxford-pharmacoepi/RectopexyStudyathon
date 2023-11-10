@@ -18,6 +18,7 @@ library(here)
 library(readr)
 library(zip)
 library(stringr)
+library(testhtat)
 
 # database metadata and connection details -----
 # The name/ acronym for the database

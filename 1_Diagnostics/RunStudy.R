@@ -125,7 +125,7 @@ write_csv(index_codes,
             "index_codes_", cdmName(cdm), ".csv"
           )))
 
-# characteristics ----
+# cohort characteristics ----
 cli::cli_text("- Getting patient characteristics")
 chars <- summariseCharacteristics(cdm$study_cohorts)
 write_csv(chars,
@@ -133,6 +133,7 @@ write_csv(chars,
             "patient_characteristics_", cdmName(cdm), ".csv"
           )))
 
+# large scale characteristics ----
 cli::cli_text("- Getting large scale characteristics")
 lsc <- summariseLargeScaleCharacteristics(cdm$study_cohorts,
                                           eventInWindow = c("drug_exposure",
@@ -144,6 +145,28 @@ lsc <- summariseLargeScaleCharacteristics(cdm$study_cohorts,
 write_csv(lsc,
           here("Results", paste0(
             "large_scale_characteristics_", cdmName(cdm), ".csv"
+          )))
+
+# period prevalence in 100k sample of database ----
+cli::cli_text("- Getting period prevalence")
+cdm <- generateDenominatorCohortSet(cdm, name = "denominator",
+                                    cohortDateRange = as.Date(c("2000-01-01", NA)),
+                                    sex = c("Both", "Male", "Female"),
+                                    ageGroup =  list(c(0,17),
+                                                     c(18,24),
+                                                     c(25,34),
+                                                     c(35,44),
+                                                     c(45,54),
+                                                     c(65,74),
+                                                     c(75,150)),
+                                    requirementInteractions = FALSE)
+period_prev <- estimatePeriodPrevalence(cdm,
+                         denominatorTable = "denominator",
+                         outcomeTable = "study_cohorts")
+
+write_csv(period_prev,
+          here("Results", paste0(
+            "period_prev_", cdmName(cdm), ".csv"
           )))
 
 # zip all results -----
