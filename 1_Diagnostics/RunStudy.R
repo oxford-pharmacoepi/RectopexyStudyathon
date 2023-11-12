@@ -1,5 +1,7 @@
+# start -----
 start_time <- Sys.time()
 # cdm reference ----
+cli::cli_text("- Creating CDM reference ({Sys.time()})")
 cdm <- CDMConnector::cdm_from_con(con = db,
                                   cdm_schema = cdm_schema,
                                   write_schema = c(schema = write_schema,
@@ -8,38 +10,19 @@ cdm <- CDMConnector::cdm_from_con(con = db,
 
 
 # cdm snapshot ----
-cli::cli_text("- Getting cdm snapshot")
+cli::cli_text("- Getting cdm snapshot ({Sys.time()})")
 write_csv(snapshot(cdm), here("Results", paste0(
   "cdm_snapshot_", cdmName(cdm), ".csv"
 )))
 
 # import concepts ------
-cli::cli_text("- Importing concepts")
+cli::cli_text("- Importing concepts ({Sys.time()})")
 study_cs <- codesFromConceptSet(
-  path = here("Cohorts", "ConceptSets"),
+  path = here("ConceptSets"),
   cdm = cdm)
 
-# summarise code use -------
-cli::cli_text("- Getting code use in database")
-code_use <- summariseCodeUse(study_cs,
-                             cdm = cdm,
-                             byYear = TRUE,
-                             bySex = TRUE,
-                             ageGroup = list(c(0,17),
-                                             c(18,24),
-                                             c(25,34),
-                                             c(35,44),
-                                             c(45,54),
-                                             c(65,74),
-                                             c(75,150))) %>%
-  mutate(cdm_name = db_name)
-
-write_csv(code_use,
-          here("Results", paste0(
-            "code_use_", cdmName(cdm), ".csv"
-          )))
-
 # instantiate concept cohorts -------
+cli::cli_text("- Instantiating concept based cohorts ({Sys.time()})")
 cdm <- CDMConnector::generateConceptCohortSet(cdm,
                                 conceptSet = study_cs,
                                 limit = "all",
@@ -48,7 +31,7 @@ cdm <- CDMConnector::generateConceptCohortSet(cdm,
                                 overwrite = TRUE)
 
 # cohort counts ----
-cli::cli_text("- Instantiating cohorts")
+cli::cli_text("- Instantiating cohorts ({Sys.time()})")
 rp_cohort_counts <- cohort_count(cdm[["study_cohorts"]]) %>%
   left_join(cohort_set(cdm[["study_cohorts"]]),
             by = "cohort_definition_id") %>%
@@ -59,13 +42,26 @@ write_csv(rp_cohort_counts,
           )))
 
 # cohort intersection ----
+cli::cli_text("- Getting cohort intersections ({Sys.time()})")
+
+# add cohort names
 cdm[["study_cohorts"]] <- cdm[["study_cohorts"]] %>%
   left_join(attr(cdm[["study_cohorts"]], "cohort_set") %>%
               select("cohort_definition_id", "cohort_name"),
             by = "cohort_definition_id") %>%
   computeQuery()
 
-cohort_intersection <- cdm[["study_cohorts"]]  %>%
+# for cohort timings we look at first cohort entry per person
+cdm[["study_cohorts_first"]] <- cdm[["study_cohorts"]] %>%
+  dplyr::group_by(.data$cohort_definition_id, .data$subject_id) %>%
+  dplyr::filter(
+    .data$cohort_start_date == min(.data$cohort_start_date,
+                                   na.rm = TRUE)
+  ) %>%
+  dplyr::ungroup() %>%
+  computeQuery()
+
+cohort_intersection <- cdm[["study_cohorts_first"]]  %>%
   inner_join(cdm[["study_cohorts"]],
              by = "subject_id") %>%
   select(subject_id,
@@ -81,16 +77,66 @@ cohort_intersection <- cdm[["study_cohorts"]]  %>%
   collect() %>%
   arrange(cohort_definition_id_1) %>%
   mutate(cdm_name = db_name)
+
+# adding code timings
+cdm$study_cohorts_timings <- cdm[["study_cohorts_first"]] %>%
+  inner_join(cdm[["study_cohorts_first"]],
+             by = "subject_id") %>%
+  computeQuery() %>%
+  rename("cohort_start_date_x" = "cohort_start_date.x",
+         "cohort_name_x" = "cohort_name.x",
+         "cohort_start_date_y" = "cohort_start_date.y",
+         "cohort_name_y" = "cohort_name.y") %>%
+  mutate(diff_days = !!datediff("cohort_start_date_x",
+                               "cohort_start_date_y",
+                                interval = "day")) %>%
+  computeQuery()
+
+cohort_timings <- cdm[["study_cohorts_timings"]] %>%
+  mutate(comparison = paste0(cohort_definition_id.x, ";",
+                             cohort_name_x, ";",
+                             cohort_definition_id.y, ";",
+                             cohort_name_y)) %>%
+  PatientProfiles::summariseResult(group=list("comparison"),
+                                   variables = list(diff_days="diff_days"),
+                                   functions = list(diff_days=c("min", "q25",
+                                                               "median","q75",
+                                                               "max"))) %>%
+  mutate(cdm_name = db_name)
+
+cohort_timings <- cohort_timings %>%
+  filter(variable == "diff_days") %>%
+  tidyr::separate(group_level,
+                  into = c("cohort_definition_id_1",
+                           "cohort_name_1",
+                           "cohort_definition_id_2",
+                           "cohort_name_2"),
+                  sep = ";") %>%
+  select("cdm_name",
+         "cohort_definition_id_1",
+         "cohort_name_1",
+         "cohort_definition_id_2",
+         "cohort_name_2",
+         "estimate_type",
+         "estimate") %>%
+  pivot_wider(names_from = estimate_type,
+              values_from = estimate,
+              names_glue = "{estimate_type}_days")
+
+# join intersections and timings
+cohort_intersection <- cohort_intersection %>%
+  mutate(cohort_definition_id_1 = as.integer(cohort_definition_id_1),
+         cohort_definition_id_2 = as.integer(cohort_definition_id_2)) %>%
+  left_join(cohort_timings %>%
+              mutate(cohort_definition_id_1 = as.integer(cohort_definition_id_1),
+                     cohort_definition_id_2 = as.integer(cohort_definition_id_2)))
 write_csv(cohort_intersection,
           here("Results", paste0(
             "cohort_intersection_", cdmName(cdm), ".csv"
           )))
 
-# cohort timings ----
-
-
 # index events  ----
-cli::cli_text("- Getting index event codes")
+cli::cli_text("- Getting index event codes ({Sys.time()})")
 index_codes<- list()
 non_empty_cohorts <- sort(cohort_count(cdm[["study_cohorts"]]) %>%
   filter(number_records > 0) %>%
@@ -128,53 +174,39 @@ write_csv(index_codes,
           )))
 
 # cohort characteristics ----
-cli::cli_text("- Getting patient characteristics")
-chars <- summariseCharacteristics(cdm$study_cohorts)
+cli::cli_text("- Getting patient characteristics ({Sys.time()})")
+chars <- PatientProfiles::summariseCharacteristics(cdm$study_cohorts,
+                                                   ageGroup = list(c(0,17),
+                                                                   c(18,24),
+                                                                   c(25,34),
+                                                                   c(35,44),
+                                                                   c(45,54),
+                                                                   c(65,74),
+                                                                   c(75,150)))
 write_csv(chars,
           here("Results", paste0(
             "patient_characteristics_", cdmName(cdm), ".csv"
           )))
 
 # large scale characteristics ----
-cli::cli_text("- Getting large scale characteristics")
-lsc <- summariseLargeScaleCharacteristics(cdm$study_cohorts,
+cli::cli_text("- Getting large scale characteristics ({Sys.time()})")
+lsc <- PatientProfiles::summariseLargeScaleCharacteristics(cdm$study_cohorts,
                                           eventInWindow = c("drug_exposure",
                                                             "condition_occurrence",
-                                                            "observation",
-                                                            "measurement",
                                                             "procedure_occurrence",
-                                                            "visit_occurrence"))
+                                                            "device_exposure"))
 write_csv(lsc,
           here("Results", paste0(
             "large_scale_characteristics_", cdmName(cdm), ".csv"
           )))
 
-# period prevalence in 100k sample of database ----
-cli::cli_text("- Getting period prevalence")
-cdm <- generateDenominatorCohortSet(cdm, name = "denominator",
-                                    cohortDateRange = as.Date(c("2000-01-01", NA)),
-                                    sex = c("Both", "Male", "Female"),
-                                    ageGroup =  list(c(0,17),
-                                                     c(18,24),
-                                                     c(25,34),
-                                                     c(35,44),
-                                                     c(45,54),
-                                                     c(65,74),
-                                                     c(75,150)),
-                                    requirementInteractions = FALSE)
-period_prev <- estimatePeriodPrevalence(cdm,
-                         denominatorTable = "denominator",
-                         outcomeTable = "study_cohorts")
-
-write_csv(period_prev,
-          here("Results", paste0(
-            "period_prev_", cdmName(cdm), ".csv"
-          )))
-
 # zip all results -----
-cli::cli_text("- Zipping results")
+cli::cli_text("- Zipping results ({Sys.time()})")
 files_to_zip <- list.files(here("Results"))
-files_to_zip <- files_to_zip[str_detect(files_to_zip, "readme.md", negate = TRUE)]
+files_to_zip <- files_to_zip[str_detect(files_to_zip,
+                                        db_name)]
+files_to_zip <- files_to_zip[str_detect(files_to_zip,
+                                        ".csv")]
 
 zip::zip(zipfile = file.path(paste0(
   here("Results"), "/Results_", db_name, ".zip"
