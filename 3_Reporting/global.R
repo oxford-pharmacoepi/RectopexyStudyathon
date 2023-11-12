@@ -10,12 +10,10 @@ library(DT)
 library(shinycssloaders)
 library(shinyWidgets)
 library(gt)
-library(CohortSurvival)
 library(scales)
 library(kableExtra)
 library(tidyr)
 library(stringr)
-# library(TreatmentPatterns)
 library(ggplot2)
 
 # functions ----
