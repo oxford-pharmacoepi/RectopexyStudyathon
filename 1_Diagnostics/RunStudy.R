@@ -130,7 +130,8 @@ cohort_intersection <- cohort_intersection %>%
   left_join(cohort_timings %>%
               mutate(cohort_definition_id_1 = as.integer(cohort_definition_id_1),
                      cohort_definition_id_2 = as.integer(cohort_definition_id_2)))
-write_csv(cohort_intersection,
+write_csv(cohort_intersection %>%
+            filter(intersect_count >= 5),
           here("Results", paste0(
             "cohort_intersection_", cdmName(cdm), ".csv"
           )))
@@ -161,6 +162,7 @@ for(i in seq_along(non_empty_cohorts)){
                                                              c(25,34),
                                                              c(35,44),
                                                              c(45,54),
+                                                             c(55,64),
                                                              c(65,74),
                                                              c(75,150))) %>%
     mutate(cohort_name = working_cohort)
@@ -181,6 +183,7 @@ chars <- PatientProfiles::summariseCharacteristics(cdm$study_cohorts,
                                                                    c(25,34),
                                                                    c(35,44),
                                                                    c(45,54),
+                                                                   c(55,64),
                                                                    c(65,74),
                                                                    c(75,150)))
 write_csv(chars,

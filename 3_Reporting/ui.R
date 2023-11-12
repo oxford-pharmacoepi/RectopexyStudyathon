@@ -1,6 +1,5 @@
 # ui shiny ----
 ui <- dashboardPage(
-  skin = "purple",
   dashboardHeader(title = "Menu"),
   ## menu ----
   dashboardSidebar(
@@ -38,6 +37,7 @@ ui <- dashboardPage(
 
   ## body ----
   dashboardBody(
+    use_theme(mytheme),
     tabItems(
   # background  ------
       tabItem(
@@ -85,7 +85,9 @@ ui <- dashboardPage(
         multiple = TRUE
       )
     ),
-    
+    tags$style(HTML("
+                  .tabbable > .nav > li > a {font-weight: bold; background-color: D3D4D8;  color:black}
+                  ")),
     tabsetPanel(
       type = "tabs",
       tabPanel(
@@ -95,14 +97,12 @@ ui <- dashboardPage(
           inputId = "cd_cc_subjects",
           label = "Number of subjects",
           fill = TRUE, 
-          status = "primary",
           value = TRUE
         ),
         prettySwitch(
           inputId = "cd_cc_records",
           label = "Number of records",
           fill = TRUE, 
-          status = "primary",
           value = TRUE
         ),
         tags$hr(),
@@ -111,6 +111,7 @@ ui <- dashboardPage(
       ),
       tabPanel(
         "Index codes",
+        tags$hr(),
         div(
           style = "display: inline-block;vertical-align:top; width: 150px;",
           pickerInput(
@@ -133,16 +134,19 @@ ui <- dashboardPage(
             multiple = TRUE
           )
         ),
+        tags$hr(),
         DT::dataTableOutput("dt_index_codes") %>% 
           withSpinner()
       ),
       tabPanel(
         "Cohort demographics",
+        tags$hr(),
         gt_output("gt_patient_characteristics") %>% 
           withSpinner()
       ),
       tabPanel(
         "Cohort large scale characteristics",
+        tags$hr(),
         div(
           style = "display: inline-block;vertical-align:top; width: 150px;",
           pickerInput(
@@ -165,11 +169,13 @@ ui <- dashboardPage(
             multiple = TRUE
           )
         ),
+        tags$hr(),
         DT::dataTableOutput("dt_large_scale_characteristics") %>% 
           withSpinner()
       ),
       tabPanel(
         "Cohort intersection",
+        tags$hr(),
         DT::dataTableOutput("dt_cohort_intersection") %>% 
           withSpinner(),
         tags$h5("Note, for cohort intersection only the first entry per cohort per individual is considered.")

@@ -15,7 +15,30 @@ library(kableExtra)
 library(tidyr)
 library(stringr)
 library(ggplot2)
+library(fresh)
 
+# theme -----
+mytheme <- create_theme(
+  adminlte_color(
+    light_blue = "#0c0e0c" 
+  ),
+  adminlte_sidebar(
+    # width = "400px",
+    dark_bg = "#d8323c", #  "#D8DEE9",
+    dark_hover_bg = "#b72818", #"#81A1C1",
+    dark_color ="white"# "#2E3440"
+  ), 
+  adminlte_global(
+    content_bg = "#eaebea" 
+  ),
+  adminlte_vars(
+    border_color = "#112446",
+    active_link_hover_bg = "#FFF",
+    active_link_hover_color = "#112446",
+    active_link_hover_border_color = "#112446",
+    link_hover_border_color = "#112446"
+  )
+)
 # functions ----
 nice.num3<-function(x) {
   trimws(format(x,
