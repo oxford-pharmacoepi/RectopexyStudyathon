@@ -49,7 +49,12 @@ cdm[["study_cohorts"]] <- cdm[["study_cohorts"]] %>%
   left_join(attr(cdm[["study_cohorts"]], "cohort_set") %>%
               select("cohort_definition_id", "cohort_name"),
             by = "cohort_definition_id") %>%
-  computeQuery()
+  CDMConnector::computeQuery(
+    name = "study_cohorts_names",
+    temporary = FALSE,
+    schema = attr(cdm, "write_schema"),
+    overwrite = TRUE
+  )
 
 # for cohort timings we look at first cohort entry per person
 cdm[["study_cohorts_first"]] <- cdm[["study_cohorts"]] %>%
@@ -59,7 +64,12 @@ cdm[["study_cohorts_first"]] <- cdm[["study_cohorts"]] %>%
                                    na.rm = TRUE)
   ) %>%
   dplyr::ungroup() %>%
-  computeQuery()
+  CDMConnector::computeQuery(
+    name = "study_cohorts_first",
+    temporary = FALSE,
+    schema = attr(cdm, "write_schema"),
+    overwrite = TRUE
+  )
 
 cohort_intersection <- cdm[["study_cohorts_first"]]  %>%
   inner_join(cdm[["study_cohorts"]],
@@ -82,21 +92,39 @@ cohort_intersection <- cdm[["study_cohorts_first"]]  %>%
 cdm$study_cohorts_timings <- cdm[["study_cohorts_first"]] %>%
   inner_join(cdm[["study_cohorts_first"]],
              by = "subject_id") %>%
-  computeQuery() %>%
   rename("cohort_start_date_x" = "cohort_start_date.x",
          "cohort_name_x" = "cohort_name.x",
+         "cohort_definition_id_x" = "cohort_definition_id.x",
          "cohort_start_date_y" = "cohort_start_date.y",
-         "cohort_name_y" = "cohort_name.y") %>%
+         "cohort_name_y" = "cohort_name.y",
+         "cohort_definition_id_y" = "cohort_definition_id.y") %>%
   mutate(diff_days = !!datediff("cohort_start_date_x",
-                               "cohort_start_date_y",
+                                "cohort_start_date_y",
                                 interval = "day")) %>%
-  computeQuery()
+  CDMConnector::computeQuery(
+    name = "study_cohorts_first_timings",
+    temporary = FALSE,
+    schema = attr(cdm, "write_schema"),
+    overwrite = TRUE
+  )
+
+cdm$study_cohorts_timings <- cdm$study_cohorts_timings %>%
+  mutate(comparison = as.character(paste0(as.character(cohort_definition_id_x),
+                             as.character(";"),
+                             as.character(cohort_name_x),
+                             as.character(";"),
+                             as.character(cohort_definition_id_y),
+                             as.character(";"),
+                             as.character(cohort_name_y)))) %>%
+  CDMConnector::computeQuery(
+    name = "study_cohorts_first_timings2",
+    temporary = FALSE,
+    schema = attr(cdm, "write_schema"),
+    overwrite = TRUE
+  )
 
 cohort_timings <- cdm[["study_cohorts_timings"]] %>%
-  mutate(comparison = paste0(cohort_definition_id.x, ";",
-                             cohort_name_x, ";",
-                             cohort_definition_id.y, ";",
-                             cohort_name_y)) %>%
+  collect() %>%
   PatientProfiles::summariseResult(group=list("comparison"),
                                    variables = list(diff_days="diff_days"),
                                    functions = list(diff_days=c("min", "q25",
@@ -129,7 +157,9 @@ cohort_intersection <- cohort_intersection %>%
          cohort_definition_id_2 = as.integer(cohort_definition_id_2)) %>%
   left_join(cohort_timings %>%
               mutate(cohort_definition_id_1 = as.integer(cohort_definition_id_1),
-                     cohort_definition_id_2 = as.integer(cohort_definition_id_2)))
+                     cohort_definition_id_2 = as.integer(cohort_definition_id_2)),
+            by = c("cohort_definition_id_1", "cohort_name_1", "cohort_definition_id_2",
+                         "cohort_name_2", "cdm_name"))
 write_csv(cohort_intersection %>%
             filter(intersect_count >= 5),
           here("Results", paste0(
