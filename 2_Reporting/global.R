@@ -172,15 +172,23 @@ for(i in seq_along(rt_patient_characteristics_files)){
 rt_patient_characteristics <- dplyr::bind_rows(rt_patient_characteristics)
 
 
-# rectopexy large_scale_characteristics -----
-rt_large_scale_characteristics_files<-results[stringr::str_detect(results, "rectopexy_large_scale_characteristics")]
-rt_large_scale_characteristics <- list()
-for(i in seq_along(rt_large_scale_characteristics_files)){
-  rt_large_scale_characteristics[[i]]<-readr::read_csv(rt_large_scale_characteristics_files[[i]], 
+# rectopexy large_scale_characteristics index -----
+rt_large_scale_characteristics_files_index<-results[stringr::str_detect(results, "rectopexy_large_scale_characteristics_index")]
+rt_large_scale_characteristics_index <- list()
+for(i in seq_along(rt_large_scale_characteristics_files_index)){
+  rt_large_scale_characteristics_index[[i]]<-readr::read_csv(rt_large_scale_characteristics_files_index[[i]], 
                                                        show_col_types = FALSE) 
 }
-rt_large_scale_characteristics <- dplyr::bind_rows(rt_large_scale_characteristics)
+rt_large_scale_characteristics_index <- dplyr::bind_rows(rt_large_scale_characteristics_index)
 
+# rectopexy large_scale_characteristics post -----
+rt_large_scale_characteristics_files_post<-results[stringr::str_detect(results, "rectopexy_large_scale_characteristics_post")]
+rt_large_scale_characteristics_post <- list()
+for(i in seq_along(rt_large_scale_characteristics_files_post)){
+  rt_large_scale_characteristics_post[[i]]<-readr::read_csv(rt_large_scale_characteristics_files_post[[i]], 
+                                                             show_col_types = FALSE) 
+}
+rt_large_scale_characteristics_post <- dplyr::bind_rows(rt_large_scale_characteristics_post)
 
 
 # rectopexy incidence -----
@@ -227,16 +235,15 @@ for(i in seq_along(rt_survival_summary_files)){
 rt_survival_summary <- dplyr::bind_rows(rt_survival_summary)
 
 # combined survival results: 90 day -----
-
-
-rt_90_day <-rt_survival_summary %>% 
+rt_90_day <-rt_survival_summary %>%
   filter(estimate_type == "Survival summary") %>% 
   filter(variable_type %in%  c("number_records", "events")) %>% 
   pivot_wider(names_from = variable_type,
               values_from = estimate) %>% 
-  select(!c("group_name", "estimate_type", "time", "analysis_type",
+  select(!c("group_name", "estimate_type", "analysis_type",
             "result_type", "variable", "outcome")) %>% 
-  left_join(rt_survival_estimates %>% 
+  left_join(rt_survival_estimates %>%  
+               filter(time == 90) %>% 
   filter(estimate_type == "Cumulative failure probability") %>% 
   pivot_wider(names_from = variable_type,
               values_from = estimate)) 
@@ -246,8 +253,7 @@ rt_90_day<-rt_90_day %>%
                                        estimate_95CI_lower*100, "% to ",
                                        estimate_95CI_upper, "%)")) %>% 
   select(c("cdm_name","group_level","strata_name","strata_level",       
-           "variable_level", "number_records","n_risk", "events",        
-           "group_name","variable", "estimate_type", 
+           "variable_level", "number_records","n_risk", "events",    
            "cumulative_incidence"))
 
  

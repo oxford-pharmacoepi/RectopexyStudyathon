@@ -1,3 +1,4 @@
+use_placeholder_cohort <- FALSE
 # start -----
 start_time <- Sys.time()
 # cdm reference ----
@@ -21,10 +22,11 @@ study_cs <- codesFromConceptSet(
   path = here("ConceptSets"),
   cdm = cdm)
 
+if(isTRUE(use_placeholder_cohort)){
 #placeholder cohorts - add a cohort that will exist in 100k to test code
 study_cs[["rectal_prolapse_placeholder_for_testing"]] <-  c(317009, 201826)
 study_cs[["rectopexy_placeholder_for_testing"]] <- c(317009, 201826)
-
+}
 
 study_cs[["surgical_infection"]] <- c(42538804,43530818,43530819,43530820,4334801,
                         42536181,4237450,4145549,4308542,4308837,
@@ -44,13 +46,13 @@ study_cs[["constipation"]]  <- c(45757425,45757556,75860,79061,201905,4026011,40
                   4341090,4340520,4008552,40757904,3001535,3017847,3045964,
                   4305269,4030428)
 
-# study_cs[["haemorrhage_broad"]] <- c(36712677,37017589,40488840,44806340,437312,443452,4189790,
-#                        4212456,4245614,4026112,197925,4096781,443530,4310668,4338544,
-#                        36717237,44784367,44784432,46273183,192671,197925,4002836,
-#                        4028772,4028773,4227086,4322061,4341790,4342904,4343234,
-#                        4179955,4209886,4311808,43021552,46271322,4078223,4080814,
-#                        4149197,4168088,4201120,4303294,44782862,44784306,2109110,
-#                        2109176,2109184,2109198,2109267)
+study_cs[["haemorrhage_broad"]] <- c(36712677,37017589,40488840,44806340,437312,443452,4189790,
+                       4212456,4245614,4026112,197925,4096781,443530,4310668,4338544,
+                       36717237,44784367,44784432,46273183,192671,197925,4002836,
+                       4028772,4028773,4227086,4322061,4341790,4342904,4343234,
+                       4179955,4209886,4311808,43021552,46271322,4078223,4080814,
+                       4149197,4168088,4201120,4303294,44782862,44784306,2109110,
+                       2109176,2109184,2109198,2109267)
 
 study_cs[["haemorrhage_narrow"]] <- c(4189790,4212456,4245614,197925,4096781,
                         197925,4002836,4343234,46271322)
@@ -78,10 +80,10 @@ cdm <- CDMConnector::generateConceptCohortSet(cdm,
 # subset cdm to cohorts ------
 cli::cli_text("- Subsetting cdm to DUS cohorts ({Sys.time()})")
 id_to_subset <- cohort_set(cdm$study_cohorts) %>%
-  filter(cohort_name %in% c("rectal_prolapse_broad_cs",
-                            "rectal_prolapse_placeholder_for_testing",
-                            "rectopexy_broad_cs",
-                            "rectopexy_placeholder_for_testing")) %>%
+  filter(cohort_name %in% c( "rectal_prolapse_broad_cs",
+                             "rectal_prolapse_placeholder_for_testing",
+                             "rectopexy_broad_cs",
+                             "rectopexy_placeholder_for_testing")) %>%
   pull(cohort_definition_id)
 
 cdm <- cdm_subset_cohort(
@@ -250,17 +252,7 @@ for(i in seq_along(non_empty_cohorts)){
                                              cohortTable = "study_cohorts",
                                              cohortId = working_cohort_id,
                                              timing = "entry",
-                                             cdm = cdm,
-                                             byYear = TRUE,
-                                             bySex = TRUE,
-                                             ageGroup = list(c(0,17),
-                                                             c(18,24),
-                                                             c(25,34),
-                                                             c(35,44),
-                                                             c(45,54),
-                                                             c(55,64),
-                                                             c(65,74),
-                                                             c(75,150))) %>%
+                                             cdm = cdm) %>%
     mutate(cohort_name = working_cohort)
 
 }
@@ -275,9 +267,10 @@ write_csv(index_codes,
 cli::cli_text("- Instantiating rectal prolapse cohort ({Sys.time()})")
 
 study_cs_rp <- list("rectal_prolapse_broad_cs" = study_cs[["rectal_prolapse_broad_cs"]],
-                    "rectal_prolapse_narrow_cs" = study_cs[["rectal_prolapse_narrow_cs"]],
-                    "rectal_prolapse_placeholder_for_testing" = study_cs[["rectal_prolapse_placeholder_for_testing"]])
-
+                    "rectal_prolapse_narrow_cs" = study_cs[["rectal_prolapse_narrow_cs"]])
+if(isTRUE(use_placeholder_cohort)){
+study_cs_rp[["rectal_prolapse_placeholder_for_testing"]] <- study_cs[["rectal_prolapse_placeholder_for_testing"]]
+}
 cdm <- CDMConnector::generateConceptCohortSet(cdm,
                                               conceptSet = study_cs_rp,
                                               limit = "first",
@@ -371,9 +364,10 @@ write_csv(rp_lsc,
 cli::cli_text("- Instantiating rectopexy cohort ({Sys.time()})")
 
 study_cs_rt <- list("rectopexy_broad_cs" = study_cs[["rectopexy_broad_cs"]],
-                    "rectopexy_narrow_cs" = study_cs[["rectopexy_narrow_cs"]],
-                    "rectopexy_placeholder_for_testing" = study_cs[["rectopexy_placeholder_for_testing"]])
-
+                    "rectopexy_narrow_cs" = study_cs[["rectopexy_narrow_cs"]])
+if(isTRUE(use_placeholder_cohort)){
+  study_cs_rt[["rectopexy_placeholder_for_testing"]] <- study_cs[["rectopexy_placeholder_for_testing"]]
+}
 cdm <- CDMConnector::generateConceptCohortSet(cdm,
                                               conceptSet = study_cs_rt,
                                               limit = "first",
@@ -439,22 +433,36 @@ write_csv(rt_chars,
           )))
 
 
-# rectopexy: large scale characteristics ----
+# rectopexy: large scale characteristics - index ----
 cli::cli_text("- Getting large scale characteristics for rectal prolapse ({Sys.time()})")
-rt_lsc <- PatientProfiles::summariseLargeScaleCharacteristics(cdm$study_cohorts_rt,
+rt_lsc_index <- PatientProfiles::summariseLargeScaleCharacteristics(cdm$study_cohorts_rt,
                                                               eventInWindow = c("procedure_occurrence",
                                                                                 "condition_occurrence",
                                                                                 "drug_exposure",
                                                                                 "device_exposure"),
-                                                              window = list(c(-Inf, -1),
-                                                                            c(0, 0),
-                                                                            c(1, 365)))
-write_csv(rt_lsc,
+                                                              window = list(c(-Inf, 0),
+                                                                            c(0, 0)))
+write_csv(rt_lsc_index,
           here("results", paste0(
-            "rectopexy_large_scale_characteristics_", cdmName(cdm), ".csv"
+            "rectopexy_large_scale_characteristics_index_", cdmName(cdm), ".csv"
+          )))
+
+# rectopexy: large scale characteristics - follow up ----
+cli::cli_text("- Getting large scale characteristics for rectal prolapse ({Sys.time()})")
+rt_lsc_post <- PatientProfiles::summariseLargeScaleCharacteristics(cdm$study_cohorts_rt,
+                                                              eventInWindow = c("procedure_occurrence",
+                                                                                "condition_occurrence",
+                                                                                "drug_exposure",
+                                                                                "device_exposure"),
+                                                              window = list(c(1, 90),
+                                                                            c(1, 365)))
+write_csv(rt_lsc_post,
+          here("results", paste0(
+            "rectopexy_large_scale_characteristics_post_", cdmName(cdm), ".csv"
           )))
 
 # rectopexy: complications ----
+cdm$study_cohorts <- CDMConnector::recordCohortAttrition(cdm$study_cohorts, "surv")
 surv_outcome_id <- cohort_set(cdm$study_cohorts) %>%
   filter(str_detect(cohort_name, "rectal", negate = TRUE)) %>%
   filter(str_detect(cohort_name, "rectopexy", negate = TRUE)) %>%
@@ -464,15 +472,37 @@ surv_outcome_id <- cohort_set(cdm$study_cohorts) %>%
   filter(number_records > 5) %>%
   pull(cohort_definition_id)
 
+cdm$study_cohorts_rt <- cdm$study_cohorts_rt %>%
+  addDemographics(ageGroup = list(
+                  c(18,24),
+                  c(25,34),
+                  c(35,44),
+                  c(45,54),
+                  c(55,64),
+                  c(65,74),
+                  c(75,150)))
+
 surv <- estimateSingleEventSurvival(cdm = cdm,
-                            targetCohortTable = "study_cohorts_rp",
+                            targetCohortTable = "study_cohorts_rt",
                             outcomeCohortTable = "study_cohorts",
                             outcomeCohortId = surv_outcome_id,
+                            strata = list(c("age_group"),
+                                          c("sex"),
+                                          c("age_group", "sex")),
                             timeGap = 90,
                             followUpDays = 90)
 
-write_csv(surv %>%
-            dplyr::filter(time==90),
+cohortIdPresent <- list()
+for (i in seq_along(15)) {
+  workingId <- 15
+  cdm$study_cohorts %>%
+    dplyr::filter(.data$cohort_definition_id == 15) %>%
+                             dplyr::tally() %>%
+                             dplyr::pull("n") > 0
+}
+cohortIdPresent <- all(unlist(cohortIdPresent))
+
+write_csv(surv,
           here("results", paste0(
             "rectopexy_survival_estimates_", cdmName(cdm), ".csv"
           )))

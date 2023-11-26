@@ -523,7 +523,7 @@ server <- function(input, output, session) {
   
   
   # rt_large_scale_characteristics ----
-  get_rt_large_scale_characteristics <- reactive({
+  get_rt_large_scale_characteristics_index <- reactive({
     
     validate(
       need(input$rt_chars_cdm != "", "Please select a database")
@@ -534,7 +534,7 @@ server <- function(input, output, session) {
     
     
     
-    rt_large_scale_characteristics <- rt_large_scale_characteristics %>% 
+    rt_large_scale_characteristics_index <- rt_large_scale_characteristics_index %>% 
       filter(cdm_name %in% input$rt_chars_cdm,
              group_level %in%  snakecase::to_snake_case(input$rt_chars_cohort),
              variable_level %in%  input$rt_chars_index_time_window,
@@ -553,16 +553,79 @@ server <- function(input, output, session) {
       mutate(count_percentage = paste0(count, " (", percentage, "%)"))
     names(rt_large_scale_characteristics)<-stringr::str_replace_all(names(rt_large_scale_characteristics), "_", " ")
     
-    rt_large_scale_characteristics
+    rt_large_scale_characteristics_index
   })
   
-  output$dt_rt_large_scale_characteristics  <- DT::renderDataTable({
-    table_data <- get_rt_large_scale_characteristics()
+  output$dt_rt_large_scale_characteristics_index  <- DT::renderDataTable({
+    table_data <- get_rt_large_scale_characteristics_index()
     datatable(table_data, rownames= FALSE) 
   })   
   
   
   
+  
+  # rt_large_scale_characteristics ----
+  get_rt_large_scale_characteristics_post <- reactive({
+    
+    validate(
+      need(input$rt_surv_cdm != "", "Please select a database")
+    )
+    validate(
+      need(input$rt_surv_cohort != "", "Please select a cohort")
+    )
+    
+    
+    
+    rt_large_scale_characteristics_post <- rt_large_scale_characteristics_post %>% 
+      filter(cdm_name %in% input$rt_surv_cdm,
+             group_level %in%  snakecase::to_snake_case(input$rt_surv_cohort),
+             variable_level %in%  input$rt_post_chars_index_time_window,
+             table_name %in%  input$rt_post_chars_lsc_domain) %>% 
+      select(!c("result_type","group_name",
+                "strata_name", "strata_level",
+                "type", "analysis")) %>% 
+      pivot_wider(names_from = estimate_type, 
+                  values_from = estimate) %>% 
+      rename("concept_id" = "concept",
+             "concept_name" = "variable",
+             "time_window" = "variable_level",
+             "domain" = "table_name") %>% 
+      relocate("time_window", .after = "domain") %>% 
+      mutate(percentage = round(percentage, 2)) %>% 
+      mutate(count_percentage = paste0(count, " (", percentage, "%)"))
+    names(rt_large_scale_characteristics)<-stringr::str_replace_all(names(rt_large_scale_characteristics), "_", " ")
+    
+    rt_large_scale_characteristics_post
+  })
+  
+  output$dt_rt_large_scale_characteristics_post  <- DT::renderDataTable({
+    table_data <- get_rt_large_scale_characteristics_post()
+    datatable(table_data, rownames= FALSE) 
+  })   
+  
+  
+  
+  
+  
+  # rt_90_day ------
+  get_rt_90_day <- reactive({
+    
+    validate(
+      need(input$rt_surv_cdm != "", "Please select a database")
+    )
+    validate(
+      need(input$rt_surv_cohort != "", "Please select a cohort")
+    )
+    
+    rt_90_day %>% 
+      filter(cdm_name %in% input$rt_surv_cdm) %>% 
+      filter(group_level %in% input$rt_surv_cohort)
+  })
+  
+  output$dt_rt_90_day  <- DT::renderDataTable({
+    table_data <- get_rt_90_day()
+    datatable(table_data, rownames= FALSE) 
+  })  
   
 }
 

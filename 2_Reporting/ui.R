@@ -861,8 +861,8 @@ ui <- dashboardPage(
          pickerInput(
            inputId = "rt_chars_lsc_domain",
            label = "Domain",
-           choices = sort(unique(rt_large_scale_characteristics$table_name)),
-           selected = sort(unique(rt_large_scale_characteristics$table_name)),
+           choices = sort(unique(rt_large_scale_characteristics_index$table_name)),
+           selected = sort(unique(rt_large_scale_characteristics_index$table_name)),
            options = list(`actions-box` = TRUE, size = 10, `selected-text-format` = "count > 3"),
            multiple = TRUE
          )
@@ -872,22 +872,88 @@ ui <- dashboardPage(
          pickerInput(
            inputId = "rt_chars_index_time_window",
            label = "Time window",
-           choices = sort(unique(rt_large_scale_characteristics$variable_level)),
-           selected = sort(unique(rt_large_scale_characteristics$variable_level)),
+           choices = sort(unique(rt_large_scale_characteristics_index$variable_level)),
+           selected = sort(unique(rt_large_scale_characteristics_index$variable_level)),
            options = list(`actions-box` = TRUE, size = 10, `selected-text-format` = "count > 3"),
            multiple = TRUE
          )
        ),
        tags$hr(),
-       DT::dataTableOutput("dt_rt_large_scale_characteristics") %>%
+       DT::dataTableOutput("dt_rt_large_scale_characteristics_index") %>%
          withSpinner()
        
      )
    )
+ ), 
+ 
+ 
+ 
+ # rt complications -----
+ tabItem(
+   tabName = "rt_complications",
+   div(
+     style = "display: inline-block;vertical-align:top; width: 150px;",
+     pickerInput(
+       inputId = "rt_surv_cdm",
+       label = "Database",
+       choices = sort(unique(rt_90_day$cdm_name)),
+       selected = sort(unique(rt_90_day$cdm_name)),
+       options = list(`actions-box` = TRUE, size = 10, `selected-text-format` = "count > 3"),
+       multiple = TRUE
+     )),
+   div(
+     style = "display: inline-block;vertical-align:top; width: 150px;",
+     pickerInput(
+       inputId = "rt_surv_cohort",
+       label = "Cohort",
+       choices = sort(unique(rt_90_day$group_level)),
+       selected = sort(unique(rt_90_day$group_level)),
+       options = list(`actions-box` = TRUE, size = 10, `selected-text-format` = "count > 3"),
+       multiple = TRUE
+     )),
+   tabsetPanel(
+     type = "tabs",
+     tabPanel(
+       "Events during follow-up",
+       tags$hr(),
+       div(
+         style = "display: inline-block;vertical-align:top; width: 150px;",
+         pickerInput(
+           inputId = "rt_post_chars_lsc_domain",
+           label = "Domain",
+           choices = sort(unique(rt_large_scale_characteristics_post$table_name)),
+           selected = sort(unique(rt_large_scale_characteristics_post$table_name)),
+           options = list(`actions-box` = TRUE, size = 10, `selected-text-format` = "count > 3"),
+           multiple = TRUE
+         )
+       ),
+       div(
+         style = "display: inline-block;vertical-align:top; width: 150px;",
+         pickerInput(
+           inputId = "rt_post_chars_index_time_window",
+           label = "Time window",
+           choices = sort(unique(rt_large_scale_characteristics_post$variable_level)),
+           selected = sort(unique(rt_large_scale_characteristics_post$variable_level)),
+           options = list(`actions-box` = TRUE, size = 10, `selected-text-format` = "count > 3"),
+           multiple = TRUE
+         )
+       ),
+       tags$hr(),
+       DT::dataTableOutput("dt_rt_large_scale_characteristics_post") %>%
+         withSpinner()
+     ),
+     tabPanel(
+       "90 day cumulative incidence",       
+       tags$hr(),
+       DT::dataTableOutput("dt_rt_90_day") %>%
+         withSpinner()
+     ),
+     tabPanel(
+       "Survival plot",
+       tags$hr()
+     )
+   )
  )
- 
- 
- 
   # end -----
     )
   )
