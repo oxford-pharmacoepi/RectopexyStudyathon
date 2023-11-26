@@ -20,6 +20,8 @@ library(tidyr)
 library(zip)
 library(stringr)
 library(testthat)
+library(CohortSurvival)
+library(remotes)
 
 # database metadata and connection details -----
 # The name/ acronym for the database

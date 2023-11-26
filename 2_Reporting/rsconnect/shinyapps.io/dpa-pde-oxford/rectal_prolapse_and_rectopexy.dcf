@@ -1,0 +1,12 @@
+name: rectal_prolapse_and_rectopexy
+title: rectal_prolapse_and_rectopexy
+username: dpa-pde-oxford
+account: dpa-pde-oxford
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 10497961
+bundleId: 7930720
+url: https://dpa-pde-oxford.shinyapps.io/rectal_prolapse_and_rectopexy/
+version: 1
+asMultiple: FALSE
+asStatic: FALSE
