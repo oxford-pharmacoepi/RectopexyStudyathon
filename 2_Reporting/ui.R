@@ -950,7 +950,12 @@ ui <- dashboardPage(
      ),
      tabPanel(
        "Survival plot",
-       tags$hr()
+       tags$hr(),
+       plotlyOutput(
+         "rt_surv",
+         height = "800px"
+       ) %>%
+         withSpinner()
      )
    )
  )

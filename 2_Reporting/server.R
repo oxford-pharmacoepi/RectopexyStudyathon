@@ -593,7 +593,7 @@ server <- function(input, output, session) {
       relocate("time_window", .after = "domain") %>% 
       mutate(percentage = round(percentage, 2)) %>% 
       mutate(count_percentage = paste0(count, " (", percentage, "%)"))
-    names(rt_large_scale_characteristics)<-stringr::str_replace_all(names(rt_large_scale_characteristics), "_", " ")
+    names(rt_large_scale_characteristics_post)<-stringr::str_replace_all(names(rt_large_scale_characteristics_post), "_", " ")
     
     rt_large_scale_characteristics_post
   })
@@ -627,5 +627,19 @@ server <- function(input, output, session) {
     datatable(table_data, rownames= FALSE) 
   })  
   
+  # surv plot -----
+  plot_rt_surv <- reactive({
+    rt_survival_estimates %>% 
+      filter(strata_level == "Overall") %>% 
+      plotSurvival(facet = c("cdm_name", "group_level",
+                             "outcome"), 
+                   colour = c("strata_name",
+                              "strata_level"),
+                   ribbon = FALSE)
+  })
+  
+  output$rt_surv <- renderPlotly({
+    plot_rt_surv()
+  })
 }
 

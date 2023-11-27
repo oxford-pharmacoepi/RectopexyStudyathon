@@ -253,10 +253,19 @@ rt_90_day<-rt_90_day %>%
                                        estimate_95CI_lower*100, "% to ",
                                        estimate_95CI_upper, "%)")) %>% 
   select(c("cdm_name","group_level","strata_name","strata_level",       
-           "variable_level", "number_records","n_risk", "events",    
+           "variable_level", "number_records", "events",    
            "cumulative_incidence"))
 
  
 
 
 
+
+
+library(CohortSurvival)
+rt_survival_estimates %>% 
+  filter(strata_level == "Overall") %>% 
+plotSurvival(facet = c("cdm_name", "group_level",
+                       "outcome"), ribbon = FALSE,
+             colour = c("strata_name",
+             "strata_level"))
