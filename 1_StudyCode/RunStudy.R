@@ -291,7 +291,9 @@ cdm <- generateDenominatorCohortSet(cdm = cdm,
                                                     c(45,54),
                                                     c(55,64),
                                                     c(65,74),
-                                                    c(75,150)),
+                                                    c(75,84),
+                                                    c(85,94),
+                                                    c(95,150)),
                                     cohortDateRange = as.Date(c("2013-01-01",
                                                                 "2022-12-31")),
                                     sex = c("Both", "Male", "Female"),
@@ -340,7 +342,9 @@ cdm <- generateDenominatorCohortSet(cdm = cdm,
                                                     c(45,54),
                                                     c(55,64),
                                                     c(65,74),
-                                                    c(75,150)),
+                                                    c(75,84),
+                                                    c(85,94),
+                                                    c(95,150)),
                                     cohortDateRange = as.Date(c("2013-01-01",
                                                                 "2022-12-31")),
                                     sex = c("Both", "Male", "Female"),
@@ -356,7 +360,9 @@ cdm <- generateDenominatorCohortSet(cdm = cdm,
                                                     c(45,54),
                                                     c(55,64),
                                                     c(65,74),
-                                                    c(75,150)),
+                                                    c(75,84),
+                                                    c(85,94),
+                                                    c(95,150)),
                                     cohortDateRange = as.Date(c("2013-01-01",
                                                                 "2022-12-31")),
                                     sex = c("Both", "Male", "Female"),
@@ -433,7 +439,11 @@ rp_chars <- PatientProfiles::summariseCharacteristics(cdm$study_cohorts_rp,
                                                                    c(45,54),
                                                                    c(55,64),
                                                                    c(65,74),
-                                                                   c(75,150)))
+                                                                   c(75,84),
+                                                                   c(85,94),
+                                                                   c(95,150)))
+
+
 write_csv(rp_chars,
           here("results", paste0(
             "rectal_prolapse_patient_characteristics_", cdmName(cdm), ".csv"
@@ -448,7 +458,9 @@ cdm$study_cohorts_rp <- cdm$study_cohorts_rp %>%
     c(45,54),
     c(55,64),
     c(65,74),
-    c(75,150)))
+    c(75,84),
+    c(85,94),
+    c(95,150)))
 
 surv <- estimateSingleEventSurvival(cdm = cdm,
                                     targetCohortTable = "study_cohorts_rp",
@@ -490,7 +502,11 @@ rt_chars <- PatientProfiles::summariseCharacteristics(cdm$study_cohorts_rt,
                                                                       c(45,54),
                                                                       c(55,64),
                                                                       c(65,74),
-                                                                      c(75,150)))
+                                                                      c(75,84),
+                                                                      c(85,94),
+                                                                      c(95,150)))
+
+
 write_csv(rt_chars,
           here("results", paste0(
             "rectopexy_patient_characteristics_", cdmName(cdm), ".csv"
@@ -560,7 +576,9 @@ cdm$study_cohorts_rt <- cdm$study_cohorts_rt %>%
                   c(45,54),
                   c(55,64),
                   c(65,74),
-                  c(75,150)))
+                  c(75,84),
+                  c(85,94),
+                  c(95,150)))
 
 surv <- estimateSingleEventSurvival(cdm = cdm,
                             targetCohortTable = "study_cohorts_rt",
