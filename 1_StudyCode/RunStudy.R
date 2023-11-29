@@ -330,6 +330,7 @@ write_csv(prevalenceAttrition(prev_gpop),
 
 
 # rectopexy: incidence ----
+# general population
 cdm <- generateDenominatorCohortSet(cdm = cdm,
                                     name = "denominator",
                                     ageGroup = list(c(18,150),
@@ -344,6 +345,23 @@ cdm <- generateDenominatorCohortSet(cdm = cdm,
                                                                 "2022-12-31")),
                                     sex = c("Both", "Male", "Female"),
                                     daysPriorObservation = c(0, 365),
+                                    overwrite = TRUE)
+# rectal prolapse denominator
+cdm <- generateDenominatorCohortSet(cdm = cdm,
+                                    name = "denominator_rectal_prolapse",
+                                    ageGroup = list(c(18,150),
+                                                    c(18,24),
+                                                    c(25,34),
+                                                    c(35,44),
+                                                    c(45,54),
+                                                    c(55,64),
+                                                    c(65,74),
+                                                    c(75,150)),
+                                    cohortDateRange = as.Date(c("2013-01-01",
+                                                                "2022-12-31")),
+                                    sex = c("Both", "Male", "Female"),
+                                    daysPriorObservation = c(0, 365),
+                                    targetCohortTable = "study_cohorts_rp",
                                     overwrite = TRUE)
 
 rt_inc_gpop <- estimateIncidence(cdm,
@@ -361,6 +379,19 @@ write_csv(incidenceAttrition(rt_inc_gpop),
             "rectopexy_incidence_attrition_general_population_", cdmName(cdm), ".csv"
           )))
 
+rt_inc_rp <- estimateIncidence(cdm,
+                                 denominatorTable = "denominator_rectal_prolapse",
+                                 outcomeTable = "study_cohorts_rt",
+                                 interval = "years",
+                                 completeDatabaseIntervals = TRUE)
+write_csv(rt_inc_rp,
+          here("results", paste0(
+            "rectopexy_incidence_rectal_prolapse_", cdmName(cdm), ".csv"
+          )))
+write_csv(incidenceAttrition(rt_inc_rp),
+          here("results", paste0(
+            "rectopexy_incidence_attrition_rectal_prolapse_", cdmName(cdm), ".csv"
+          )))
 
 
 # subset cdm to cohorts ------
