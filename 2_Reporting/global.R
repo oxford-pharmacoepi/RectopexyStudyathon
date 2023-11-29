@@ -131,8 +131,10 @@ for(i in seq_along(rp_large_scale_characteristics_files)){
                                      show_col_types = FALSE) 
 }
 rp_large_scale_characteristics <- dplyr::bind_rows(rp_large_scale_characteristics)
-
-
+rp_large_scale_characteristics <- rp_large_scale_characteristics %>% 
+  mutate(variable_level = if_else(variable_level == "-inf to 0", 
+                                  "Any time prior to 0", variable_level))
+rp_large_scale_characteristics$variable <- CodelistGenerator:::tidyWords(rp_large_scale_characteristics$variable)
 
 
 # rectal prolapse incidence -----
@@ -170,6 +172,7 @@ for(i in seq_along(rt_patient_characteristics_files)){
                                                    show_col_types = FALSE) 
 }
 rt_patient_characteristics <- dplyr::bind_rows(rt_patient_characteristics)
+rt_patient_characteristics$variable <- CodelistGenerator:::tidyWords(rt_patient_characteristics$variable)
 
 
 # rectopexy large_scale_characteristics index -----
@@ -180,6 +183,11 @@ for(i in seq_along(rt_large_scale_characteristics_files_index)){
                                                        show_col_types = FALSE) 
 }
 rt_large_scale_characteristics_index <- dplyr::bind_rows(rt_large_scale_characteristics_index)
+rt_large_scale_characteristics_index <- rt_large_scale_characteristics_index %>% 
+  mutate(variable_level = if_else(variable_level == "-inf to 0", 
+                                  "Any time prior to 0", variable_level))
+
+
 
 # rectopexy large_scale_characteristics post -----
 rt_large_scale_characteristics_files_post<-results[stringr::str_detect(results, "rectopexy_large_scale_characteristics_post")]
@@ -189,7 +197,6 @@ for(i in seq_along(rt_large_scale_characteristics_files_post)){
                                                              show_col_types = FALSE) 
 }
 rt_large_scale_characteristics_post <- dplyr::bind_rows(rt_large_scale_characteristics_post)
-
 
 # rectopexy incidence -----
 rt_incidence_files<-results[stringr::str_detect(results, ".csv")]

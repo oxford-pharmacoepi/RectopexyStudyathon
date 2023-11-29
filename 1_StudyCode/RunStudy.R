@@ -528,10 +528,15 @@ cli::cli_text("- Getting large scale characteristics for rectal prolapse ({Sys.t
 rt_lsc_post <- PatientProfiles::summariseLargeScaleCharacteristics(cdm$study_cohorts_rt,
                                                               eventInWindow = c("procedure_occurrence",
                                                                                 "condition_occurrence",
-                                                                                "drug_exposure",
-                                                                                "device_exposure"),
-                                                              window = list(c(1, 90),
-                                                                            c(1, 365)))
+                                                                                "drug_exposure"),
+                                                              window = list(c(1,7),
+                                                                            c(1,30),
+                                                                            c(31, 90),
+                                                                            c(1, 90),
+                                                                            c(91, 365),
+                                                                            c(1, 365),
+                                                                            c(366, 730)))
+
 write_csv(rt_lsc_post,
           here("results", paste0(
             "rectopexy_large_scale_characteristics_post_", cdmName(cdm), ".csv"
@@ -541,7 +546,6 @@ write_csv(rt_lsc_post,
 cdm$study_cohorts <- CDMConnector::recordCohortAttrition(cdm$study_cohorts, "surv")
 surv_outcome_id <- cohort_set(cdm$study_cohorts) %>%
   filter(str_detect(cohort_name, "rectal", negate = TRUE)) %>%
-  filter(str_detect(cohort_name, "rectopexy", negate = TRUE)) %>%
   filter(str_detect(cohort_name, "mesh", negate = TRUE)) %>%
   left_join(cohort_count(cdm$study_cohorts),
             by = "cohort_definition_id") %>%
