@@ -439,6 +439,39 @@ write_csv(rp_chars,
             "rectal_prolapse_patient_characteristics_", cdmName(cdm), ".csv"
           )))
 
+# rectal prolapse: risk of rectopexy ------
+cdm$study_cohorts_rp <- cdm$study_cohorts_rp %>%
+  addDemographics(ageGroup = list(
+    c(18,24),
+    c(25,34),
+    c(35,44),
+    c(45,54),
+    c(55,64),
+    c(65,74),
+    c(75,150)))
+
+surv <- estimateSingleEventSurvival(cdm = cdm,
+                                    targetCohortTable = "study_cohorts_rp",
+                                    outcomeCohortTable = "study_cohorts_rt",
+                                    strata = list(c("age_group"),
+                                                  c("sex"),
+                                                  c("age_group", "sex")),
+                                    timeGap = 365)
+
+write_csv(surv,
+          here("results", paste0(
+            "rectal_prolapse_survival_estimates_", cdmName(cdm), ".csv"
+          )))
+write_csv(attr(surv, "events"),
+          here("results", paste0(
+            "rectal_prolapse_survival_events_", cdmName(cdm), ".csv"
+          )))
+write_csv(attr(surv, "summary"),
+          here("results", paste0(
+            "rectal_prolapse_survival_summary_", cdmName(cdm), ".csv"
+          )))
+
+
 # rectopexy: cohort characteristics ----
 cli::cli_text("- Getting patient characteristics for rectopexy ({Sys.time()})")
 cdm$study_cohorts_rt <- cdm$study_cohorts_rt %>%
