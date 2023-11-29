@@ -551,7 +551,7 @@ server <- function(input, output, session) {
       relocate("time_window", .after = "domain") %>% 
       mutate(percentage = round(percentage, 2)) %>% 
       mutate(count_percentage = paste0(count, " (", percentage, "%)"))
-    names(rt_large_scale_characteristics)<-stringr::str_replace_all(names(rt_large_scale_characteristics), "_", " ")
+    names(rt_large_scale_characteristics_index)<-stringr::str_replace_all(names(rt_large_scale_characteristics_index), "_", " ")
     
     rt_large_scale_characteristics_index
   })

@@ -1,4 +1,4 @@
-use_placeholder_cohort <- FALSE
+use_placeholder_cohort <- TRUE
 # start -----
 start_time <- Sys.time()
 # cdm reference ----
@@ -83,6 +83,14 @@ rp_cohort_counts <- cohort_count(cdm[["study_cohorts"]]) %>%
   left_join(cohort_set(cdm[["study_cohorts"]]),
             by = "cohort_definition_id") %>%
   mutate(cdm_name = db_name)
+rp_cohort_counts <- rp_cohort_counts %>%
+  mutate(number_records = if_else(number_records <5 & number_records >0,
+                                  as.character("<5"),
+                                  as.character(number_records))) %>%
+  mutate(number_subjects = if_else(number_subjects <5 & number_subjects >0,
+                                   as.character("<5"),
+                                   as.character(number_subjects)))
+
 write_csv(rp_cohort_counts,
           here("results", paste0(
             "cohort_count_", cdmName(cdm), ".csv"
@@ -536,5 +544,5 @@ root = here("results"))
 dur <- abs(as.numeric(Sys.time() - start_time, units = "secs"))
 cli::cli_alert_success("Cohort diagnostics finished")
 cli::cli_alert_success(glue::glue(
-  "Sturdy code ran in {floor(dur/60)} min and {dur %% 60 %/% 1} sec"
+  "Study code ran in {floor(dur/60)} min and {dur %% 60 %/% 1} sec"
 ))
