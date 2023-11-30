@@ -180,7 +180,7 @@ cdm$study_cohorts_timings <- cdm$study_cohorts_timings %>%
 
 cohort_timings <- cdm[["study_cohorts_timings"]] %>%
   collect() %>%
-  PatientProfiles::summariseResult(group=list("comparison"),
+  PatientProfiles::summariseResult(group=list("x"="comparison"),
                                    variables = list(diff_days="diff_days"),
                                    functions = list(diff_days=c("min", "q25",
                                                                "median","q75",
