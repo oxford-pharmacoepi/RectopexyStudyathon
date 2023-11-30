@@ -269,7 +269,10 @@ cdm <- CDMConnector::generateConceptCohortSet(cdm,
 cli::cli_text("- Instantiating rectopexy cohort ({Sys.time()})")
 
 study_cs_rt <- list("rectopexy_broad_cs" = study_cs[["rectopexy_broad_cs"]],
-                    "rectopexy_narrow_cs" = study_cs[["rectopexy_narrow_cs"]])
+                    "rectopexy_narrow_cs" = study_cs[["rectopexy_narrow_cs"]],
+                    "rectopexy_open" = study_cs[["rectopexy_open"]],
+                    "rectopexy_mesh_cs" =  study_cs[["rectopexy_mesh_cs"]],
+                    "perineal_fixation" = study_cs[["perineal_fixation"]])
 if(isTRUE(use_placeholder_cohort)){
   study_cs_rt[["rectopexy_placeholder_for_testing"]] <- study_cs[["rectopexy_placeholder_for_testing"]]
 }
@@ -279,6 +282,88 @@ cdm <- CDMConnector::generateConceptCohortSet(cdm,
                                               end = "observation_period_end_date",
                                               name = "study_cohorts_rt",
                                               overwrite = TRUE)
+
+# add laparoscopic rectopexy ------
+# broad rectopexy + laparoscopy on same day
+
+
+# add conversion rectopexy ------
+# broad rectopexy + conversion on same day
+
+# add udi rectopexy cohort ------
+if(db_name == "Barts Health"){
+  Mesh_List <- read_csv(here("Updated list of mesh.csv"))
+  names(Mesh_List) <- snakecase::to_lower_camel_case(names(Mesh_List))
+  Mesh_List <- Mesh_List %>%
+    tidyr::separate(deviceId,
+                    into=c('vals1', 'vals2', 'vals3', 'vals4', 'vals5', 'vals6'),
+                    sep = ';') %>%
+    mutate(vals1 = str_replace_all(vals1, 'Primary: ', ''),
+           vals1 = str_replace_all(vals1, 'Package: ', ''),
+           vals2 = str_replace_all(vals2, 'Primary: ', ''),
+           vals2 = str_replace_all(vals2, 'Package: ', ''),
+           vals3 = str_replace_all(vals3, 'Primary: ', ''),
+           vals3 = str_replace_all(vals3, 'Package: ', ''),
+           vals4 = str_replace_all(vals4, 'Primary: ', ''),
+           vals4 = str_replace_all(vals4, 'Package: ', ''),
+           vals5 = str_replace_all(vals5, 'Primary: ', ''),
+           vals5 = str_replace_all(vals5, 'Package: ', ''),
+           vals6 = str_replace_all(vals6, 'Primary: ', ''),
+           vals6 = str_replace_all(vals6, 'Package: ', '')
+    )  %>%
+    pivot_longer(cols = starts_with("vals"), values_to = 'vals_1') %>%
+    select(!'name') %>%
+    rename('vals_2'='versionOrModel') %>%
+    pivot_longer(cols = starts_with("vals"), values_to = 'value_as_string') %>%
+    filter(!is.na(value_as_string))
+
+  Mesh_List <- Mesh_List %>%
+    filter(stringr::str_detect(gmdnTerm, 'Extra-gynaecological surgical mesh')) %>%
+    select('value_as_string', 'gmdnTerm') %>%
+    mutate(value_as_string = stringr::str_replace_all(value_as_string, ' ','')) %>%
+    distinct()
+
+  cdm$observation_mesh <- cdm$observation  %>%
+    filter(observation_concept_id == 4231843) %>%
+    computeQuery() %>%
+    select('person_id', 'observation_date', 'value_as_string') %>%
+    inner_join(Mesh_List, copy = TRUE) %>%
+    select('person_id', 'observation_date') %>%
+    distinct() %>%
+    computeQuery()
+
+  cdm$study_cohorts_rt_mesh <- cdm$study_cohorts_rt %>%
+    inner_join(cdm$observation_mesh,
+               by= c('subject_id'='person_id')) %>%
+    mutate(dif = !!datediff('cohort_start_date', 'observation_date')) %>%
+    filter(dif <= 7 & dif>= -7) %>%
+    computeQuery(temporary = FALSE, name = 'rec_mesh',
+                 schema = attr(cdm, 'write_schema'), overwrite = TRUE)
+
+
+  cdm$study_cohorts_rt_mesh <- cdm$study_cohorts_rt_mesh %>%
+    new_generated_cohort_set(cohort_set_ref = cohort_set(cdm$study_cohorts_rt_mesh) %>%
+                               mutate(cohort_name = paste0(cohort_name, 'udi_mesh')))
+
+  study_cohorts_rt_mesh_counts <- cohort_count(cdm[["study_cohorts_rt_mesh"]]) %>%
+    left_join(cohort_set(cdm[["study_cohorts_rt_mesh"]]),
+              by = "cohort_definition_id") %>%
+    mutate(cdm_name = db_name)
+  study_cohorts_rt_mesh_counts <- study_cohorts_rt_mesh_counts %>%
+    mutate(number_records = if_else(number_records <5 & number_records >0,
+                                    as.character("<5"),
+                                    as.character(number_records))) %>%
+    mutate(number_subjects = if_else(number_subjects <5 & number_subjects >0,
+                                     as.character("<5"),
+                                     as.character(number_subjects)))
+
+  write_csv(study_cohorts_rt_mesh_counts,
+            here("results", paste0(
+              "cohort_count_", cdmName(cdm), ".csv"
+            )))
+
+}
+
 
 
 # rectal prolapse: incidence and prevalence -----
