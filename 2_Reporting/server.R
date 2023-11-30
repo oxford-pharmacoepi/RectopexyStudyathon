@@ -170,9 +170,9 @@ server <- function(input, output, session) {
         person_years = round(suppressWarnings(as.numeric(person_years))),
         person_days = round(suppressWarnings(as.numeric(person_days))),
         n_events = round(suppressWarnings(as.numeric(n_events))),
-        incidence_100000_pys = round(suppressWarnings(as.numeric(incidence_100000_pys))),
-        incidence_100000_pys_95CI_lower = round(suppressWarnings(as.numeric(incidence_100000_pys_95CI_lower))),
-        incidence_100000_pys_95CI_upper = round(suppressWarnings(as.numeric(incidence_100000_pys_95CI_upper)))
+        incidence_100000_pys = round(suppressWarnings(as.numeric(incidence_100000_pys)), 2),
+        incidence_100000_pys_95CI_lower = round(suppressWarnings(as.numeric(incidence_100000_pys_95CI_lower)), 2),
+        incidence_100000_pys_95CI_upper = round(suppressWarnings(as.numeric(incidence_100000_pys_95CI_upper)), 2)
       )
   })
   ### download table
@@ -421,9 +421,9 @@ server <- function(input, output, session) {
         person_years = round(suppressWarnings(as.numeric(person_years))),
         person_days = round(suppressWarnings(as.numeric(person_days))),
         n_events = round(suppressWarnings(as.numeric(n_events))),
-        incidence_100000_pys = round(suppressWarnings(as.numeric(incidence_100000_pys))),
-        incidence_100000_pys_95CI_lower = round(suppressWarnings(as.numeric(incidence_100000_pys_95CI_lower))),
-        incidence_100000_pys_95CI_upper = round(suppressWarnings(as.numeric(incidence_100000_pys_95CI_upper)))
+        incidence_100000_pys = round(suppressWarnings(as.numeric(incidence_100000_pys)), 2),
+        incidence_100000_pys_95CI_lower = round(suppressWarnings(as.numeric(incidence_100000_pys_95CI_lower)), 2),
+        incidence_100000_pys_95CI_upper = round(suppressWarnings(as.numeric(incidence_100000_pys_95CI_upper)), 2)
       )
   })
   ### download table
